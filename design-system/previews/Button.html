@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>Button — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ return h('div',{className:'ar-stack'},
+  h('div',{className:'ar-row'}, h(A.Button,{variant:'primary',icon:'shuffle'},'Draw three cards'), h(A.Button,{variant:'secondary',icon:'bookmark'},'Save to journal'), h(A.Button,{variant:'quiet',iconAfter:'arrow'},'Read the full meaning'), h(A.Button,{variant:'primary',disabled:true},'Saving…')),
+  h('div',{className:'ar-row'}, h(A.Button,{variant:'primary',size:'sm'},'Reveal'), h(A.Button,{variant:'secondary',size:'sm',icon:'plus'},'New entry'), h(A.Button,{variant:'quiet',size:'sm'},'Skip')),
+  h(A.NightSky,{as:'div',stars:14,seed:2,style:{padding:16,borderRadius:12}}, h('div',{className:'ar-row'}, h(A.Button,{variant:'gold',icon:'shuffle'},'Shuffle the deck'), h(A.Button,{variant:'night',icon:'bookmark'},'Save reading')))); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

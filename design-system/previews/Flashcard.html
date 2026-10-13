@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>Flashcard — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ return h('div',{className:'ar-row',style:{gap:24,alignItems:'flex-start'}},
+  h('div',{style:{width:380}},h(A.Flashcard,{eyebrow:'Major arcana · IX',front:'What does The Hermit’s lantern stand for?',back:'Inner guidance — the wisdom you find by stepping back, shared a little at a time.'})),
+  h('div',{style:{width:380}},h(A.Flashcard,{eyebrow:'Cups · Three',front:'Name two keywords for the Three of Cups.',back:'Friendship and celebration — community, shared joy, people who lift you.',defaultFlipped:true}))); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

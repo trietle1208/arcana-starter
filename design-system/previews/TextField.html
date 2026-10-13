@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>TextField — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ return h('div',{className:'ar-stack',style:{gap:24}},
+  h(A.TextField,{label:'Your question',placeholder:'What would help me most this week?',hint:'Open questions work best — “how” and “what” rather than “will”.'}),
+  h(A.TextField,{label:'Reflection',multiline:true,rows:3,defaultValue:'The Hermit again. I think I keep saying yes to things to avoid sitting with what I actually want.'})); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

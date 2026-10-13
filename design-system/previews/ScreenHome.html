@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>ScreenHome — preview</title><style>body{background:var(--paper)} .scr{min-height:100vh}</style></head>
+<body>
+<div id="root"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+var IMG={"the-hermit": "../../assets/cards/09-the-hermit.webp", "the-star": "../../assets/cards/17-the-star.webp", "the-fool": "../../assets/cards/00-the-fool.webp", "the-high-priestess": "../../assets/cards/02-the-high-priestess.webp", "the-empress": "../../assets/cards/03-the-empress.webp", "wheel-of-fortune": "../../assets/cards/10-wheel-of-fortune.webp", "the-moon": "../../assets/cards/18-the-moon.webp", "the-sun": "../../assets/cards/19-the-sun.webp", "temperance": "../../assets/cards/14-temperance.webp", "the-world": "../../assets/cards/21-the-world.webp", "cups-03": "../../assets/cards/cups-03.webp", "wands-ace": "../../assets/cards/wands-ace.webp", "swords-02": "../../assets/cards/swords-02.webp", "pentacles-10": "../../assets/cards/pentacles-10.webp", "strength": "../../assets/cards/08-strength.webp", "the-lovers": "../../assets/cards/06-the-lovers.webp", "the-magician": "../../assets/cards/01-the-magician.webp", "cups-ace": "../../assets/cards/cups-ace.webp", "pentacles-queen": "../../assets/cards/pentacles-queen.webp", "swords-page": "../../assets/cards/swords-page.webp", "wands-04": "../../assets/cards/wands-04.webp", "the-hanged-man": "../../assets/cards/12-the-hanged-man.webp"};
+function Demo(){ return h('div',{className:'ar-app scr'}, h(A.AppNav,{active:'home'}),
+  h('main',{className:'ar-main'},
+    h('header',{className:'ar-stack',style:{gap:6}}, h('span',{className:'ar-overline'},'Monday, 12 October'), h('h1',{className:'ar-h1',style:{fontSize:48,lineHeight:'54px',fontWeight:360,letterSpacing:'-.015em'}},'Good afternoon, Luong.'), h('p',{className:'ar-muted',style:{margin:0,fontSize:17}},'A quiet moment with the cards is waiting for you.')),
+    h(A.FeaturedCard,{src:IMG['the-hermit'],name:'The Hermit',keywords:['Solitude','Inner guidance','Patience'],summary:'A lantern held up in the quiet. The Hermit asks you to step back from the noise and trust what you find when you listen.',prompt:'Where could a little quiet help you hear yourself today?',actions:[h(A.Button,{key:1,variant:'primary',icon:'pen'},'Write a reflection'),h(A.Button,{key:2,variant:'quiet',iconAfter:'arrow'},'Read the full meaning')]}),
+    h('div',{style:{display:'grid',gridTemplateColumns:'1.2fr 1fr',gap:24}},
+      h('section',{className:'ar-panel ar-stack',style:{gap:20}}, h('div',{className:'ar-row',style:{justifyContent:'space-between'}},h('h2',{className:'ar-h2',style:{fontSize:22}},'Your learning'),h(A.Button,{variant:'quiet',size:'sm',iconAfter:'arrow'},'Go to study')), h(A.ProgressMeter,{label:'Major arcana',value:14,max:22}), h(A.ProgressMeter,{label:'Minor arcana',value:19,max:56}), h(A.ProgressMeter,{label:'Reflections this week',value:4,max:7,caption:'4 of 7 days'})),
+      h('section',{className:'ar-panel ar-panel-quiet ar-stack',style:{gap:12}}, h('h2',{className:'ar-h2',style:{fontSize:22}},'Start something'),
+        h(A.Button,{variant:'secondary',icon:'reading',style:{justifyContent:'flex-start'}},'Draw a three-card reading'), h(A.Button,{variant:'secondary',icon:'library',style:{justifyContent:'flex-start'}},'Browse the card library'), h(A.Button,{variant:'secondary',icon:'study',style:{justifyContent:'flex-start'}},'Practise 10 flashcards'), h(A.Button,{variant:'secondary',icon:'journal',style:{justifyContent:'flex-start'}},'Open your journal')))));
+}
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

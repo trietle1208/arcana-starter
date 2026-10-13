@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>SegmentedControl — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ return h(A.SegmentedControl,{label:'Spread',options:[{value:'one',label:'One card'},{value:'three',label:'Three cards'},{value:'celtic',label:'Celtic Cross'}],defaultValue:'three'}); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

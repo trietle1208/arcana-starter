@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>ScreenStudy — preview</title><style>body{background:var(--paper)} .scr{min-height:100vh}</style></head>
+<body>
+<div id="root"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+var IMG={"the-hermit": "../../assets/cards/09-the-hermit.webp", "the-star": "../../assets/cards/17-the-star.webp", "the-fool": "../../assets/cards/00-the-fool.webp", "the-high-priestess": "../../assets/cards/02-the-high-priestess.webp", "the-empress": "../../assets/cards/03-the-empress.webp", "wheel-of-fortune": "../../assets/cards/10-wheel-of-fortune.webp", "the-moon": "../../assets/cards/18-the-moon.webp", "the-sun": "../../assets/cards/19-the-sun.webp", "temperance": "../../assets/cards/14-temperance.webp", "the-world": "../../assets/cards/21-the-world.webp", "cups-03": "../../assets/cards/cups-03.webp", "wands-ace": "../../assets/cards/wands-ace.webp", "swords-02": "../../assets/cards/swords-02.webp", "pentacles-10": "../../assets/cards/pentacles-10.webp", "strength": "../../assets/cards/08-strength.webp", "the-lovers": "../../assets/cards/06-the-lovers.webp", "the-magician": "../../assets/cards/01-the-magician.webp", "cups-ace": "../../assets/cards/cups-ace.webp", "pentacles-queen": "../../assets/cards/pentacles-queen.webp", "swords-page": "../../assets/cards/swords-page.webp", "wands-04": "../../assets/cards/wands-04.webp", "the-hanged-man": "../../assets/cards/12-the-hanged-man.webp"};
+function Demo(){ return h('div',{className:'ar-app scr'}, h(A.AppNav,{active:'study'}),
+  h('main',{className:'ar-main'},
+    h('header',{className:'ar-stack',style:{gap:4}}, h('h1',{className:'ar-h1',style:{fontSize:28,lineHeight:'34px'}},'Study'), h('p',{className:'ar-muted',style:{margin:0}},'Ten minutes a day is plenty. You’ve studied 33 of 78 cards.')),
+    h('div',{style:{display:'grid',gridTemplateColumns:'1fr 320px',gap:40,alignItems:'start'}},
+      h('section',{className:'ar-stack',style:{gap:20,alignItems:'flex-start'}}, h('span',{className:'ar-overline'},'Flashcards · 4 of 10'), h('div',{style:{width:'100%',maxWidth:520}},h(A.Flashcard,{eyebrow:'Major arcana · IX',front:'What does The Hermit’s lantern stand for?',back:'Inner guidance — the wisdom you find by stepping back, shared a little at a time.'})), h('div',{className:'ar-row'},h(A.Button,{variant:'secondary'},'Still learning'),h(A.Button,{variant:'primary',icon:'check'},'Got it'))),
+      h('aside',{className:'ar-panel ar-stack',style:{gap:20}}, h('h2',{className:'ar-h2',style:{fontSize:22}},'Progress'), h(A.ProgressMeter,{label:'Major arcana',value:14,max:22}), h(A.ProgressMeter,{label:'Cups',value:5,max:14}), h(A.ProgressMeter,{label:'Wands',value:6,max:14}), h(A.ProgressMeter,{label:'Swords',value:3,max:14}), h(A.ProgressMeter,{label:'Pentacles',value:5,max:14}), h(A.Divider,null), h('div',{className:'ar-row',style:{gap:8}},h(A.Tag,{tone:'olive'},'14 learned'),h(A.Tag,null,'19 in progress'))))));
+}
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

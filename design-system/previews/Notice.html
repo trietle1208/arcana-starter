@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>Notice — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ return h('div',{className:'ar-stack'},
+  h(A.Notice,{title:'Reading saved to your journal',action:h(A.Button,{variant:'quiet',size:'sm'},'Open')},'You can add notes to it at any time.'),
+  h(A.Notice,{tone:'info',title:'3 cards drawn'},'Turn them over one at a time, starting from the left.')); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

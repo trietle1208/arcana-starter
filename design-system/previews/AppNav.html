@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>AppNav — preview</title><style>body{padding:24px}</style></head>
+<body>
+<div id="root"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ return h('div',{style:{display:'flex',gap:32,alignItems:'stretch'}},
+  h('div',{style:{height:520,border:'1px solid var(--line)',borderRadius:12,overflow:'hidden'}}, h(A.AppNav,{active:'reading'})),
+  h('div',{style:{width:390,alignSelf:'flex-end',border:'1px solid var(--line)',borderRadius:12,overflow:'hidden',background:'var(--paper)'}}, h('div',{style:{height:120,padding:16}},h('span',{className:'ar-overline'},'Mobile · 390px')), h(A.AppNav,{active:'journal',orientation:'bottom',items:[{id:'home',label:'Home'},{id:'library',label:'Library'},{id:'reading',label:'Read'},{id:'study',label:'Study'},{id:'journal',label:'Journal'}]})));
+}
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

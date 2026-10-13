@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>Tag — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ var s=React.useState('Major arcana'); return h('div',{className:'ar-stack'},
+  h('div',{className:'ar-row',style:{gap:8}}, h(A.Tag,null,'Reflection'), h(A.Tag,{tone:'terracotta'},'Solitude'), h(A.Tag,{tone:'olive'},'Learned'), h(A.Tag,{tone:'rose'},'Calm')),
+  h('div',{className:'ar-row',style:{gap:8},role:'group','aria-label':'Filter by arcana'}, ['All cards','Major arcana','Cups','Wands','Swords','Pentacles'].map(function(t){ return h(A.Tag,{key:t,selected:s[0]===t,onClick:function(){s[1](t);}},t); }))); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

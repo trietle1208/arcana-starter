@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>ShuffleDeck — preview</title></head>
+<body>
+<div id="root" style="padding:16px"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ var s=React.useState(false); function go(){ s[1](false); setTimeout(function(){ s[1](true); setTimeout(function(){ s[1](false); }, 2700); }, 30); }
+  return h(A.NightSky,{as:'div',stars:20,seed:4,style:{padding:'40px 24px 24px',display:'flex',flexDirection:'column',alignItems:'center',gap:28}}, h(A.ShuffleDeck,{shuffling:s[0]}), h(A.Button,{variant:'gold',icon:'shuffle',onClick:go,disabled:s[0]},s[0]?'Shuffling…':'Shuffle')); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

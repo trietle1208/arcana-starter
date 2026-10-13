@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>Spread — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+var IMG={"the-hermit": "../../assets/cards/09-the-hermit.webp", "the-star": "../../assets/cards/17-the-star.webp", "the-fool": "../../assets/cards/00-the-fool.webp", "the-high-priestess": "../../assets/cards/02-the-high-priestess.webp", "the-empress": "../../assets/cards/03-the-empress.webp", "wheel-of-fortune": "../../assets/cards/10-wheel-of-fortune.webp", "the-moon": "../../assets/cards/18-the-moon.webp", "the-sun": "../../assets/cards/19-the-sun.webp", "temperance": "../../assets/cards/14-temperance.webp", "the-world": "../../assets/cards/21-the-world.webp", "cups-03": "../../assets/cards/cups-03.webp", "wands-ace": "../../assets/cards/wands-ace.webp", "swords-02": "../../assets/cards/swords-02.webp", "pentacles-10": "../../assets/cards/pentacles-10.webp", "strength": "../../assets/cards/08-strength.webp", "the-lovers": "../../assets/cards/06-the-lovers.webp", "the-magician": "../../assets/cards/01-the-magician.webp", "cups-ace": "../../assets/cards/cups-ace.webp", "pentacles-queen": "../../assets/cards/pentacles-queen.webp", "swords-page": "../../assets/cards/swords-page.webp", "wands-04": "../../assets/cards/wands-04.webp", "the-hanged-man": "../../assets/cards/12-the-hanged-man.webp"};
+function Demo(){
+  var three=[{src:IMG['the-fool'],name:'The Fool'},{src:IMG['the-hermit'],name:'The Hermit',reversed:true},{revealed:false}];
+  var cc=[{src:IMG['the-star'],name:'The Star'},{src:IMG['swords-02'],name:'Two of Swords'},{src:IMG['pentacles-10'],name:'Ten of Pentacles'},{src:IMG['the-moon'],name:'The Moon',reversed:true},{src:IMG['the-empress'],name:'The Empress'},{src:IMG['wands-ace'],name:'Ace of Wands'},{revealed:false},{revealed:false},{revealed:false},{revealed:false}];
+  return h('div',{className:'ar-stack',style:{gap:56}},
+    h('section',{className:'ar-stack',style:{gap:24}}, h('span',{className:'ar-overline'},'Three cards'), h(A.Spread,{type:'three',cards:three})),
+    h('section',{className:'ar-stack',style:{gap:24}}, h('span',{className:'ar-overline'},'Celtic Cross'), h(A.Spread,{type:'celtic',cards:cc,current:5}))); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

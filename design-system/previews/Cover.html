@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script>
+<meta charset="utf-8">
+<title>Arcana</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--paper); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .parch { fill:var(--parchment); rx:var(--radius-lg); }
+  .terra { fill:var(--terracotta); }
+  .night { fill:var(--midnight); }
+  .gold { fill:var(--gold); }
+  .rose { fill:var(--rose); }
+  .card { rx:var(--radius-card); }
+  .rule { stroke:var(--line-strong); stroke-width:1; opacity:.55; }
+  .margin { stroke:var(--rose); stroke-width:1; }
+  .words { position:absolute; left:var(--space-12); bottom:var(--space-8); max-width:440px; }
+  .name { margin:0; font-family:var(--font-display); font-variation-settings:'SOFT' 100, 'WONK' 1; font-size:112px; line-height:.92; font-weight:360; letter-spacing:-.02em; font-style:italic; color:var(--ink); }
+  .name span { color:var(--terracotta); font-style:normal; }
+  .tag { margin:var(--space-3) 0 0 6px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      parchment 464×232 table bleeding off the top and right · three Tarot-card slabs 96×176: midnight (the storybook night, now the brand's second identity colour, tallest in the middle), terracotta (the brand hue), rose (the tint) · gold only as sparkles — ≈30% of 960×288
+  arrangement a staggered three-card spread laid on the parchment table, the midnight card raised in the centre like the card being revealed
+  pattern     two rows at once, kept quiet: four ruled notebook lines in line-strong at a space-8 pitch plus one rose margin rule (editorial, "paper, books") and three gold four-point sparkles on and beside the midnight card (the literal motif from the card back and the reveal burst)
+  scales      card sides space-12×2 by space-4×11; gutters space-4; rule pitch space-8; sparkle radii space-3 and space-2; corners radius-card on cards, radius-lg on the table
+-->
+<rect class="parch" x="40" y="-24" width="464" height="232" rx="14"/>
+<line class="margin" x1="72" y1="-24" x2="72" y2="208"/>
+<line class="rule" x1="40" y1="64" x2="480" y2="64"/>
+<line class="rule" x1="40" y1="96" x2="480" y2="96"/>
+<line class="rule" x1="40" y1="128" x2="480" y2="128"/>
+<line class="rule" x1="40" y1="160" x2="480" y2="160"/>
+<rect class="terra card" x="104" y="72" width="96" height="176" rx="10"/>
+<rect class="night card" x="216" y="40" width="96" height="176" rx="10"/>
+<rect class="rose card" x="328" y="88" width="96" height="176" rx="10"/>
+<path class="gold" d="M264 104Q266.2 125.8 288 128Q266.2 130.2 264 152Q261.8 130.2 240 128Q261.8 125.8 264 104Z"/>
+<path class="gold" d="M240 172Q241 179 248 180Q241 181 240 188Q239 181 232 180Q239 179 240 172Z"/>
+<path class="gold" d="M296 60Q297 67 304 68Q297 69 296 76Q295 69 288 68Q295 67 296 60Z"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Arcana<span>.</span></h1>
+<p class="tag">A warm reading journal for the Tarot, with a little storybook night.</p>
+</div>
+</div>
+</body>
+</html>

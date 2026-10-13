@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>ReadingRitual — preview</title></head>
+<body>
+<div id="root"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+var IMG={"the-hermit": "../../assets/cards/09-the-hermit.webp", "the-star": "../../assets/cards/17-the-star.webp", "the-fool": "../../assets/cards/00-the-fool.webp", "the-high-priestess": "../../assets/cards/02-the-high-priestess.webp", "the-empress": "../../assets/cards/03-the-empress.webp", "wheel-of-fortune": "../../assets/cards/10-wheel-of-fortune.webp", "the-moon": "../../assets/cards/18-the-moon.webp", "the-sun": "../../assets/cards/19-the-sun.webp", "temperance": "../../assets/cards/14-temperance.webp", "the-world": "../../assets/cards/21-the-world.webp", "cups-03": "../../assets/cards/cups-03.webp", "wands-ace": "../../assets/cards/wands-ace.webp", "swords-02": "../../assets/cards/swords-02.webp", "pentacles-10": "../../assets/cards/pentacles-10.webp", "strength": "../../assets/cards/08-strength.webp", "the-lovers": "../../assets/cards/06-the-lovers.webp", "the-magician": "../../assets/cards/01-the-magician.webp", "cups-ace": "../../assets/cards/cups-ace.webp", "pentacles-queen": "../../assets/cards/pentacles-queen.webp", "swords-page": "../../assets/cards/swords-page.webp", "wands-04": "../../assets/cards/wands-04.webp", "the-hanged-man": "../../assets/cards/12-the-hanged-man.webp"};
+function Demo(){ return h(A.ReadingRitual,{question:'What would help me most this week?',cards:[{src:IMG['the-fool'],name:'The Fool'},{src:IMG['the-hermit'],name:'The Hermit',reversed:true},{src:IMG['the-sun'],name:'The Sun'}]}); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

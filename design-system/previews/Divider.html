@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>Divider — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ return h('div',{style:{maxWidth:560}}, h('p',{className:'ar-muted',style:{margin:0}},'Upright meaning'), h(A.Divider,null), h('p',{className:'ar-muted',style:{margin:0}},'Your reflection'), h(A.Divider,{variant:'sprig'}), h(A.Divider,{variant:'star'})); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

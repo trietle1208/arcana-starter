@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>ScreenCardDetail — preview</title><style>body{background:var(--paper)} .scr{min-height:100vh}</style></head>
+<body>
+<div id="root"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+var IMG={"the-hermit": "../../assets/cards/09-the-hermit.webp", "the-star": "../../assets/cards/17-the-star.webp", "the-fool": "../../assets/cards/00-the-fool.webp", "the-high-priestess": "../../assets/cards/02-the-high-priestess.webp", "the-empress": "../../assets/cards/03-the-empress.webp", "wheel-of-fortune": "../../assets/cards/10-wheel-of-fortune.webp", "the-moon": "../../assets/cards/18-the-moon.webp", "the-sun": "../../assets/cards/19-the-sun.webp", "temperance": "../../assets/cards/14-temperance.webp", "the-world": "../../assets/cards/21-the-world.webp", "cups-03": "../../assets/cards/cups-03.webp", "wands-ace": "../../assets/cards/wands-ace.webp", "swords-02": "../../assets/cards/swords-02.webp", "pentacles-10": "../../assets/cards/pentacles-10.webp", "strength": "../../assets/cards/08-strength.webp", "the-lovers": "../../assets/cards/06-the-lovers.webp", "the-magician": "../../assets/cards/01-the-magician.webp", "cups-ace": "../../assets/cards/cups-ace.webp", "pentacles-queen": "../../assets/cards/pentacles-queen.webp", "swords-page": "../../assets/cards/swords-page.webp", "wands-04": "../../assets/cards/wands-04.webp", "the-hanged-man": "../../assets/cards/12-the-hanged-man.webp"};
+function Demo(){ var v=React.useState('up');
+  return h('div',{className:'ar-app scr'}, h(A.AppNav,{active:'library'}),
+  h('main',{className:'ar-main'},
+    h('a',{href:'#',className:'ar-hint',style:{color:'var(--terracotta-ink)',textDecoration:'none'}},'← Card library'),
+    h('div',{style:{display:'grid',gridTemplateColumns:'300px 1fr',gap:56,alignItems:'start'}},
+      h('div',{className:'ar-stack',style:{gap:16,position:'sticky',top:24}}, h(A.TarotCard,{src:IMG['the-hermit'],name:'The Hermit',size:'lg',reversed:v[0]==='rev',style:{'--w':'300px'}}), h(A.SegmentedControl,{label:'Orientation',options:[{value:'up',label:'Upright'},{value:'rev',label:'Reversed'}],value:v[0],onChange:v[1]})),
+      h('article',{className:'ar-stack',style:{gap:20}},
+        h('span',{className:'ar-overline'},'Major arcana · IX'), h('h1',{className:'ar-h1',style:{fontSize:36,lineHeight:'42px',fontWeight:380}},'The Hermit'),
+        h('p',{style:{margin:0,fontSize:17,lineHeight:'28px',maxWidth:'66ch'}},'An old figure on a snowy peak, holding up a lantern. The Hermit is the card of looking inward — of choosing quiet on purpose so you can hear what you actually think.'),
+        h(A.Divider,null),
+        h(A.MeaningPanel,{keywords:['Solitude','Inner guidance','Patience'],upright:'Time spent alone with purpose. The Hermit points to reflection, study and the kind of slow clarity that only comes when you step away from other people’s opinions.',reversed:'Isolation that has stopped helping, or avoiding the inward work altogether. It can be a nudge to reconnect — or to finally make the quiet time you keep postponing.',symbolism:'The lantern holds a six-pointed star: wisdom shared a little at a time. The staff is patience; the snowy peak is the height reached by going alone.'}),
+        h(A.Divider,{variant:'sprig'}),
+        h('section',{className:'ar-panel ar-stack',style:{gap:16,maxWidth:'66ch'}}, h('h2',{className:'ar-h2',style:{fontSize:22}},'Reflect'), h('p',{style:{margin:0,fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:20,lineHeight:'30px'}},'When did time alone last give you an answer?'), h(A.TextField,{label:'Your notes',multiline:true,rows:3,placeholder:'Write a few lines…'}), h('div',{className:'ar-row'},h(A.Button,{variant:'primary',icon:'bookmark'},'Save to journal')))))));
+}
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

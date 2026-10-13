@@ -1,0 +1,51 @@
+/* Arcana — generated from tokens.json */
+:root, [data-theme="paper"] {
+  --paper: #f6f1e8;
+  --parchment: #eae0d0;
+  --surface: #fffcf6;
+  --ink: #352f29;
+  --ink-muted: #756b60;
+  --ink-soft: #6b6156;
+  --terracotta: #b8755b;
+  --terracotta-ink: #8c4f38;
+  --terracotta-soft: #f3e4db;
+  --on-accent: #fffcf6;
+  --olive: #7d8461;
+  --olive-ink: #5e6447;
+  --olive-soft: #e6e7d8;
+  --rose: #c8a39a;
+  --rose-soft: #f2e7e2;
+  --line: #dcd2c3;
+  --line-strong: #857868;
+  --midnight: #1f2340;
+  --midnight-raised: #2b3052;
+  --starlight: #f3ead6;
+  --starlight-muted: #b8b2c9;
+  --gold: #d4af6a;
+  --gold-ink: #7d5c22;
+  --on-gold: var(--midnight);
+  --focus: var(--terracotta-ink);
+  --shadow-paper: 0 1px 0 #352f2910, 0 1px 3px #352f2914;
+  --shadow-lift: 0 2px 4px #352f2912, 0 10px 24px -8px #352f2933;
+  --shadow-glow: 0 0 0 1px #d4af6a99, 0 0 22px 2px #d4af6a59;
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-card: 10px;
+  --radius-full: 9999px;
+  --measure: 66ch;
+  --content-max: 1120px;
+  --nav-width: 232px;
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+}

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>Icon — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ return h('div',{className:'ar-row',style:{gap:20,color:'var(--ink)'}}, ['home','library','reading','study','journal','settings','search','shuffle','bookmark','pen','check','plus','arrow','turn','info','x'].map(function(n){ return h('span',{key:n,title:n,style:{display:'inline-flex'}},h(A.Icon,{name:n,size:22})); })); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

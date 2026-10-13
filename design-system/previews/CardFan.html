@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>CardFan — preview</title></head>
+<body>
+<div id="root" style="padding:16px"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ var t=React.useState([4,13]); return h(A.NightSky,{as:'div',stars:20,seed:8,style:{padding:'24px 24px 32px'}}, h(A.CardFan,{count:21,taken:t[0],onPick:function(i){ t[1](t[0].concat([i])); }})); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../components/bundle.css"><script src="../lib/react.js"></script><script src="../lib/react-dom.js"></script><script src="../components/bundle.js"></script><meta charset="utf-8"><title>Sparkles — preview</title></head>
+<body>
+<div id="root" class="ar-pad"></div>
+<script>
+var A = window.Arcana, h = React.createElement, F = React.Fragment;
+
+function Demo(){ var k=React.useState(0); return h(A.NightSky,{as:'div',stars:16,seed:9,style:{padding:24,minHeight:180,display:'flex',alignItems:'center',justifyContent:'center'}}, h('div',{style:{position:'relative',width:120,height:120}}, h(A.Sparkles,{key:k[0],count:16,seed:k[0]+1})), h(A.Button,{variant:'night',onClick:function(){k[1](k[0]+1);}},'Scatter again')); }
+ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>
