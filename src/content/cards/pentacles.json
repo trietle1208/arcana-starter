@@ -10,42 +10,48 @@
     },
     "image": "/cards/pentacles-ace.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A hand reaches from a cloud, offering a gold coin marked with a five-pointed star above a flowering garden. The Ace of Pentacles is the card of a tangible beginning — a seed of work, money, health or home that you can actually hold.",
+      "vi": "Một bàn tay vươn ra từ đám mây, nâng một đồng xu vàng khắc ngôi sao năm cánh phía trên khu vườn đầy hoa. Át Tiền là lá bài của một khởi đầu hữu hình — hạt giống của công việc, tiền bạc, sức khỏe hay mái ấm mà bạn có thể thật sự nắm trong tay."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Beginnings", "Prosperity", "Grounding", "Resources"],
+      "vi": ["Khởi đầu", "Thịnh vượng", "Vững chân", "Nguồn lực"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A practical chance offered at the right moment. The Ace of Pentacles points to a new job, project or source of security, and to the steady satisfaction of building something real from a good starting point.",
+          "vi": "Một cơ hội thiết thực xuất hiện đúng lúc. Át Tiền gợi đến một công việc, dự án hay nguồn an toàn mới, và niềm thỏa mãn vững chãi khi xây nên điều có thật từ một điểm xuất phát tốt."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Opportunity", "Abundance", "Security", "Good foundations"],
+          "vi": ["Cơ hội", "Dồi dào", "An toàn", "Nền móng tốt"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "An opportunity that is missed, mistimed or not yet solid. It can be a prompt to ask whether a worry about money or security is making you cautious, or whether an exciting offer deserves a closer look before you commit.",
+          "vi": "Một cơ hội bị lỡ, không đúng lúc hoặc chưa đủ chắc chắn. Lá bài có thể nhắc bạn hỏi nỗi lo về tiền bạc hay sự an toàn có đang khiến mình dè dặt, hoặc một lời đề nghị hấp dẫn có đáng được nhìn kỹ hơn trước khi bạn cam kết."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Missed chance", "Bad timing", "Money worries", "Scarcity mindset"],
+          "vi": ["Cơ hội bị lỡ", "Chưa đúng lúc", "Lo chuyện tiền bạc", "Tâm thế thiếu thốn"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A hand rises from a cloud, presenting the coin as a gift to be received and then tended. The five-pointed star on its face is often read as the four elements joined by spirit, all held in one practical object. Below lies a garden of lilies with a flowering arch opening onto distant mountains, ground that has been cared for and a path that leads on.",
+      "vi": "Một bàn tay vươn ra từ đám mây, trao đồng xu như món quà để đón nhận rồi chăm chút. Ngôi sao năm cánh trên mặt đồng xu thường được hiểu là bốn nguyên tố được tinh thần kết nối, gói trong một vật thiết thực. Bên dưới là khu vườn hoa huệ với vòm hoa mở ra những ngọn núi xa, mảnh đất đã được chăm sóc và một lối đi dẫn tiếp."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What opportunity in front of you feels solid enough to start with?",
+        "What would you like to see growing in your life a year from now?"
+      ],
+      "vi": [
+        "Cơ hội nào trước mắt bạn đủ vững để bắt đầu?",
+        "Một năm nữa, bạn muốn thấy điều gì đang lớn lên trong đời mình?"
+      ]
     }
   },
   {
@@ -59,42 +65,48 @@
     },
     "image": "/cards/pentacles-02.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure in a tall red hat balances two coins joined by a looping ribbon while ships ride the waves behind. The Two of Pentacles is the card of juggling — keeping several demands in motion with flexibility and good humour.",
+      "vi": "Một người đội mũ đỏ cao tung hứng hai đồng xu nối nhau bằng dải ruy băng uốn vòng, phía sau là những con tàu nhấp nhô trên sóng. Hai Tiền là lá bài của việc xoay xở — giữ nhiều đòi hỏi cùng chuyển động bằng sự linh hoạt và chút hài hước."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Balance", "Adaptability", "Priorities", "Resourcefulness"],
+      "vi": ["Cân bằng", "Thích ứng", "Thứ tự ưu tiên", "Xoay xở"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Managing more than one thing at once, and doing it with a light touch. The Two of Pentacles points to shifting priorities, handling change gracefully and finding a rhythm that keeps things moving.",
+          "vi": "Lo nhiều việc cùng lúc và làm điều đó bằng một bàn tay nhẹ nhàng. Hai Tiền gợi đến việc sắp xếp lại ưu tiên, đón sự thay đổi một cách uyển chuyển và tìm một nhịp để mọi thứ vẫn chuyển động."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Juggling", "Time management", "Playfulness", "Adjusting"],
+          "vi": ["Tung hứng", "Quản lý thời gian", "Nhẹ nhàng", "Điều chỉnh"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Too many balls in the air, or a balance that has started to tip. It can be a prompt to ask what you can set down, where you are stretched thin, and whether something needs a clearer priority.",
+          "vi": "Quá nhiều thứ cùng tung trên không, hoặc một thế cân bằng đã bắt đầu nghiêng. Lá bài có thể nhắc bạn hỏi mình có thể đặt điều gì xuống, mình đang bị căng mỏng ở đâu, và điều gì cần một thứ tự ưu tiên rõ hơn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Overstretched", "Disorganisation", "Overcommitment", "Dropped balls"],
+          "vi": ["Bị căng mỏng", "Thiếu tổ chức", "Nhận quá nhiều", "Việc bị bỏ sót"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The two coins are joined by a ribbon bent into an infinity sign, a picture of a flow that has to keep moving. The figure dances more than stands, with the tall hat and bright red stockings adding a note of play. Behind, big waves lift small ships up and down, the changing conditions that the juggling has to answer.",
+      "vi": "Hai đồng xu được nối bằng dải ruy băng uốn thành dấu vô cực, hình ảnh của một dòng chảy phải luôn chuyển động. Người ấy như đang nhảy hơn là đứng, chiếc mũ cao và đôi tất đỏ rực thêm chút tinh nghịch. Phía sau, sóng lớn nâng những con tàu nhỏ lên xuống, là những điều kiện luôn thay đổi mà sự xoay xở phải đáp lại."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What are you juggling right now that you could simplify?",
+        "How could you add a little play to a busy stretch?"
+      ],
+      "vi": [
+        "Bạn đang xoay xở những gì lúc này mà có thể đơn giản hóa?",
+        "Làm sao bạn thêm được chút vui đùa vào một quãng bận rộn?"
+      ]
     }
   },
   {
@@ -108,42 +120,48 @@
     },
     "image": "/cards/pentacles-03.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A craftsperson stands on a bench in a cathedral, working on an arch while two others look over the plans. The Three of Pentacles is the card of teamwork — skill, planning and feedback coming together to build something well.",
+      "vi": "Một người thợ đứng trên chiếc ghế dài trong nhà thờ, làm việc trên một vòm cuốn, trong khi hai người khác xem bản vẽ. Ba Tiền là lá bài của làm việc nhóm — tay nghề, kế hoạch và góp ý cùng nhau xây nên điều gì đó cho tử tế."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Teamwork", "Craftsmanship", "Planning", "Feedback"],
+      "vi": ["Làm việc nhóm", "Tay nghề", "Lên kế hoạch", "Góp ý"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Good work made better by working with others. The Three of Pentacles points to skill that is recognised, to listening to people who see what you do not, and to the satisfaction of each person doing their part well.",
+          "vi": "Công việc tốt được làm tốt hơn nhờ cùng làm với người khác. Ba Tiền gợi đến tay nghề được ghi nhận, việc lắng nghe những người nhìn thấy điều bạn chưa thấy, và niềm thỏa mãn khi mỗi người làm tốt phần của mình."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Collaboration", "Mastery", "Shared goals", "Recognition"],
+          "vi": ["Hợp tác", "Thành thạo", "Mục tiêu chung", "Được ghi nhận"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Work that feels disconnected: unclear roles, ignored advice or standards that are not shared. It can be a prompt to ask what would help the team pull the same way, and whether your own contribution is being heard.",
+          "vi": "Công việc rời rạc: vai trò không rõ, lời khuyên bị bỏ ngoài tai hay những tiêu chuẩn không chung nhau. Lá bài có thể nhắc bạn hỏi điều gì giúp cả nhóm kéo cùng một hướng, và đóng góp của bạn có đang được lắng nghe không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Disconnection", "Unclear roles", "Ignored feedback", "Poor teamwork"],
+          "vi": ["Rời rạc", "Vai trò mờ", "Góp ý bị bỏ qua", "Phối hợp kém"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The worker stands on a bench to reach the arch, the skilled hand at the centre of the picture. The two figures with the plans, a monk and a patron, bring vision and support, and the three coins carved above the arch echo the three people. The pointed arches and grey stone make the work feel shared, lasting and bigger than any one person.",
+      "vi": "Người thợ đứng trên ghế dài để với tới vòm cuốn, bàn tay lành nghề ở chính giữa bức tranh. Hai người cầm bản vẽ, một thầy tu và một người bảo trợ, mang đến tầm nhìn và sự hỗ trợ, còn ba đồng xu chạm phía trên vòm cuốn như lặp lại ba con người ấy. Những vòm nhọn và đá xám khiến công việc này có vẻ chung, bền vững và lớn hơn bất kỳ một người nào."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Who could you ask for feedback on something you are building?",
+        "What does your part in a shared effort look like when it is done well?"
+      ],
+      "vi": [
+        "Bạn có thể xin góp ý từ ai về điều bạn đang xây?",
+        "Phần việc của bạn trong một nỗ lực chung trông như thế nào khi được làm tốt?"
+      ]
     }
   },
   {
@@ -157,42 +175,48 @@
     },
     "image": "/cards/pentacles-04.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure sits clutching one coin to the chest, another balanced on the head and two more beneath the feet, a city behind. The Four of Pentacles is the card of holding on — security, saving and the wish to keep what you have safe.",
+      "vi": "Một người ngồi ôm chặt một đồng xu trước ngực, một đồng đội trên đầu và hai đồng khác dưới chân, phía sau là thành phố. Bốn Tiền là lá bài của việc nắm giữ — sự an toàn, tiết kiệm và mong muốn giữ cho điều mình có được yên ổn."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Security", "Saving", "Control", "Caution"],
+      "vi": ["An toàn", "Tiết kiệm", "Kiểm soát", "Thận trọng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Protecting what you have worked for. The Four of Pentacles points to prudence, stability and boundaries around money or energy, and to the question of when care for what you have turns into fear of losing it.",
+          "vi": "Bảo vệ điều bạn đã dày công làm ra. Bốn Tiền gợi đến sự thận trọng, ổn định và những ranh giới quanh tiền bạc hay năng lượng, cùng câu hỏi khi nào việc gìn giữ điều mình có hóa thành nỗi sợ mất nó."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Prudence", "Stability", "Boundaries", "Frugality"],
+          "vi": ["Cẩn trọng", "Ổn định", "Ranh giới", "Chắt chiu"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Loosening a tight grip, or spending and giving more freely. It can also point to holding on more tightly than ever, or to a scarcity of trust that keeps people and chances at a distance.",
+          "vi": "Nới bàn tay đang nắm chặt, chi tiêu và cho đi thoải mái hơn. Lá bài cũng có thể chỉ việc nắm giữ chặt hơn bao giờ hết, hoặc sự thiếu tin tưởng giữ người khác và cơ hội ở xa."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Letting go", "Generosity", "Hoarding", "Fear of loss"],
+          "vi": ["Buông lỏng", "Hào phóng", "Tích trữ", "Sợ mất mát"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The coins sit on the head, at the heart and under the feet, so that wealth fills the thoughts, the feelings and the ground the figure stands on. The arms wrap around the coin at the chest, as if it might be taken. Behind lies a town of towers and roofs, close by yet kept at a distance.",
+      "vi": "Những đồng xu đặt trên đầu, trước ngực và dưới chân, như thể của cải chiếm cả suy nghĩ, cảm xúc lẫn mặt đất người ấy đứng. Đôi tay ôm chặt đồng xu trước ngực, như sợ nó bị lấy đi. Phía sau là một thị trấn đầy tháp và mái nhà, ở gần mà vẫn bị giữ cách xa."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What are you holding on to most tightly right now?",
+        "What might change if you held it a little more loosely?"
+      ],
+      "vi": [
+        "Lúc này bạn đang nắm giữ điều gì chặt nhất?",
+        "Điều gì có thể thay đổi nếu bạn nắm nó lỏng hơn một chút?"
+      ]
     }
   },
   {
@@ -206,42 +230,48 @@
     },
     "image": "/cards/pentacles-05.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Two figures, one on crutches, trudge through the snow past a lit stained-glass window. The Five of Pentacles is the card of hardship — hard times, feeling left out in the cold and the help that may be closer than it seems.",
+      "vi": "Hai người, một người chống nạng, lê bước qua tuyết ngang một ô cửa kính màu sáng đèn. Năm Tiền là lá bài của gian khó — những lúc khó khăn, cảm giác bị bỏ ngoài trời lạnh, và sự giúp đỡ có thể ở gần hơn bạn nghĩ."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Hardship", "Insecurity", "Isolation", "Need"],
+      "vi": ["Gian khó", "Bất an", "Cô lập", "Thiếu thốn"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A stretch of struggle with money, health or belonging. The Five of Pentacles points to feeling shut out, to worry about having enough, and to the courage it can take to knock on the door that is already lit.",
+          "vi": "Một quãng chật vật về tiền bạc, sức khỏe hay cảm giác thuộc về. Năm Tiền gợi đến cảm giác bị chặn ngoài cửa, nỗi lo không đủ, và lòng can đảm có thể cần có để gõ vào cánh cửa vốn đã sáng đèn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Financial strain", "Poor health", "Exclusion", "Asking for help"],
+          "vi": ["Áp lực tiền bạc", "Sức khỏe yếu", "Bị gạt ra ngoài", "Nhờ giúp đỡ"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Recovery after a hard time, or help finally being received. It can also point to pride or shame that stops you from asking, and to a hardship that is being carried alone for too long.",
+          "vi": "Sự hồi phục sau một thời gian khó, hoặc sự giúp đỡ cuối cùng cũng đến. Lá bài cũng có thể chỉ lòng tự trọng hay nỗi xấu hổ cản bạn mở lời, và một gian khó bị mang một mình quá lâu."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Recovery", "Receiving help", "Shame", "Turning a corner"],
+          "vi": ["Hồi phục", "Đón nhận giúp đỡ", "Xấu hổ", "Qua được khúc quanh"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Snow falls on two figures in ragged clothes, one on crutches and one wrapped in a shawl, both with eyes down. Beside them glows a church window with five coins in its glass, warmth and shelter within reach yet not looked at. The cold dark of the scene is real, and so is the light that shines from the window.",
+      "vi": "Tuyết rơi trên hai người trong bộ quần áo rách, một người chống nạng, một người quấn khăn choàng, cả hai đều cúi mắt. Bên cạnh họ là ô cửa nhà thờ sáng đèn với năm đồng xu trên kính màu, hơi ấm và chỗ trú ở ngay trong tầm tay mà chưa được nhìn đến. Cái lạnh và bóng tối của khung cảnh là có thật, và ánh sáng từ ô cửa cũng vậy."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Who or what could offer you shelter right now, if you let yourself look?",
+        "What would asking for help cost you, and what might it give?"
+      ],
+      "vi": [
+        "Ai hay điều gì có thể cho bạn chốn nương náu lúc này, nếu bạn cho phép mình nhìn?",
+        "Việc nhờ giúp đỡ sẽ khiến bạn tốn điều gì, và có thể đem lại điều gì?"
+      ]
     }
   },
   {
@@ -255,42 +285,48 @@
     },
     "image": "/cards/pentacles-06.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A well-dressed figure drops coins into the hand of a kneeling person, scales held in the other hand. The Six of Pentacles is the card of giving and receiving — generosity, fairness and the way help moves between people.",
+      "vi": "Một người ăn mặc chỉnh tề thả những đồng xu vào bàn tay một người đang quỳ, tay kia cầm chiếc cân. Sáu Tiền là lá bài của cho và nhận — lòng hào phóng, sự công bằng và cách sự giúp đỡ lưu chuyển giữa người với người."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Generosity", "Fairness", "Sharing", "Gratitude"],
+      "vi": ["Hào phóng", "Công bằng", "Chia sẻ", "Biết ơn"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Help given, or received, with care for both sides. The Six of Pentacles points to generosity that respects dignity, to support when it is needed, and to a fair balance in what is shared.",
+          "vi": "Sự giúp đỡ được trao hoặc nhận với sự quan tâm đến cả hai phía. Sáu Tiền gợi đến lòng hào phóng giữ được phẩm giá, sự nâng đỡ khi cần, và một cán cân công bằng trong điều được chia sẻ."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Giving", "Receiving", "Support", "Balance"],
+          "vi": ["Cho đi", "Đón nhận", "Nâng đỡ", "Cân bằng"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Help that comes with strings, debts that feel uneven, or giving that leaves one side feeling small. It can be a prompt to ask whether you are generous without expecting anything back, and whether you can receive as gracefully as you give.",
+          "vi": "Sự giúp đỡ đi kèm điều kiện, những món nợ thấy không đều, hay việc cho đi khiến một bên thấy mình nhỏ lại. Lá bài có thể nhắc bạn hỏi mình có hào phóng mà không mong nhận lại, và có thể nhận một cách tử tế như cách mình cho đi không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Strings attached", "Debt", "Uneven power", "One-sided giving"],
+          "vi": ["Kèm điều kiện", "Nợ nần", "Quyền lực lệch", "Cho đi một chiều"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The scales in one hand show that giving is weighed with fairness, while the coins pass from the other to one of two figures kneeling below. Six coins hang above the scene, as if the stock of what is available were in view. The figures are dressed differently, a reminder that giving and receiving both depend on where each person stands.",
+      "vi": "Chiếc cân trong một tay cho thấy việc cho đi được cân nhắc công bằng, còn tay kia thả những đồng xu xuống một trong hai người đang quỳ phía dưới. Sáu đồng xu treo phía trên khung cảnh, như thể nguồn có sẵn đang hiện ra trước mắt. Những người trong tranh ăn mặc khác nhau, nhắc rằng cho và nhận đều phụ thuộc vào chỗ mỗi người đang đứng."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "When did someone’s help arrive at just the right moment for you?",
+        "How could you give in a way that leaves the other person’s dignity whole?"
+      ],
+      "vi": [
+        "Lần nào sự giúp đỡ của ai đó đến đúng lúc bạn cần nhất?",
+        "Bạn có thể cho đi theo cách nào để phẩm giá của người nhận vẫn nguyên vẹn?"
+      ]
     }
   },
   {
@@ -304,42 +340,48 @@
     },
     "image": "/cards/pentacles-07.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A worker leans on a hoe in a garden, looking at a bush heavy with coins. The Seven of Pentacles is the card of the pause to assess — patience, long effort and the question of whether it is working.",
+      "vi": "Một người làm vườn tựa vào cái cuốc, nhìn bụi cây nặng trĩu những đồng xu. Bảy Tiền là lá bài của khoảng dừng để đánh giá — sự kiên nhẫn, nỗ lực dài hơi và câu hỏi liệu nó có đang đi đúng hướng không."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Patience", "Assessment", "Long-term effort", "Investment"],
+      "vi": ["Kiên nhẫn", "Đánh giá", "Nỗ lực dài hơi", "Đầu tư"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A moment to look at what your work has grown so far. The Seven of Pentacles points to patience, steady investment and an honest check on whether to keep tending, change course or simply rest a while.",
+          "vi": "Một lúc để nhìn xem công sức của bạn đã nuôi lớn được gì đến giờ. Bảy Tiền gợi đến sự kiên nhẫn, sự đầu tư đều đặn và một lần kiểm tra thành thật xem nên tiếp tục chăm sóc, đổi hướng hay chỉ nghỉ một lúc."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Perseverance", "Growth", "Reward for effort", "Review"],
+          "vi": ["Bền chí", "Lớn dần", "Thành quả công sức", "Nhìn lại"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Impatience with slow results, or effort spent where it is not paying off. It can be a prompt to ask whether you are watching the plant instead of tending it, and whether it is time to redirect your energy.",
+          "vi": "Sự sốt ruột với kết quả chậm, hoặc công sức dồn vào nơi không sinh lời. Lá bài có thể nhắc bạn hỏi mình có đang nhìn cái cây thay vì chăm nó, và đã đến lúc chuyển hướng năng lượng chưa."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Impatience", "Poor returns", "Misplaced effort", "Frustration"],
+          "vi": ["Sốt ruột", "Lợi tức thấp", "Công sức đặt sai chỗ", "Bực bội"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The coins grow on the bush like fruit, each one a result of care over time. The figure rests the chin on hands placed on the tool, a pause that is half weariness and half pride. One coin lies on the ground apart from the rest, a reminder that not everything grows in the same season or place.",
+      "vi": "Những đồng xu mọc trên bụi cây như trái, mỗi đồng là kết quả của sự chăm sóc theo thời gian. Người ấy tựa cằm lên đôi tay đặt trên cán cuốc, một quãng nghỉ nửa mệt mỏi nửa tự hào. Một đồng xu nằm riêng trên đất, nhắc rằng không phải thứ gì cũng lớn cùng một mùa hay cùng một chỗ."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What have you been tending for a long time?",
+        "What would an honest look at your progress show you?"
+      ],
+      "vi": [
+        "Bạn đã chăm chút điều gì trong một thời gian dài?",
+        "Một cái nhìn thành thật về tiến trình của bạn sẽ cho bạn thấy điều gì?"
+      ]
     }
   },
   {
@@ -353,42 +395,48 @@
     },
     "image": "/cards/pentacles-08.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A craftsperson sits at a bench, carefully carving a star into a coin, with finished ones lined up on a post. The Eight of Pentacles is the card of dedicated practice — learning a skill one patient piece at a time.",
+      "vi": "Một người thợ ngồi bên chiếc ghế dài, cẩn thận đục ngôi sao lên một đồng xu, những đồng đã hoàn thành xếp thành hàng trên cột. Tám Tiền là lá bài của sự luyện tập tận tâm — học một tay nghề từng mảnh một cách kiên nhẫn."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Craftsmanship", "Practice", "Diligence", "Skill"],
+      "vi": ["Tay nghề", "Luyện tập", "Cần mẫn", "Kỹ năng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Steady, focused work that makes you better at what you do. The Eight of Pentacles points to apprenticeship, attention to detail and the quiet pride of doing something carefully, one piece after another.",
+          "vi": "Công việc đều đặn, tập trung giúp bạn giỏi hơn ở điều mình làm. Tám Tiền gợi đến việc học nghề, sự chú ý đến chi tiết và niềm tự hào lặng lẽ khi làm một việc cẩn thận, hết mảnh này đến mảnh khác."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Mastery", "Dedication", "Attention to detail", "Learning"],
+          "vi": ["Thành thạo", "Tận tâm", "Chú ý chi tiết", "Học hỏi"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Work that has become dull, rushed or perfectionist to the point of paralysis. It can be a prompt to ask whether you are bored, burned out or aiming at a standard that stops you finishing.",
+          "vi": "Công việc đã trở nên nhàm, vội vàng hoặc cầu toàn đến mức tê liệt. Lá bài có thể nhắc bạn hỏi mình có đang chán, kiệt sức hay nhắm tới một chuẩn mực khiến mình không thể hoàn thành."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Perfectionism", "Monotony", "Rushed work", "Lack of focus"],
+          "vi": ["Cầu toàn", "Đơn điệu", "Làm ẩu", "Thiếu tập trung"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Six finished coins hang on the post, one is being worked on the bench and one waits on the ground, a day’s labour shown in stages. The craftsperson bends over the work with a hammer and chisel, attention gathered in one small place. A town sits far off in the distance, the wider world that the skill may one day serve.",
+      "vi": "Sáu đồng xu đã xong treo trên cột, một đồng đang được chạm trên ghế và một đồng chờ trên mặt đất, một ngày lao động hiện ra theo từng giai đoạn. Người thợ cúi xuống công việc với búa và đục, sự chú ý gom vào một chỗ nhỏ. Xa xa là một thị trấn, thế giới rộng hơn mà tay nghề này một ngày nào đó có thể phục vụ."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What skill are you willing to practise slowly until it feels natural?",
+        "Where might good enough be a kinder standard than perfect?"
+      ],
+      "vi": [
+        "Tay nghề nào bạn sẵn lòng luyện chậm rãi cho đến khi thấy tự nhiên?",
+        "Ở đâu mức đủ tốt sẽ là chuẩn mực dịu dàng hơn sự hoàn hảo?"
+      ]
     }
   },
   {
@@ -402,42 +450,48 @@
     },
     "image": "/cards/pentacles-09.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A richly dressed figure stands in a vineyard, a hooded falcon on one gloved hand and coins around the vines. The Nine of Pentacles is the card of self-reliance — comfort, refinement and the pleasure of what you have built yourself.",
+      "vi": "Một người ăn mặc sang trọng đứng giữa vườn nho, trên bàn tay đeo găng là một con chim ưng bị trùm mũ, những đồng xu nằm quanh dây nho. Chín Tiền là lá bài của sự tự lập — sự thoải mái, tinh tế và niềm vui với điều bạn tự mình gây dựng."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Independence", "Comfort", "Refinement", "Enjoyment"],
+      "vi": ["Độc lập", "Thoải mái", "Tinh tế", "Tận hưởng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Enjoying the rewards of your own steady effort. The Nine of Pentacles points to financial and personal independence, to a life with beauty and comfort in it, and to being content in your own company.",
+          "vi": "Tận hưởng thành quả từ nỗ lực đều đặn của chính mình. Chín Tiền gợi đến sự độc lập về tài chính và bản thân, một cuộc sống có cái đẹp và sự thoải mái, và việc thấy yên lòng khi ở bên chính mình."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Self-sufficiency", "Abundance", "Leisure", "Discipline"],
+          "vi": ["Tự túc", "Dồi dào", "Thư thả", "Kỷ luật"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Comfort that depends too much on appearances, or a solitude that has turned lonely. It can be a prompt to ask whether you are working harder than your enjoyment justifies, or whether independence has become a way of keeping people out.",
+          "vi": "Sự thoải mái dựa quá nhiều vào bề ngoài, hoặc một sự ở một mình đã hóa cô đơn. Lá bài có thể nhắc bạn hỏi mình có đang làm việc nhiều hơn mức niềm vui xứng đáng, hay sự độc lập đã thành cách giữ người khác ở ngoài."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Overwork", "Loneliness", "Surface comfort", "Financial dependence"],
+          "vi": ["Làm việc quá sức", "Cô đơn", "Thoải mái bề ngoài", "Lệ thuộc tài chính"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The vines, grapes and coins show a garden that has grown in step with the person tending it. The hooded falcon on the glove is a wild creature trained to wait, a symbol of discipline and self-command. A small snail at the bottom of the picture moves slowly, a gentle reminder that this abundance came by patience.",
+      "vi": "Dây nho, chùm nho và những đồng xu cho thấy khu vườn lớn lên cùng nhịp với người chăm nó. Con chim ưng bị trùm mũ trên chiếc găng là một sinh vật hoang được dạy biết chờ, biểu tượng của kỷ luật và sự tự chủ. Một con ốc sên nhỏ ở cuối bức tranh bò chậm rãi, lời nhắc nhẹ rằng sự đủ đầy này đến bằng kiên nhẫn."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What have you built that you can enjoy without justifying it?",
+        "How do you like to spend time alone when it feels good?"
+      ],
+      "vi": [
+        "Bạn đã xây nên điều gì mà có thể tận hưởng không cần phải biện minh?",
+        "Bạn thích dành thời gian một mình như thế nào khi cảm giác ấy dễ chịu?"
+      ]
     }
   },
   {
@@ -451,42 +505,53 @@
     },
     "image": "/cards/pentacles-10.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Three generations gather beneath an arch, dogs at their feet, ten coins arranged across the scene. The Ten of Pentacles is the card of lasting wellbeing — family, legacy and the security that is built to be shared.",
+      "vi": "Ba thế hệ quây quần dưới một vòm cổng, những chú chó nằm dưới chân, mười đồng xu xếp khắp khung cảnh. Mười Tiền là lá bài của sự an lành bền lâu — gia đình, di sản và sự yên ổn được dựng lên để chia sẻ."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Legacy", "Family", "Stability", "Tradition"],
+      "vi": ["Di sản", "Gia đình", "Ổn định", "Truyền thống"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Security that reaches beyond one person. The Ten of Pentacles points to a home, a family or a community with deep roots, to wealth that is valued for what it makes possible, and to what you hope to pass on.",
+          "vi": "Sự an toàn vươn xa hơn một con người. Mười Tiền gợi đến một mái nhà, một gia đình hay một cộng đồng có gốc rễ sâu, của cải được trân trọng vì điều nó làm nên, và điều bạn hy vọng trao lại cho đời sau."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Long-term security", "Inheritance", "Home", "Continuity"],
+          "vi": ["An toàn lâu dài", "Thừa kế", "Mái nhà", "Nối tiếp"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Tension around money, inheritance or family expectations. It can be a prompt to ask which traditions still serve you, where security has come at the cost of freedom, and what you want to build in your own way.",
+          "vi": "Căng thẳng quanh tiền bạc, thừa kế hay kỳ vọng của gia đình. Lá bài có thể nhắc bạn hỏi truyền thống nào còn phục vụ mình, nơi nào sự an toàn phải trả bằng tự do, và bạn muốn gây dựng điều gì theo cách của riêng mình."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Family friction", "Money tension", "Fragile security", "Breaking from tradition"],
+          "vi": [
+            "Va chạm gia đình",
+            "Căng thẳng tiền bạc",
+            "An toàn mong manh",
+            "Rời khỏi truyền thống"
+          ]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The coins are arranged like the branches of a tree, a pattern that ties wealth to growth and roots. An older figure sits in the foreground with dogs at hand, while a couple and a child stand beneath the arch, the generations in one frame. Behind them, a tower and a walled town show a home that has lasted and is still lived in.",
+      "vi": "Những đồng xu xếp như các nhánh của một cái cây, hình mẫu gắn của cải với sự lớn lên và gốc rễ. Một người lớn tuổi ngồi phía trước với những chú chó bên cạnh, còn một cặp đôi và một đứa trẻ đứng dưới vòm cổng, các thế hệ trong cùng một khung hình. Phía sau là tòa tháp và thị trấn có tường bao, cho thấy một mái nhà đã bền lâu và vẫn đang có người sống."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What would you like to pass on to the people who come after you?",
+        "Which family or community tradition still feels like yours?"
+      ],
+      "vi": [
+        "Bạn muốn trao lại điều gì cho những người đến sau mình?",
+        "Truyền thống nào của gia đình hay cộng đồng vẫn còn thấy là của bạn?"
+      ]
     }
   },
   {
@@ -500,42 +565,48 @@
     },
     "image": "/cards/pentacles-page.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A young figure stands in a meadow, gazing at a single gold coin held up in both hands. The Page of Pentacles is the card of a patient student — curious about the real world and ready to learn by doing.",
+      "vi": "Một người trẻ đứng giữa đồng cỏ, chăm chú nhìn một đồng xu vàng nâng trong hai tay. Thị Đồng Tiền là lá bài của người học trò kiên nhẫn — tò mò về thế giới thật và sẵn sàng học bằng cách làm."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Study", "Diligence", "Practicality", "New skills"],
+      "vi": ["Học hỏi", "Cần mẫn", "Thực tế", "Kỹ năng mới"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "The start of a worthwhile project, taken one careful step at a time. The Page of Pentacles points to studying, planning and a grounded curiosity about work, money or the body, with no hurry to prove anything.",
+          "vi": "Khởi đầu của một dự án đáng làm, đi từng bước cẩn thận. Thị Đồng Tiền gợi đến việc học, lên kế hoạch và sự tò mò vững chân về công việc, tiền bạc hay cơ thể, không cần vội chứng minh điều gì."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Learning", "Planning", "Reliability", "Quiet ambition"],
+          "vi": ["Học tập", "Lên kế hoạch", "Đáng tin", "Hoài bão thầm lặng"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Daydreaming that never turns into practice, or a plan abandoned when the novelty wears off. It can be a prompt to ask what is stopping you from starting small, and whether anxiety about results is getting in the way of learning.",
+          "vi": "Mơ mộng mà không thành thực hành, hoặc một kế hoạch bị bỏ khi sự mới mẻ phai đi. Lá bài có thể nhắc bạn hỏi điều gì đang ngăn mình bắt đầu từ nhỏ, và nỗi lo về kết quả có đang cản trở việc học không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Procrastination", "Lack of focus", "Missed opportunity", "Fear of failure"],
+          "vi": ["Trì hoãn", "Thiếu tập trung", "Cơ hội bị bỏ lỡ", "Sợ thất bại"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The coin is held at eye level and studied closely, a sign of attention given to something small and real. Beneath the figure’s feet lie grass and flowers, and behind them tilled earth and distant hills wait to be worked. The green tunic and red cap are plain and practical, the dress of someone ready to begin.",
+      "vi": "Đồng xu được giữ ngang tầm mắt và quan sát kỹ, dấu hiệu của sự chú tâm dành cho một điều nhỏ mà có thật. Dưới chân người ấy là cỏ và hoa, phía sau là thửa ruộng đã cày và những ngọn đồi xa đang chờ được làm. Chiếc áo xanh và chiếc mũ đỏ giản dị, thực dụng, trang phục của người sẵn sàng bắt đầu."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What would you like to learn slowly and properly?",
+        "What is the smallest first step you could take on it?"
+      ],
+      "vi": [
+        "Bạn muốn học điều gì một cách chậm rãi và đến nơi đến chốn?",
+        "Bước đầu nhỏ nhất bạn có thể làm là gì?"
+      ]
     }
   },
   {
@@ -549,42 +620,48 @@
     },
     "image": "/cards/pentacles-knight.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A knight sits on a heavy black horse that stands perfectly still, a coin held out in front, a ploughed field behind. The Knight of Pentacles is the card of steady, reliable effort — slow, thorough and committed to the long haul.",
+      "vi": "Một kỵ sĩ ngồi trên con ngựa đen vạm vỡ đứng yên hoàn toàn, đưa đồng xu ra phía trước, phía sau là thửa ruộng đã cày. Kỵ Sĩ Tiền là lá bài của nỗ lực đều đặn, đáng tin — chậm rãi, kỹ lưỡng và gắn bó cho đường dài."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Reliability", "Persistence", "Patience", "Responsibility"],
+      "vi": ["Đáng tin", "Bền bỉ", "Kiên nhẫn", "Trách nhiệm"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Slow and steady makes its own kind of progress. The Knight of Pentacles points to dependability, hard work and the habit of finishing what is started, with care taken over every detail.",
+          "vi": "Chậm mà chắc tạo nên loại tiến bộ của riêng nó. Kỵ Sĩ Tiền gợi đến sự đáng tin, làm việc chăm chỉ và thói quen hoàn tất điều đã bắt đầu, với sự chăm chút từng chi tiết."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Dependability", "Hard work", "Routine", "Thoroughness"],
+          "vi": ["Đáng cậy", "Chăm chỉ", "Nề nếp", "Kỹ lưỡng"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Steadiness that has hardened into stubbornness or boredom, or progress that is stuck in a rut. It can be a prompt to ask whether caution is protecting you or holding you back, and whether a small change of routine could help.",
+          "vi": "Sự vững vàng đã cứng lại thành bướng bỉnh hay nhàm chán, hoặc tiến triển mắc trong lối mòn. Lá bài có thể nhắc bạn hỏi sự thận trọng đang bảo vệ hay đang kìm bạn lại, và một thay đổi nhỏ trong nếp sinh hoạt có giúp được không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Stubbornness", "Stagnation", "Boredom", "Overcaution"],
+          "vi": ["Bướng bỉnh", "Trì trệ", "Nhàm chán", "Quá dè dặt"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The horse is black and heavy, built for strength and endurance rather than speed, and it stands still while the knight studies the coin. The knight’s helmet is crowned with oak leaves, a sign of steady growth that takes years. Behind them the ploughed field lies in neat rows, the groundwork of a harvest still to come.",
+      "vi": "Con ngựa đen và nặng, sinh ra cho sức bền hơn tốc độ, và đứng yên trong khi kỵ sĩ ngắm đồng xu. Mũ giáp cài lá sồi, dấu hiệu của sự lớn lên đều đặn cần nhiều năm. Phía sau là thửa ruộng cày thành từng luống ngay ngắn, nền móng cho một mùa gặt về sau."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Where in your life would steady effort serve you better than a burst of energy?",
+        "What routine has quietly been holding things together for you?"
+      ],
+      "vi": [
+        "Ở đâu trong đời bạn, nỗ lực đều đặn sẽ giúp ích hơn một cơn bùng nổ năng lượng?",
+        "Nếp sinh hoạt nào đã lặng lẽ giữ mọi thứ vững cho bạn?"
+      ]
     }
   },
   {
@@ -598,42 +675,48 @@
     },
     "image": "/cards/pentacles-queen.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A queen sits in a blooming garden, a coin cradled in the lap and her gaze resting on it with care. The Queen of Pentacles is the card of practical warmth — nurturing, resourceful and at home in the physical world.",
+      "vi": "Một nữ hoàng ngồi giữa khu vườn đang nở hoa, nâng niu đồng xu trong lòng, nhìn nó chăm chú và dịu dàng. Nữ Hoàng Tiền là lá bài của sự ấm áp thực tế — biết chăm sóc, khéo xoay xở và thấy thoải mái trong thế giới vật chất."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Nurturing", "Practicality", "Resourcefulness", "Comfort"],
+      "vi": ["Chăm sóc", "Thực tế", "Khéo xoay xở", "Ấm cúng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Care that shows up in real, useful ways. The Queen of Pentacles points to a warm home, generous but sensible handling of money and energy, and a talent for making a space where people feel looked after.",
+          "vi": "Sự chăm sóc thể hiện bằng những việc thiết thực, hữu ích. Nữ Hoàng Tiền gợi đến một mái nhà ấm, cách dùng tiền bạc và sức lực hào phóng mà có chừng mực, và tài tạo nên một không gian nơi mọi người thấy được quan tâm."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Homemaking", "Generosity", "Good sense", "Abundance"],
+          "vi": ["Vun vén tổ ấm", "Hào phóng", "Biết lo liệu", "Đủ đầy"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Caring for everyone else while neglecting yourself, or worry over money and home that turns into smothering. It can be a prompt to ask where your own needs have slipped down the list, and where you could trust others to look after themselves.",
+          "vi": "Chăm lo cho mọi người mà bỏ quên bản thân, hoặc nỗi lo về tiền bạc và nhà cửa biến thành sự bao bọc quá mức. Lá bài có thể nhắc bạn hỏi nhu cầu của chính mình đã tụt xuống đâu trong danh sách, và ở đâu bạn có thể tin người khác tự lo cho họ."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Self-neglect", "Smothering", "Money worries", "Lopsided life"],
+          "vi": ["Bỏ quên bản thân", "Bao bọc quá mức", "Lo chuyện tiền", "Lệch nhịp sống"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The coin rests in the queen’s lap, held with both hands as something precious and ordinary at once. Roses arch overhead, flowers cover the ground and a rabbit sits at the bottom corner, images of fertility, comfort and life that thrives when it is tended. The throne is carved with goats and fruit, and mountains stand quietly in the distance.",
+      "vi": "Đồng xu nằm trong lòng nữ hoàng, được giữ bằng hai tay như thứ vừa quý giá vừa bình thường. Hoa hồng uốn thành vòm phía trên, hoa phủ kín mặt đất và một chú thỏ ngồi ở góc dưới, những hình ảnh của sự màu mỡ, ấm cúng và sự sống nảy nở khi được chăm sóc. Chiếc ngai chạm hình dê và trái cây, còn núi lặng lẽ đứng ở phía xa."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What does feeling cared for look like in your own home or daily routine?",
+        "Where could you give yourself the same attention you give to others?"
+      ],
+      "vi": [
+        "Cảm giác được chăm sóc trông như thế nào trong căn nhà hay nếp sinh hoạt của bạn?",
+        "Ở đâu bạn có thể dành cho mình sự chú ý như bạn dành cho người khác?"
+      ]
     }
   },
   {
@@ -647,42 +730,48 @@
     },
     "image": "/cards/pentacles-king.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A king sits on a throne carved with bulls, a coin on one knee and a sceptre in hand, vines heavy with grapes all around. The King of Pentacles is the card of grounded success — secure, generous and patient with what takes time.",
+      "vi": "Một vị vua ngồi trên ngai chạm đầu bò, một đồng xu đặt trên đầu gối, tay cầm quyền trượng, quanh ngai là dây nho trĩu quả. Vua Tiền là lá bài của thành công vững chân — an ổn, hào phóng và kiên nhẫn với điều cần thời gian."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Abundance", "Stability", "Prudence", "Provision"],
+      "vi": ["Dồi dào", "Ổn định", "Khôn ngoan", "Lo liệu cho người khác"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Success built patiently and shared with care. The King of Pentacles points to financial sense, practical leadership and the ability to provide security for others without making a show of it.",
+          "vi": "Thành công được xây kiên nhẫn và chia sẻ có tâm. Vua Tiền gợi đến đầu óc tài chính, sự dẫn dắt thực tế và khả năng mang lại sự an ổn cho người khác mà không phô trương."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Prosperity", "Business sense", "Reliability", "Open-handedness"],
+          "vi": ["Thịnh vượng", "Đầu óc kinh doanh", "Đáng tin", "Rộng rãi"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Security valued above everything else, or wealth used to control. It can be a prompt to ask whether stability has become rigidity, and whether the pursuit of more is costing you things money cannot replace.",
+          "vi": "An toàn được đặt cao hơn mọi thứ, hoặc của cải bị dùng để kiểm soát. Lá bài có thể nhắc bạn hỏi sự ổn định có đã thành cứng nhắc, và việc theo đuổi thêm nữa có đang lấy đi những thứ tiền không thể thay thế."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Materialism", "Rigidity", "Possessiveness", "Financial recklessness"],
+          "vi": ["Nặng vật chất", "Cứng nhắc", "Chiếm hữu", "Tiêu xài liều"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The robe is embroidered with grapes and vines, and the garden around the throne is in full fruit, wealth that has had time to ripen. Bulls’ heads on the throne speak of strength and endurance, while the coin on the knee and the sceptre in hand show both ownership and rule. A castle stands in the background, security that has been built and kept.",
+      "vi": "Chiếc áo thêu nho và dây leo, còn khu vườn quanh ngai đang sai quả, của cải đã có thời gian để chín. Những đầu bò trên ngai nói về sức mạnh và sự bền bỉ, còn đồng xu đặt trên đầu gối và cây quyền trượng trong tay cho thấy cả quyền sở hữu lẫn quyền cai quản. Một tòa lâu đài đứng ở nền sau, sự an toàn đã được xây dựng và gìn giữ."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What does enough look like for you, in money and in time?",
+        "How could you use what you have to make life steadier for someone else?"
+      ],
+      "vi": [
+        "Thế nào là đủ với bạn, cả về tiền bạc lẫn thời gian?",
+        "Bạn có thể dùng điều mình có để làm cuộc sống của ai đó vững vàng hơn bằng cách nào?"
+      ]
     }
   }
 ]
