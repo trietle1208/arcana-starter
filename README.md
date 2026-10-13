@@ -26,3 +26,21 @@ Bộ khởi đầu để code Arcana bằng Claude Code trong VS Code.
 5. Lặp lại với Phase 1 → 5. Prompt **Content** dùng để viết nội dung 56 lá minor arcana, mỗi lần một bộ.
 
 Windows: nếu `pnpm install` báo lỗi build `better-sqlite3` (Phase 3), cài "Visual Studio Build Tools" với workload "Desktop development with C++" và giữ Node ở bản LTS.
+
+## Getting started (Docker)
+
+Arcana runs entirely in containers, so only Docker (with Compose) and pnpm are needed on the host.
+
+```bash
+pnpm docker:dev     # dev server with hot reload -> http://localhost:3100
+pnpm docker:check   # install + typecheck + lint + unit tests
+pnpm docker:e2e     # build, serve and run the Playwright tests
+pnpm docker:prod    # production image in the background, restarts automatically
+pnpm docker:sh      # a shell inside the dev container
+```
+
+- The port is `ARCANA_PORT` (default 3100, because 3000 is often taken). Put it in a `.env` file next to `compose.yaml` to change it.
+- Run one-off commands in the container: `docker compose run --rm app pnpm add <package>`. Do not run `pnpm install` on the host.
+- If hot reload does not pick up changes, start with `WATCHPACK_POLLING=true pnpm docker:dev`.
+- Copy `.env.example` to `.env.local` for app settings (nothing is required).
+- Phase 3 stores the SQLite file in `data/` (bind-mounted, gitignored).

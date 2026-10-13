@@ -1,0 +1,37 @@
+# Arcana — run everything in containers.
+#   pnpm docker:dev    dev server with hot reload   -> http://localhost:${ARCANA_PORT:-3100}
+#   pnpm docker:check  typecheck + lint + unit tests
+#   pnpm docker:e2e    build, start and run Playwright
+#   pnpm docker:prod   production build, restarts automatically
+# The project folder is bind-mounted, so node_modules and .pnpm-store live on the host (editor IntelliSense works).
+x-dev: &dev
+  build: { context: ., target: dev }
+  user: '${ARCANA_UID:-1000}:${ARCANA_GID:-1000}'
+  working_dir: /app
+  environment:
+    HOME: /tmp
+    WATCHPACK_POLLING: '${WATCHPACK_POLLING:-false}'
+  volumes:
+    - .:/app
+
+services:
+  app:
+    <<: *dev
+    ports:
+      - '${ARCANA_PORT:-3100}:3000'
+
+  e2e:
+    <<: *dev
+    profiles: [e2e]
+    build: { context: ., target: e2e }
+    ports: []
+    environment:
+      HOME: /tmp
+      ARCANA_DIST_DIR: .next-e2e
+
+  app-prod:
+    profiles: [prod]
+    build: { context: ., target: runner }
+    restart: unless-stopped
+    ports:
+      - '${ARCANA_PORT:-3100}:3000'

@@ -1,0 +1,72 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  height: 40px;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+  white-space: nowrap;
+}
+.sm {
+  height: 32px;
+  padding: 0 var(--space-3);
+}
+.primary {
+  background: var(--terracotta-ink);
+  color: var(--on-accent);
+}
+.primary:hover {
+  background: var(--ink);
+}
+.secondary {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--line-strong);
+}
+.secondary:hover {
+  background: var(--parchment);
+}
+.quiet {
+  background: transparent;
+  color: var(--terracotta-ink);
+  padding: 0 var(--space-2);
+}
+.quiet:hover {
+  background: var(--terracotta-soft);
+}
+/* Night surfaces only: gold is the one primary action, night is everything else. */
+.gold {
+  background: var(--gold);
+  color: var(--on-gold);
+  border-color: var(--gold);
+}
+.gold:hover {
+  background: var(--starlight);
+  border-color: var(--starlight);
+  box-shadow: 0 0 18px 2px rgb(212 175 106 / 0.35);
+}
+.night {
+  background: transparent;
+  color: var(--starlight);
+  border-color: var(--starlight-muted);
+}
+.night:hover {
+  background: var(--midnight-raised);
+}
+.btn:disabled {
+  cursor: not-allowed;
+  background: var(--parchment);
+  color: var(--ink-soft);
+  border-color: var(--line);
+  box-shadow: none;
+}

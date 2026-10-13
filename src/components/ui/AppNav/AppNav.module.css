@@ -1,0 +1,94 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  width: var(--nav-width);
+  padding: var(--space-6) var(--space-4);
+  background: var(--parchment);
+  border-right: 1px solid var(--line);
+  min-height: 100%;
+}
+.brand {
+  font-family: var(--font-display);
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 420;
+  font-style: italic;
+  color: var(--ink);
+  padding: 0 var(--space-3) var(--space-6);
+  letter-spacing: -0.01em;
+}
+.brand span {
+  color: var(--terracotta);
+  font-style: normal;
+}
+.nav a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  height: 40px;
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-md);
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav a:hover {
+  background: var(--paper);
+  color: var(--ink);
+}
+/* Active: surface pill + terracotta bar + terracotta icon, never colour alone. */
+.nav a[aria-current='page'] {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow-paper);
+}
+.nav a[aria-current='page']::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 9px;
+  bottom: 9px;
+  width: 3px;
+  border-radius: 0 3px 3px 0;
+  background: var(--terracotta-ink);
+}
+.nav a[aria-current='page'] svg {
+  color: var(--terracotta-ink);
+}
+
+.bottom {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  min-height: 0;
+  padding: var(--space-1) var(--space-2) var(--space-2);
+  border-right: 0;
+  border-top: 1px solid var(--line);
+}
+.bottom a {
+  flex-direction: column;
+  gap: 2px;
+  height: auto;
+  padding: var(--space-2) var(--space-1);
+  font-size: 12px;
+  line-height: 16px;
+  flex: 1;
+  justify-content: center;
+}
+.bottom a[aria-current='page'] {
+  background: transparent;
+  box-shadow: none;
+  color: var(--terracotta-ink);
+}
+.bottom a[aria-current='page']::before {
+  left: 30%;
+  right: 30%;
+  top: -5px;
+  bottom: auto;
+  width: auto;
+  height: 3px;
+  border-radius: 0 0 3px 3px;
+}

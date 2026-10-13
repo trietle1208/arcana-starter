@@ -1,0 +1,101 @@
+/* Base styles — ported from the top of design-system/components/bundle.css. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+
+:where(button, input, textarea, select) {
+  font: inherit;
+  color: inherit;
+}
+
+/* Focus: terracotta on paper, gold on night surfaces. Never removed. */
+:where(a, button, input, textarea, select, [tabindex]):focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+:where(.night, [data-surface='night']) :focus-visible {
+  outline-color: var(--gold);
+}
+
+.ar-serif {
+  font-family: var(--font-display);
+}
+.ar-h1,
+.ar-h2,
+.ar-h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  margin: 0;
+  color: var(--ink);
+  font-variation-settings:
+    'SOFT' 100,
+    'WONK' 1;
+}
+.ar-storybook {
+  font-family: var(--font-display);
+  font-variation-settings:
+    'SOFT' 100,
+    'WONK' 1;
+}
+.ar-overline {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.ar-muted {
+  color: var(--ink-muted);
+}
+.ar-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+}
+.ar-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.ar-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Reduced motion — one switch for every animation and transition.
+   <html data-motion="system|reduce|full">: "system" follows the OS, "reduce" and "full" are the
+   user's Reduce motion setting (Phase 3). Components add their own opt-outs under the same rules. */
+:root[data-motion='reduce'] *,
+:root[data-motion='reduce'] *::before,
+:root[data-motion='reduce'] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion='full']) *,
+  :root:not([data-motion='full']) *::before,
+  :root:not([data-motion='full']) *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

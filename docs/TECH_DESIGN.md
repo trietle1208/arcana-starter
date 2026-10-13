@@ -8,7 +8,7 @@ Build Arcana as **one Next.js 16 (App Router) app running on localhost, with SQL
 
 - **Why Next.js over Vite:** the app needs durable, backup-able storage that survives browser-data clearing. That needs a Node process with file access. Next.js gives that process (Server Components + Server Actions) inside the same project, so there is no separate API service to build. A Vite SPA would need either browser storage (IndexedDB, fragile and hard to back up) or a second server.
 - **Domain logic is plain TypeScript** in `src/domain` (cards, spreads, the reading engine, study scheduling). It imports nothing from React, Next.js or the database, and runs in the browser for instant draws and in Vitest for tests.
-- **The design system is already built** (Arcana design system artifact: tokens, 17 reference components, 7 screens). Styling ports it as global CSS variables plus CSS Modules, so no Tailwind/shadcn translation layer is needed.
+- **The design system is already built** (Arcana design system artifact: tokens, 23 reference components including the animated reading ritual, 7 screens). Styling ports it as global CSS variables plus CSS Modules, so no Tailwind/shadcn translation layer is needed.
 - **It runs offline once installed and built** (fonts self-hosted by `next/font`, card images in `public/`), but it is a localhost website that needs `pnpm start` running — not an installable desktop app. AI features are optional and the only part that needs the internet.
 
 Assumptions: single user on one machine (Windows is likely, so native-module setup is called out); English and Vietnamese UI; one visual theme (Paper) for now.
@@ -51,7 +51,7 @@ flowchart TB
     ENG["Reading engine & search<br/>(domain code bundled to client)"]
   end
 
-  subgraph Server["Next.js server (Node, localhost:3000)"]
+  subgraph Server["Next.js server (Node, localhost:3100)"]
     RSC["Server Components<br/>load data for each page"]
     SA["Server Actions<br/>saveReading, updateEntry, recordStudy, saveSettings"]
     APP["Application layer<br/>use cases + Zod input schemas"]
@@ -144,7 +144,7 @@ Drizzle: schema in TypeScript, queries that read like SQL, migrations generated 
 
 ### 4.6 Things deliberately left out
 
-No state-management library (React state + URL params + server data suffice). No react-hook-form (native forms + Server Actions + Zod). No auth, no API layer, no Docker, no CI requirement. Each can be added if a concrete need appears.
+No state-management library (React state + URL params + server data suffice). No react-hook-form (native forms + Server Actions + Zod). No auth, no API layer, no CI requirement. Each can be added if a concrete need appears. Docker is not left out: it is the runtime for development, tests and the production run (§9), so the host needs no Node.
 
 ## 5. Data models and database schema
 
@@ -170,6 +170,7 @@ interface CardBase {
   id: CardId;
   name: Localized;               // { en: 'The Hermit', vi: 'Ẩn Sĩ' }
   image: string;                 // '/cards/09-the-hermit.webp'
+  intro: Localized;              // 1–3 sentence introduction: Card Detail header and the Home card of the day
   keywords: Localized<string[]>; // general keywords for tiles and search
   meanings: Record<Orientation, Interpretation>;
   symbolism: Localized;
@@ -227,6 +228,7 @@ export interface Reading {
 export interface JournalEntry {
   id: string;
   readingId: string | null; // null = free reflection without a draw
+  cardId: CardId | null;     // the card a free reflection is about (Card Detail, card of the day)
   title: string;
   body: string;
   prompt: string | null;     // the reflection question shown when writing
@@ -252,7 +254,7 @@ export interface UserSettings {
   includeReversed: boolean;             // default true
   revealOneByOne: boolean;              // default true
   defaultSpreadId: string;              // default 'three-card'
-  interpretationDetail: 'brief' | 'full';
+  displayName: string | null;           // optional; the Home greeting omits the name when null
   reduceMotion: 'system' | 'on' | 'off';
 }
 ```
@@ -286,6 +288,7 @@ CREATE TABLE reading_cards (
 CREATE TABLE journal_entries (
   id          TEXT PRIMARY KEY,
   reading_id  TEXT UNIQUE REFERENCES readings(id) ON DELETE CASCADE, -- 0..1 per reading
+  card_id     TEXT,                                -- card a free reflection is about; validated against content
   title       TEXT    NOT NULL,
   body        TEXT    NOT NULL DEFAULT '',
   prompt      TEXT,
@@ -461,6 +464,7 @@ One repository, one app. Unit tests sit next to the code they test; end-to-end t
 
 ```
 arcana/
+├─ Dockerfile, compose.yaml, .dockerignore   # dev / e2e / production images (see §9)
 ├─ src/
 │  ├─ app/                          # Next.js routes (presentation)
 │  │  ├─ layout.tsx                 # fonts, tokens.css, settings, AppNav
@@ -476,7 +480,7 @@ arcana/
 │  │  └─ api/backup/route.ts        # GET = download JSON export
 │  ├─ components/ui/                # design-system port, no domain logic
 │  │  ├─ Button/Button.tsx + Button.module.css
-│  │  ├─ TarotCard/ …  Spread/ …  Notice/ …  (17 components)
+│  │  ├─ TarotCard/ …  Spread/ …  Notice/ …  (23 components)
 │  │  └─ Icon/
 │  ├─ features/                     # screen-level UI + Server Actions per module
 │  │  ├─ library/   (CardBrowser.tsx, CardDetail.tsx)
@@ -523,23 +527,29 @@ arcana/
 
 ## 9. Local development setup
 
-Install Node.js 24 LTS and pnpm once; after that `pnpm dev` is the only daily command. The database file and backups live in `data/` inside the project and are never committed.
+Everything runs in Docker containers (Node 24 inside), so the host needs only Docker with Compose and pnpm. After that `pnpm docker:dev` is the only daily command. The database file and backups live in `data/` inside the project (bind-mounted into the containers) and are never committed.
 
-**Prerequisites:** Node.js 24 LTS, pnpm (`corepack enable`), Git. Windows only, if better-sqlite3 has no prebuilt binary for your Node version: Visual Studio Build Tools with "Desktop development with C++".
+**Prerequisites:** Docker with Compose, pnpm (`corepack enable`), Git. No Node on the host is required. No native toolchain is required either: the Node 24 image has prebuilt better-sqlite3 binaries.
 
 **First run:**
 
 1. `git clone … && cd arcana`
-2. `pnpm install` (builds better-sqlite3; allowed via `onlyBuiltDependencies`)
-3. `cp .env.example .env.local` (defaults work as-is)
-4. `pnpm dev` → runs `predev` (`db:migrate`, which creates `data/arcana.db` if missing) → http://localhost:3000
+2. `cp .env.example .env.local` (defaults work as-is; put `ARCANA_PORT` in `.env` to change the port)
+3. `pnpm docker:dev` → installs dependencies into the bind-mounted `node_modules`, runs `predev` (`db:migrate`, which creates `data/arcana.db` if missing, from Phase 3) → http://localhost:3100
 
-**Scripts:**
+**Containers** (`compose.yaml`, `Dockerfile` with `dev`, `e2e`, `build` and `runner` stages):
+
+- `app`: the dev server. The project folder is bind-mounted and the container runs as the host user, so `node_modules` and `.pnpm-store` stay on the host and the editor sees them. Host port `ARCANA_PORT` (default **3100**, because 3000 is often taken) maps to container port 3000.
+- `e2e` (profile `e2e`): same mounts plus Chromium (version-matched to Playwright). Builds into `.next-e2e` so it never disturbs the dev server, serves the production build and runs Playwright.
+- `app-prod` (profile `prod`): the standalone production image (`output: 'standalone'`), `restart: unless-stopped`; from Phase 3 it also mounts `data/`.
+- On Windows or macOS bind mounts are slower and SQLite WAL on them can misbehave: use a named volume for `data/` there. On Linux a bind mount is fine.
+
+**Scripts** (run inside the container; the host wrappers are `pnpm docker:dev` / `docker:check` / `docker:e2e` / `docker:prod` / `docker:sh`):
 
 | Script | Does |
 | --- | --- |
 | `pnpm dev` | Migrate, then Next.js dev server with hot reload |
-| `pnpm build` / `pnpm start` | Production build, then migrate + serve on localhost:3000 (faster, what you use day to day) |
+| `pnpm build` / `pnpm start` | Production build, then migrate + serve on container port 3000, published as localhost:3100 (faster, what you use day to day) |
 | `pnpm db:generate` | Create a new SQL migration from `schema.ts` changes |
 | `pnpm db:migrate` | Back up the DB file, then apply pending migrations |
 | `pnpm db:backup` / `pnpm db:restore <file>` | File-level backup / restore (app must be stopped for restore) |
@@ -572,7 +582,7 @@ No variable is required for the core app. Secrets never get a `NEXT_PUBLIC_` pre
 
 **Localhost website vs offline app:**
 
-- Arcana is a website served by a Node process on your machine. It works only while `pnpm start` (or `pnpm dev`) is running, in a browser tab at localhost:3000.
+- Arcana is a website served by a Node process on your machine. It works only while `pnpm start` (or `pnpm dev`) is running, in a browser tab at localhost:3100.
 - After `pnpm install` and `pnpm build` (both need internet: packages and the Google font files `next/font` downloads), the running app makes **no network requests**: fonts are self-hosted, images are local, data is local. So it works with Wi-Fi off.
 - It is not an installable desktop or mobile app, has no service worker, and cannot run without Node. Optional AI features need the internet and an API key.
 - To make it feel like an app later: a start-on-login script, a browser "Install as app" shortcut, or packaging (Phase 5+, deferred).
@@ -609,21 +619,21 @@ Most confidence comes from fast Vitest tests on the domain and on repositories a
 4. Restart: save an entry, stop and restart the server in the test (`webServer` restarted via a helper), entry still listed.
 5. Settings: switch language to Tiếng Việt → nav and card names change; turn off reversed cards → a draw has no reversed cards.
 
-Also run an automated accessibility scan (`@axe-core/playwright`) on each page in Phase 5. Gate before merging each phase: `pnpm typecheck && pnpm lint && pnpm test` green; e2e from Phase 3 on.
+Also run an automated accessibility scan (`@axe-core/playwright`) on each page in Phase 5. Gate before merging each phase: `pnpm typecheck && pnpm lint && pnpm test` green, plus `pnpm test:e2e` from Phase 0, all run in the containers.
 
 ## 11. Implementation roadmap
 
 Six phases, each merged only when its tests pass. The database first appears in Phase 3; everything before it runs on static content alone.
 
-Phase 0 → 1 → 2 run on static content only; SQLite arrives in Phase 3; then 4 → 5. Gate between phases: typecheck, lint and that phase's tests green (end-to-end from Phase 3).
+Phase 0 → 1 → 2 run on static content only; SQLite arrives in Phase 3; then 4 → 5. Gate between phases: typecheck, lint and that phase's tests green, end-to-end included from Phase 0.
 
 ### Phase 0 — Project setup and architecture foundation
 
-- **Scope:** create the Next.js app (TypeScript strict, App Router, ESLint), add Prettier, Vitest, Playwright; path alias `@/`; layer folders with boundary lint rules; port `tokens.css` and fonts via `next/font`; root layout with `AppNav`; empty pages for all 7 routes; `env.ts`.
+- **Scope:** create the Next.js app (TypeScript strict, App Router, ESLint), add Prettier, Vitest, Playwright; path alias `@/`; layer folders with boundary lint rules; port `tokens.css` and fonts via `next/font`; root layout with `AppNav`; empty pages for the 6 top-level routes (detail and new-entry routes arrive with their features); `env.ts`; Dockerfile and `compose.yaml`; the `data-motion` switch for reduced motion.
 - **Main files:** `package.json`, `tsconfig.json`, `eslint.config.mjs`, `vitest.config.ts`, `playwright.config.ts`, `src/app/layout.tsx`, `src/styles/tokens.css`, `src/components/ui/{Button,Icon,AppNav}`, `src/server/env.ts`.
 - **Depends on:** nothing.
-- **Done when:** `pnpm dev` shows the cream layout with working navigation between 7 placeholder pages; a domain file importing `react` fails lint.
-- **Tests:** one sample Vitest test, one Playwright smoke test (each route returns 200 and shows its title); `typecheck`, `lint` green.
+- **Done when:** `pnpm dev` shows the cream layout with working navigation between 6 placeholder pages; a domain file importing `react` fails lint.
+- **Tests:** one sample Vitest test, one Playwright smoke test (each route returns 200, shows its title and marks its nav item); `typecheck`, `lint` green.
 
 ### Phase 1 — Tarot data model and card library
 

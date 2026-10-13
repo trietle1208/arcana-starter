@@ -1,0 +1,14 @@
+node_modules
+.pnpm-store
+.next
+.next-e2e
+.git
+data
+test-results
+playwright-report
+design-system
+assets
+docs
+*.md
+.env*
+!.env.example

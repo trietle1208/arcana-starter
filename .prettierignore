@@ -1,0 +1,15 @@
+node_modules
+.pnpm-store
+.next
+.next-e2e
+pnpm-lock.yaml
+test-results
+playwright-report
+design-system
+assets
+docs
+public
+CLAUDE.md
+README.md
+AGENTS.md
+.nvmrc
