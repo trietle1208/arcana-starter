@@ -59,6 +59,11 @@
   color: var(--terracotta-ink);
 }
 
+.footer {
+  margin-top: auto;
+  padding: var(--space-4) var(--space-3) 0;
+}
+
 .bottom {
   flex-direction: row;
   justify-content: space-around;

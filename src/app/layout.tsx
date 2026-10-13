@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { DM_Sans, Fraunces } from 'next/font/google';
 import type { ReactNode } from 'react';
 import { AppShell } from '@/features/shell/AppShell';
+import { LocaleProvider } from '@/i18n/LocaleProvider';
 import '@/styles/tokens.css';
 import '@/styles/globals.css';
 
@@ -35,7 +36,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={`${fraunces.variable} ${dmSans.variable}`}
     >
       <body>
-        <AppShell>{children}</AppShell>
+        <LocaleProvider>
+          <AppShell>{children}</AppShell>
+        </LocaleProvider>
       </body>
     </html>
   );

@@ -1,0 +1,114 @@
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  align-self: flex-start;
+  height: 18px;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--terracotta-ink);
+  text-decoration: none;
+}
+.back:hover {
+  text-decoration: underline;
+}
+.back svg {
+  transform: scaleX(-1);
+}
+.layout {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 56px;
+  align-items: start;
+}
+.side {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  position: sticky;
+  top: var(--space-6);
+}
+.side .card {
+  --w: 300px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+.title {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 380;
+}
+.intro {
+  margin: 0;
+  max-width: var(--measure);
+  font-size: 17px;
+  line-height: 28px;
+}
+.pending {
+  color: var(--ink-muted);
+  font-style: italic;
+}
+.reflect {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  max-width: var(--measure);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+}
+.reflectTitle {
+  font-size: 22px;
+  line-height: 28px;
+}
+.prompt {
+  margin: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+}
+.more {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.moreList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 17px;
+  line-height: 26px;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+@media (max-width: 767px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-6);
+  }
+  .side {
+    position: static;
+    align-items: center;
+  }
+  .side .card {
+    --w: 236px;
+  }
+  .title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}

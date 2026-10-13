@@ -1,0 +1,688 @@
+[
+  {
+    "id": "wands-ace",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 1,
+    "name": {
+      "en": "Ace of Wands",
+      "vi": "Át Gậy"
+    },
+    "image": "/cards/wands-ace.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-02",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 2,
+    "name": {
+      "en": "Two of Wands",
+      "vi": "Hai Gậy"
+    },
+    "image": "/cards/wands-02.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-03",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 3,
+    "name": {
+      "en": "Three of Wands",
+      "vi": "Ba Gậy"
+    },
+    "image": "/cards/wands-03.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-04",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 4,
+    "name": {
+      "en": "Four of Wands",
+      "vi": "Bốn Gậy"
+    },
+    "image": "/cards/wands-04.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-05",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 5,
+    "name": {
+      "en": "Five of Wands",
+      "vi": "Năm Gậy"
+    },
+    "image": "/cards/wands-05.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-06",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 6,
+    "name": {
+      "en": "Six of Wands",
+      "vi": "Sáu Gậy"
+    },
+    "image": "/cards/wands-06.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-07",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 7,
+    "name": {
+      "en": "Seven of Wands",
+      "vi": "Bảy Gậy"
+    },
+    "image": "/cards/wands-07.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-08",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 8,
+    "name": {
+      "en": "Eight of Wands",
+      "vi": "Tám Gậy"
+    },
+    "image": "/cards/wands-08.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-09",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 9,
+    "name": {
+      "en": "Nine of Wands",
+      "vi": "Chín Gậy"
+    },
+    "image": "/cards/wands-09.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-10",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": 10,
+    "name": {
+      "en": "Ten of Wands",
+      "vi": "Mười Gậy"
+    },
+    "image": "/cards/wands-10.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-page",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "page",
+    "name": {
+      "en": "Page of Wands",
+      "vi": "Thị Đồng Gậy"
+    },
+    "image": "/cards/wands-page.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-knight",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "knight",
+    "name": {
+      "en": "Knight of Wands",
+      "vi": "Kỵ Sĩ Gậy"
+    },
+    "image": "/cards/wands-knight.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-queen",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "queen",
+    "name": {
+      "en": "Queen of Wands",
+      "vi": "Nữ Hoàng Gậy"
+    },
+    "image": "/cards/wands-queen.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "wands-king",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "king",
+    "name": {
+      "en": "King of Wands",
+      "vi": "Vua Gậy"
+    },
+    "image": "/cards/wands-king.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  }
+]

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { activeNavId, BOTTOM_NAV_ITEMS, NAV_ITEMS } from './navItems';
+import { t } from '@/i18n';
+import { activeNavId, BOTTOM_NAV_ITEMS, NAV_ITEMS, toNavItems } from './navItems';
 
 describe('navigation', () => {
   it('lists the six destinations in order', () => {
@@ -24,5 +25,15 @@ describe('navigation', () => {
     expect(activeNavId('/library/the-hermit')).toBe('library');
     expect(activeNavId('/journal/new')).toBe('journal');
     expect(activeNavId('/nowhere')).toBeUndefined();
+  });
+
+  it('translates the labels into the language of the reader', () => {
+    const english = toNavItems(NAV_ITEMS, (key) => t('en', key));
+    const vietnamese = toNavItems(NAV_ITEMS, (key) => t('vi', key));
+    expect(english.find((item) => item.id === 'library')?.label).toBe('Card library');
+    expect(vietnamese.find((item) => item.id === 'library')?.label).toBe('Thư viện bài');
+    expect(vietnamese.find((item) => item.id === 'library')?.shortLabel).toBe('Thư viện');
+    expect(vietnamese.find((item) => item.id === 'settings')?.shortLabel).toBeUndefined();
+    expect(english.map((item) => item.href)).toEqual(vietnamese.map((item) => item.href));
   });
 });

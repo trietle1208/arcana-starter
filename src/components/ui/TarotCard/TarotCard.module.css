@@ -1,0 +1,190 @@
+.tc {
+  --w: 148px;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  width: var(--w);
+  flex: none;
+  perspective: 1200px;
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: center;
+}
+.sm {
+  --w: 96px;
+}
+.md {
+  --w: 148px;
+}
+.lg {
+  --w: 236px;
+}
+.interactive {
+  cursor: pointer;
+}
+.inner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 284 / 511;
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.down .inner {
+  transform: rotateY(180deg);
+}
+.face,
+.back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-paper);
+  padding: calc(var(--w) * 0.04);
+  overflow: hidden;
+}
+/* The art keeps its own box so a reversed card turns the picture, not the frame. */
+.art {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.art img {
+  object-fit: cover;
+}
+.reversed .art {
+  transform: rotate(180deg);
+}
+.back {
+  transform: rotateY(180deg);
+  background: var(--midnight);
+  border-color: var(--midnight-raised);
+  padding: 0;
+}
+.down .back {
+  background: var(--midnight)
+    radial-gradient(circle at 50% 50%, var(--midnight-raised), var(--midnight) 70%);
+}
+.placeholder {
+  width: 100%;
+  height: 100%;
+  background: var(--parchment);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12% 8%;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+}
+.placeholder b {
+  font-weight: 400;
+  font-size: calc(var(--w) * 0.12);
+}
+.placeholder span {
+  font-size: calc(var(--w) * 0.085);
+  line-height: 1.15;
+}
+.placeholder svg {
+  width: 46%;
+  color: var(--line-strong);
+}
+.caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.name {
+  font-family: var(--font-display);
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--ink);
+}
+.sm .name {
+  font-size: 14px;
+  line-height: 18px;
+}
+.rev {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: var(--terracotta-ink);
+  letter-spacing: 0.04em;
+}
+.interactive:hover .face {
+  box-shadow: var(--shadow-lift);
+}
+.interactive.down {
+  transition: transform 0.3s ease;
+}
+.interactive.down:hover {
+  transform: translateY(-6px);
+}
+.interactive.down:hover .back {
+  box-shadow: var(--shadow-glow);
+}
+.selected .face,
+.selected .back {
+  outline: 2px solid var(--terracotta-ink);
+  outline-offset: 3px;
+}
+
+/* The reveal: a band of candle light sweeps across the art, the frame glows gold. */
+.shine {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(
+    115deg,
+    transparent 30%,
+    rgb(255 240 200 / 0.75) 48%,
+    transparent 66%
+  );
+  background-size: 250% 100%;
+  animation: shine 1.1s 0.35s ease-out both;
+  mix-blend-mode: screen;
+}
+.revealing .face {
+  animation: glow 1.4s ease-out;
+}
+@keyframes shine {
+  from {
+    background-position: 120% 0;
+  }
+  to {
+    background-position: -40% 0;
+  }
+}
+@keyframes glow {
+  0% {
+    box-shadow: var(--shadow-paper);
+  }
+  35% {
+    box-shadow:
+      0 0 0 1px var(--gold),
+      0 0 28px 4px rgb(212 175 106 / 0.55);
+  }
+  100% {
+    box-shadow: var(--shadow-paper);
+  }
+}
+
+/* Reduced motion: the card still turns (globals.css makes it instant); it just does not lift. */
+@media (prefers-reduced-motion: reduce) {
+  :global(:root:not([data-motion='full'])) .interactive.down:hover {
+    transform: none;
+  }
+}
+:global(:root[data-motion='reduce']) .interactive.down:hover {
+  transform: none;
+}

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 import { Icon, type IconName } from '../Icon/Icon';
 import { Wordmark } from './Wordmark';
 import styles from './AppNav.module.css';
@@ -20,6 +21,8 @@ export interface AppNavProps {
   /** Accessible name of the landmark. */
   label?: string;
   className?: string;
+  /** Pinned to the bottom of the side nav (the temporary language toggle). */
+  footer?: ReactNode;
 }
 
 export function AppNav({
@@ -28,6 +31,7 @@ export function AppNav({
   orientation = 'side',
   label = 'Main',
   className,
+  footer,
 }: AppNavProps) {
   const bottom = orientation === 'bottom';
   const classes = [styles.nav, bottom && styles.bottom, className].filter(Boolean).join(' ');
@@ -45,6 +49,7 @@ export function AppNav({
           <span>{bottom && item.shortLabel ? item.shortLabel : item.label}</span>
         </Link>
       ))}
+      {footer && !bottom ? <div className={styles.footer}>{footer}</div> : null}
     </nav>
   );
 }

@@ -1,0 +1,688 @@
+[
+  {
+    "id": "pentacles-ace",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 1,
+    "name": {
+      "en": "Ace of Pentacles",
+      "vi": "Át Tiền"
+    },
+    "image": "/cards/pentacles-ace.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-02",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 2,
+    "name": {
+      "en": "Two of Pentacles",
+      "vi": "Hai Tiền"
+    },
+    "image": "/cards/pentacles-02.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-03",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 3,
+    "name": {
+      "en": "Three of Pentacles",
+      "vi": "Ba Tiền"
+    },
+    "image": "/cards/pentacles-03.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-04",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 4,
+    "name": {
+      "en": "Four of Pentacles",
+      "vi": "Bốn Tiền"
+    },
+    "image": "/cards/pentacles-04.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-05",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 5,
+    "name": {
+      "en": "Five of Pentacles",
+      "vi": "Năm Tiền"
+    },
+    "image": "/cards/pentacles-05.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-06",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 6,
+    "name": {
+      "en": "Six of Pentacles",
+      "vi": "Sáu Tiền"
+    },
+    "image": "/cards/pentacles-06.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-07",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 7,
+    "name": {
+      "en": "Seven of Pentacles",
+      "vi": "Bảy Tiền"
+    },
+    "image": "/cards/pentacles-07.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-08",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 8,
+    "name": {
+      "en": "Eight of Pentacles",
+      "vi": "Tám Tiền"
+    },
+    "image": "/cards/pentacles-08.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-09",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 9,
+    "name": {
+      "en": "Nine of Pentacles",
+      "vi": "Chín Tiền"
+    },
+    "image": "/cards/pentacles-09.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-10",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": 10,
+    "name": {
+      "en": "Ten of Pentacles",
+      "vi": "Mười Tiền"
+    },
+    "image": "/cards/pentacles-10.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-page",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "page",
+    "name": {
+      "en": "Page of Pentacles",
+      "vi": "Thị Đồng Tiền"
+    },
+    "image": "/cards/pentacles-page.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-knight",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "knight",
+    "name": {
+      "en": "Knight of Pentacles",
+      "vi": "Kỵ Sĩ Tiền"
+    },
+    "image": "/cards/pentacles-knight.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-queen",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "queen",
+    "name": {
+      "en": "Queen of Pentacles",
+      "vi": "Nữ Hoàng Tiền"
+    },
+    "image": "/cards/pentacles-queen.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "pentacles-king",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "king",
+    "name": {
+      "en": "King of Pentacles",
+      "vi": "Vua Tiền"
+    },
+    "image": "/cards/pentacles-king.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  }
+]

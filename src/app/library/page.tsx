@@ -1,8 +1,17 @@
 import type { Metadata } from 'next';
-import { PagePlaceholder } from '@/features/shell/PagePlaceholder';
+import { Suspense } from 'react';
+import { getCardSummaries } from '@/application/cards/cardSummaries';
+import { CardBrowser } from '@/features/library/CardBrowser';
+import { LibraryFallback } from '@/features/library/LibraryTitles';
 
 export const metadata: Metadata = { title: 'Card library' };
 
 export default function Page() {
-  return <PagePlaceholder title="Card library" phase={1} />;
+  const cards = getCardSummaries();
+  return (
+    // useSearchParams opts the browser out of prerendering up to this boundary.
+    <Suspense fallback={<LibraryFallback total={cards.length} />}>
+      <CardBrowser cards={cards} />
+    </Suspense>
+  );
 }

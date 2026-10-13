@@ -1,0 +1,30 @@
+.sparkles {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  z-index: 4;
+  color: var(--gold);
+}
+.sparkles svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  animation: burst 1.1s ease-out forwards;
+}
+@keyframes burst {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.2) rotate(0);
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--x), var(--y)) scale(1) rotate(90deg);
+  }
+}

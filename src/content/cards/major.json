@@ -1,0 +1,1184 @@
+[
+  {
+    "id": "the-fool",
+    "arcana": "major",
+    "number": 0,
+    "name": {
+      "en": "The Fool",
+      "vi": "Chàng Khờ"
+    },
+    "image": "/cards/00-the-fool.webp",
+    "intro": {
+      "en": "A traveller steps toward the edge of a cliff with a small dog at their heels and the whole sky ahead. The Fool is the card of beginnings — of taking a first step before every detail is clear.",
+      "vi": "Một lữ khách bước về phía mép vách đá, chú chó nhỏ chạy theo sau và cả bầu trời mở ra phía trước. Chàng Khờ là lá bài của những khởi đầu — dám bước bước đầu tiên khi mọi chi tiết còn chưa rõ."
+    },
+    "keywords": {
+      "en": ["Beginnings", "Curiosity", "Trust", "Open road"],
+      "vi": ["Khởi đầu", "Tò mò", "Tin tưởng", "Con đường mở"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A fresh start that asks for a little trust. The Fool points to curiosity, play and the willingness to try something new without needing to know how it ends.",
+          "vi": "Một khởi đầu mới đòi hỏi chút tin tưởng. Chàng Khờ gợi đến sự tò mò, tinh thần vui đùa và sự sẵn lòng thử điều mới mà không cần biết trước kết quả."
+        },
+        "keywords": {
+          "en": ["Fresh start", "Curiosity", "Spontaneity", "Trust"],
+          "vi": ["Khởi đầu mới", "Tò mò", "Tự nhiên", "Tin tưởng"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Hesitation, or a leap taken without looking at the ground. It can invite you to ask whether you are holding back out of fear, or rushing ahead without any care.",
+          "vi": "Sự do dự, hoặc một cú nhảy mà không nhìn xuống đất. Lá bài có thể mời bạn tự hỏi mình đang chùn bước vì sợ hãi, hay đang lao tới mà thiếu cẩn trọng."
+        },
+        "keywords": {
+          "en": ["Hesitation", "Recklessness", "Fear of change"],
+          "vi": ["Do dự", "Liều lĩnh", "Sợ thay đổi"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The cliff edge is the unknown, and the small white dog is the instinct that keeps pace with the traveller. The white rose stands for open-hearted purity, and the bundle on the stick holds only what is needed for the road.",
+      "vi": "Mép vách đá là điều chưa biết, còn chú chó trắng nhỏ là bản năng đồng hành cùng lữ khách. Bông hồng trắng tượng trưng cho sự thuần khiết cởi mở, và chiếc bọc trên gậy chỉ chứa những gì cần cho chặng đường."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What would you try if you did not need to be good at it yet?",
+        "Where could a little trust carry you one step further?"
+      ],
+      "vi": [
+        "Bạn sẽ thử điều gì nếu chưa cần phải giỏi ở đó?",
+        "Ở đâu một chút tin tưởng có thể đưa bạn đi thêm một bước?"
+      ]
+    }
+  },
+  {
+    "id": "the-magician",
+    "arcana": "major",
+    "number": 1,
+    "name": {
+      "en": "The Magician",
+      "vi": "Nhà Ảo Thuật"
+    },
+    "image": "/cards/01-the-magician.webp",
+    "intro": {
+      "en": "A figure raises one hand to the sky and points the other to the earth, with every tool laid out on the table. The Magician is the card of skill and focus — of turning what you have into something real.",
+      "vi": "Một nhân vật giơ một tay lên trời, tay kia chỉ xuống đất, mọi dụng cụ bày sẵn trên bàn. Nhà Ảo Thuật là lá bài của kỹ năng và sự tập trung — biến những gì bạn có thành điều có thật."
+    },
+    "keywords": {
+      "en": ["Skill", "Focus", "Initiative", "Resourcefulness"],
+      "vi": ["Kỹ năng", "Tập trung", "Chủ động", "Tháo vát"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "You may already hold the tools you need. The Magician points to focus, clear intent and the confidence that comes from knowing your craft.",
+          "vi": "Có thể bạn đã có sẵn những công cụ cần thiết. Nhà Ảo Thuật gợi đến sự tập trung, ý định rõ ràng và sự tự tin đến từ việc hiểu rõ nghề của mình."
+        },
+        "keywords": {
+          "en": ["Skill", "Intent", "Confidence", "Action"],
+          "vi": ["Kỹ năng", "Ý định", "Tự tin", "Hành động"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Talent that is scattered, or charm used to hide a lack of substance. It can be a prompt to ask where your energy is going, and whether your words and actions still match.",
+          "vi": "Tài năng bị phân tán, hoặc sức hút dùng để che đi sự thiếu chiều sâu. Lá bài có thể nhắc bạn xem năng lượng của mình đang đi đâu, và lời nói có còn khớp với hành động không."
+        },
+        "keywords": {
+          "en": ["Scattered focus", "Untapped talent", "Illusion"],
+          "vi": ["Phân tán", "Tài năng chưa dùng", "Ảo tưởng"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The cup, wand, sword and pentacle on the table are the four suits: every element is within reach. The infinity sign above the head suggests attention that is steady and without limit, and the roses and lilies at the front of the scene stand for desire and purity growing together.",
+      "vi": "Chén, gậy, kiếm và đồng xu trên bàn là bốn bộ bài: mọi nguyên tố đều trong tầm tay. Biểu tượng vô cực trên đầu gợi sự chú tâm vững vàng, không giới hạn, còn hoa hồng và hoa huệ ở phía trước là ham muốn và sự thuần khiết cùng lớn lên."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What do you already have that you have not fully put to use?",
+        "What is one small thing you could begin today?"
+      ],
+      "vi": [
+        "Bạn đã có điều gì mà chưa dùng hết?",
+        "Một việc nhỏ nào bạn có thể bắt đầu ngay hôm nay?"
+      ]
+    }
+  },
+  {
+    "id": "the-high-priestess",
+    "arcana": "major",
+    "number": 2,
+    "name": {
+      "en": "The High Priestess",
+      "vi": "Nữ Tư Tế"
+    },
+    "image": "/cards/02-the-high-priestess.webp",
+    "intro": {
+      "en": "A calm figure sits between two pillars, a veil of pomegranates behind her and a scroll half hidden in her lap. The High Priestess is the card of intuition — of knowing that does not need to be explained yet.",
+      "vi": "Một người phụ nữ điềm tĩnh ngồi giữa hai cột trụ, sau lưng là tấm màn họa tiết quả lựu, trong lòng là cuộn giấy che khuất một nửa. Nữ Tư Tế là lá bài của trực giác — sự hiểu biết chưa cần giải thích thành lời."
+    },
+    "keywords": {
+      "en": ["Intuition", "Mystery", "Stillness", "Inner knowing"],
+      "vi": ["Trực giác", "Bí ẩn", "Tĩnh lặng", "Hiểu biết bên trong"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "Something is asking to be sensed before it is understood. The High Priestess points to listening, patience and trusting the quiet signals you usually talk yourself out of.",
+          "vi": "Có điều gì đó cần được cảm nhận trước khi được hiểu. Nữ Tư Tế gợi đến việc lắng nghe, kiên nhẫn và tin vào những tín hiệu khẽ khàng mà bạn thường tự gạt đi."
+        },
+        "keywords": {
+          "en": ["Intuition", "Listening", "Patience"],
+          "vi": ["Trực giác", "Lắng nghe", "Kiên nhẫn"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Ignoring your own instincts, or keeping a secret that has grown heavy. It may be a nudge to turn the volume down on outside voices and hear your own again.",
+          "vi": "Phớt lờ trực giác của chính mình, hoặc giữ một bí mật đã trở nên quá nặng. Đó có thể là lời nhắc hạ bớt tiếng ồn bên ngoài để nghe lại tiếng nói bên trong."
+        },
+        "keywords": {
+          "en": ["Ignored instinct", "Secrets", "Disconnection"],
+          "vi": ["Phớt lờ trực giác", "Bí mật", "Mất kết nối"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The dark and light pillars hold the pairs that sit side by side: seen and unseen, known and not yet known. The crescent moon at her feet and the pomegranate veil behind her speak of cycles, depth and what is kept just out of sight.",
+      "vi": "Hai cột trụ tối và sáng giữ những cặp đối lập nằm cạnh nhau: thấy và chưa thấy, đã biết và chưa biết. Vầng trăng khuyết dưới chân và tấm màn quả lựu phía sau nói về chu kỳ, chiều sâu và những điều được giữ ngay ngoài tầm nhìn."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What do you sense that you have not yet put into words?",
+        "Where could you leave more room for quiet?"
+      ],
+      "vi": [
+        "Bạn cảm nhận được điều gì mà chưa gọi thành lời?",
+        "Ở đâu bạn có thể chừa thêm chút yên tĩnh?"
+      ]
+    }
+  },
+  {
+    "id": "the-empress",
+    "arcana": "major",
+    "number": 3,
+    "name": {
+      "en": "The Empress",
+      "vi": "Hoàng Hậu"
+    },
+    "image": "/cards/03-the-empress.webp",
+    "intro": {
+      "en": "A figure rests among ripening wheat, trees and running water. The Empress is the card of nurture — of care that helps things grow, in a garden, in a home or in yourself.",
+      "vi": "Một nhân vật ngồi nghỉ giữa cánh đồng lúa chín, hàng cây và dòng nước chảy. Hoàng Hậu là lá bài của sự nuôi dưỡng — sự chăm sóc giúp mọi thứ lớn lên, trong khu vườn, trong mái nhà hay trong chính bạn."
+    },
+    "keywords": {
+      "en": ["Nurture", "Abundance", "Comfort", "Creativity"],
+      "vi": ["Nuôi dưỡng", "Dồi dào", "Dễ chịu", "Sáng tạo"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "Growth that comes from patience and care. The Empress points to comfort, creativity and giving yourself the same warmth you offer other people.",
+          "vi": "Sự phát triển đến từ kiên nhẫn và chăm sóc. Hoàng Hậu gợi đến sự dễ chịu, sáng tạo và việc dành cho mình chính sự ấm áp bạn vẫn trao cho người khác."
+        },
+        "keywords": {
+          "en": ["Abundance", "Nurture", "Creativity", "Comfort"],
+          "vi": ["Dồi dào", "Nuôi dưỡng", "Sáng tạo", "Dễ chịu"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Giving until you are empty, or leaving something unattended for too long. It can be a prompt to ask what needs tending, starting with you.",
+          "vi": "Cho đi đến khi cạn kiệt, hoặc để một điều gì đó không ai chăm quá lâu. Lá bài có thể nhắc bạn hỏi điều gì cần được chăm sóc, bắt đầu từ chính mình."
+        },
+        "keywords": {
+          "en": ["Neglect", "Over-giving", "Creative block"],
+          "vi": ["Bỏ bê", "Cho đi quá mức", "Bế tắc sáng tạo"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The wheat and the flowing stream show what is growing and what feeds it. Her crown of twelve stars and the heart-shaped shield marked with the symbol of Venus suggest love as a steady, creative force.",
+      "vi": "Cánh đồng lúa và dòng suối cho thấy điều đang lớn lên và nguồn nuôi nó. Vương miện mười hai ngôi sao và tấm khiên hình trái tim mang ký hiệu của sao Kim gợi tình yêu như một sức mạnh sáng tạo bền bỉ."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What in your life is ready to be tended gently?",
+        "How do you let yourself rest and be cared for?"
+      ],
+      "vi": [
+        "Điều gì trong cuộc sống của bạn đang chờ được chăm sóc nhẹ nhàng?",
+        "Bạn để bản thân nghỉ ngơi và được chăm sóc theo cách nào?"
+      ]
+    }
+  },
+  {
+    "id": "the-emperor",
+    "arcana": "major",
+    "number": 4,
+    "name": {
+      "en": "The Emperor",
+      "vi": "Hoàng Đế"
+    },
+    "image": "/cards/04-the-emperor.webp",
+    "intro": {
+      "en": "A figure sits on a stone throne against bare mountains, orb and sceptre in hand. The Emperor is the card of structure — of boundaries, plans and the steadiness that lets other things flourish.",
+      "vi": "Một nhân vật ngồi trên ngai đá trước dãy núi trơ trọi, tay cầm quả cầu và quyền trượng. Hoàng Đế là lá bài của cấu trúc — ranh giới, kế hoạch và sự vững vàng giúp những điều khác nảy nở."
+    },
+    "keywords": {
+      "en": ["Structure", "Authority", "Stability", "Boundaries"],
+      "vi": ["Cấu trúc", "Quyền hạn", "Vững vàng", "Ranh giới"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A time for order, clear limits and taking responsibility. The Emperor points to the kind of leadership that is steady and fair, including how you lead your own days.",
+          "vi": "Thời điểm của trật tự, giới hạn rõ ràng và việc nhận trách nhiệm. Hoàng Đế gợi đến kiểu dẫn dắt vững vàng và công bằng, kể cả cách bạn dẫn dắt những ngày của chính mình."
+        },
+        "keywords": {
+          "en": ["Order", "Responsibility", "Leadership", "Discipline"],
+          "vi": ["Trật tự", "Trách nhiệm", "Dẫn dắt", "Kỷ luật"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Rigidity, or control held too tightly. It can invite you to ask whether a rule still serves you, or whether a boundary is missing where you need one.",
+          "vi": "Sự cứng nhắc, hoặc kiểm soát nắm quá chặt. Lá bài có thể mời bạn hỏi một quy tắc còn phục vụ bạn không, hay đang thiếu một ranh giới ở nơi bạn cần."
+        },
+        "keywords": {
+          "en": ["Rigidity", "Control", "Lack of discipline"],
+          "vi": ["Cứng nhắc", "Kiểm soát", "Thiếu kỷ luật"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The stone throne carved with rams’ heads speaks of will and drive, while the bare mountains behind it suggest a place built from effort rather than ease. The orb and the ankh-topped sceptre stand for the world held in order and for life itself.",
+      "vi": "Ngai đá chạm đầu cừu nói về ý chí và động lực, còn dãy núi trơ trọi phía sau gợi một nơi được dựng nên từ nỗ lực chứ không phải dễ dàng. Quả cầu và quyền trượng có chữ thập ankh tượng trưng cho thế giới được giữ trong trật tự và cho sự sống."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "Where could a little more structure give you freedom?",
+        "Which rule are you keeping out of habit rather than need?"
+      ],
+      "vi": [
+        "Ở đâu một chút cấu trúc có thể mang lại cho bạn sự tự do?",
+        "Quy tắc nào bạn giữ vì thói quen chứ không phải vì cần thiết?"
+      ]
+    }
+  },
+  {
+    "id": "the-hierophant",
+    "arcana": "major",
+    "number": 5,
+    "name": {
+      "en": "The Hierophant",
+      "vi": "Giáo Hoàng"
+    },
+    "image": "/cards/05-the-hierophant.webp",
+    "intro": {
+      "en": "A teacher in ceremonial robes sits between two pillars, with two figures kneeling before them. The Hierophant is the card of tradition — of shared teachings, rituals and the people who pass them on.",
+      "vi": "Một vị thầy trong lễ phục ngồi giữa hai cột trụ, hai người quỳ trước mặt. Giáo Hoàng là lá bài của truyền thống — những điều được dạy chung, những nghi thức và những người truyền lại chúng."
+    },
+    "keywords": {
+      "en": ["Tradition", "Teaching", "Belonging", "Shared values"],
+      "vi": ["Truyền thống", "Dạy dỗ", "Thuộc về", "Giá trị chung"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "Learning from a path others have walked before you. The Hierophant points to mentors, community and the comfort of rituals that give life shape.",
+          "vi": "Học từ con đường người khác đã đi trước. Giáo Hoàng gợi đến người thầy, cộng đồng và sự an ủi của những nghi thức giúp cuộc sống có hình dạng."
+        },
+        "keywords": {
+          "en": ["Mentorship", "Tradition", "Belonging", "Learning"],
+          "vi": ["Người hướng dẫn", "Truyền thống", "Thuộc về", "Học hỏi"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Following a rule only because it is expected, or pushing back on guidance you might still learn from. It may invite you to choose which traditions are truly yours.",
+          "vi": "Làm theo một quy tắc chỉ vì người ta mong đợi, hoặc gạt đi lời chỉ dẫn mà bạn vẫn có thể học được. Lá bài có thể mời bạn chọn những truyền thống thực sự thuộc về mình."
+        },
+        "keywords": {
+          "en": ["Questioning rules", "Rebellion", "Rigid habit"],
+          "vi": ["Đặt câu hỏi với quy tắc", "Nổi loạn", "Thói quen cứng nhắc"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The two crossed keys at the teacher’s feet stand for the open and the hidden parts of knowledge. The triple crown and the raised hand of blessing show learning passed from one person to the next, and the two figures kneeling are those who receive it.",
+      "vi": "Hai chiếc chìa khóa bắt chéo dưới chân vị thầy tượng trưng cho phần tri thức mở và phần ẩn. Vương miện ba tầng và bàn tay giơ lên ban phước cho thấy việc học được trao từ người này sang người khác, còn hai người quỳ là những người đón nhận."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "Whose guidance has shaped how you see things?",
+        "Which tradition would you choose to keep, and which to let go?"
+      ],
+      "vi": [
+        "Lời chỉ dẫn của ai đã định hình cách bạn nhìn mọi thứ?",
+        "Bạn muốn giữ truyền thống nào, và buông truyền thống nào?"
+      ]
+    }
+  },
+  {
+    "id": "the-lovers",
+    "arcana": "major",
+    "number": 6,
+    "name": {
+      "en": "The Lovers",
+      "vi": "Đôi Tình Nhân"
+    },
+    "image": "/cards/06-the-lovers.webp",
+    "intro": {
+      "en": "Two figures stand beneath an angel, a mountain rising between them in the distance. The Lovers is the card of choice — of values, honest connection and the decisions that show who you are.",
+      "vi": "Hai nhân vật đứng dưới một thiên thần, giữa họ ở phía xa là một ngọn núi. Đôi Tình Nhân là lá bài của sự lựa chọn — giá trị, kết nối chân thật và những quyết định cho thấy bạn là ai."
+    },
+    "keywords": {
+      "en": ["Choice", "Connection", "Values", "Harmony"],
+      "vi": ["Lựa chọn", "Kết nối", "Giá trị", "Hòa hợp"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A choice that asks you to act in line with what you value. The Lovers points to honest relationships, with other people and with yourself, and to being fully present in them.",
+          "vi": "Một lựa chọn đòi hỏi bạn hành động đúng với điều bạn coi trọng. Đôi Tình Nhân gợi đến những mối quan hệ chân thật, với người khác và với chính mình, và việc có mặt trọn vẹn trong đó."
+        },
+        "keywords": {
+          "en": ["Alignment", "Partnership", "Commitment", "Honesty"],
+          "vi": ["Đồng điệu", "Đồng hành", "Cam kết", "Chân thật"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Imbalance in a relationship, or a decision put off because it is uncomfortable. It can be a prompt to ask where your actions and your values have drifted apart.",
+          "vi": "Sự lệch cân bằng trong một mối quan hệ, hoặc một quyết định bị trì hoãn vì khó chịu. Lá bài có thể nhắc bạn hỏi hành động và giá trị của mình đã lệch nhau ở đâu."
+        },
+        "keywords": {
+          "en": ["Misalignment", "Indecision", "Disconnection"],
+          "vi": ["Lệch hướng", "Chần chừ", "Xa cách"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The angel above blesses the pair, a reminder that real connection is met with attention and care. Behind them stand two trees, one of flame and one with a serpent, which speak of passion and of temptation, and so of the choices that come with both.",
+      "vi": "Thiên thần phía trên ban phước cho đôi người, nhắc rằng một kết nối thật cần sự chú tâm và chăm sóc. Phía sau là hai cái cây, một cây lửa và một cây có con rắn, nói về đam mê và cám dỗ, và những lựa chọn đi cùng cả hai."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "Which choice in front of you feels most true to your values?",
+        "Where could you be more honest with someone close to you?"
+      ],
+      "vi": [
+        "Lựa chọn nào trước mắt bạn cảm thấy đúng nhất với giá trị của mình?",
+        "Ở đâu bạn có thể chân thật hơn với một người thân thiết?"
+      ]
+    }
+  },
+  {
+    "id": "the-chariot",
+    "arcana": "major",
+    "number": 7,
+    "name": {
+      "en": "The Chariot",
+      "vi": "Cỗ Xe"
+    },
+    "image": "/cards/07-the-chariot.webp",
+    "intro": {
+      "en": "A figure in armour stands in a chariot drawn by two sphinxes, one dark and one light. The Chariot is the card of drive — of holding opposing pulls together and moving forward with intent.",
+      "vi": "Một nhân vật mặc giáp đứng trên cỗ xe do hai con nhân sư kéo, một đen một trắng. Cỗ Xe là lá bài của động lực — giữ những lực kéo đối nghịch lại với nhau và tiến lên với chủ đích."
+    },
+    "keywords": {
+      "en": ["Determination", "Momentum", "Willpower", "Direction"],
+      "vi": ["Quyết tâm", "Đà tiến", "Ý chí", "Hướng đi"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "Momentum that comes from clear direction and steady effort. The Chariot points to willpower, focus and the ability to hold competing wishes together while you move.",
+          "vi": "Đà tiến đến từ hướng đi rõ ràng và nỗ lực đều đặn. Cỗ Xe gợi đến ý chí, sự tập trung và khả năng giữ những mong muốn trái chiều lại với nhau trong khi bạn tiến bước."
+        },
+        "keywords": {
+          "en": ["Willpower", "Drive", "Focus", "Progress"],
+          "vi": ["Ý chí", "Động lực", "Tập trung", "Tiến bộ"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Pulling in two directions, or pushing hard without knowing where you are headed. It may invite you to slow down and decide where the reins should point.",
+          "vi": "Bị kéo về hai phía, hoặc cố hết sức mà không rõ mình đi đâu. Lá bài có thể mời bạn chậm lại và quyết định dây cương nên hướng về đâu."
+        },
+        "keywords": {
+          "en": ["Scattered energy", "Lack of direction", "Loss of control"],
+          "vi": ["Năng lượng phân tán", "Thiếu định hướng", "Mất kiểm soát"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The black and white sphinxes stand for forces that pull in different ways, steered by will rather than reins. The starry canopy and the city behind suggest that the journey is guided by something larger than the next move.",
+      "vi": "Hai con nhân sư đen và trắng đại diện cho những lực kéo theo hai hướng, được dẫn bằng ý chí chứ không bằng dây cương. Tấm mái đầy sao và thành phố phía sau gợi rằng hành trình được dẫn dắt bởi điều gì đó lớn hơn bước đi kế tiếp."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What are you steering toward right now?",
+        "Which two pulls do you need to hold together?"
+      ],
+      "vi": ["Hiện tại bạn đang hướng tới điều gì?", "Hai lực kéo nào bạn cần giữ lại cùng nhau?"]
+    }
+  },
+  {
+    "id": "strength",
+    "arcana": "major",
+    "number": 8,
+    "name": {
+      "en": "Strength",
+      "vi": "Sức Mạnh"
+    },
+    "image": "/cards/08-strength.webp",
+    "intro": {
+      "en": "A woman in a white robe rests her hands on a lion, calm and unhurried. Strength is the card of quiet courage — of meeting a powerful feeling with patience instead of force.",
+      "vi": "Một người phụ nữ mặc áo trắng đặt tay lên con sư tử, bình thản và không vội vã. Sức Mạnh là lá bài của lòng can đảm lặng lẽ — đối diện cảm xúc mạnh mẽ bằng kiên nhẫn chứ không bằng sức ép."
+    },
+    "keywords": {
+      "en": ["Courage", "Patience", "Compassion", "Self-trust"],
+      "vi": ["Can đảm", "Kiên nhẫn", "Từ bi", "Tin vào mình"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "Gentle strength that comes from steadiness, not from force. Strength points to courage, compassion and the calm of knowing you can stay with a hard feeling.",
+          "vi": "Sức mạnh dịu dàng đến từ sự vững vàng chứ không phải sức ép. Lá bài gợi đến lòng can đảm, sự từ bi và sự bình thản khi biết mình có thể ở lại cùng một cảm xúc khó."
+        },
+        "keywords": {
+          "en": ["Courage", "Patience", "Compassion", "Resilience"],
+          "vi": ["Can đảm", "Kiên nhẫn", "Từ bi", "Bền bỉ"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Doubt in your own strength, or a feeling that has grown louder than you can hold. It can be a nudge to rest, to ask for support and to be kind to yourself first.",
+          "vi": "Hoài nghi sức mạnh của chính mình, hoặc một cảm xúc đã lớn hơn những gì bạn có thể giữ. Đó có thể là lời nhắc nghỉ ngơi, nhờ giúp đỡ và trước hết hãy dịu dàng với bản thân."
+        },
+        "keywords": {
+          "en": ["Self-doubt", "Overwhelm", "Drained energy"],
+          "vi": ["Tự nghi ngờ", "Quá tải", "Kiệt sức"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The infinity sign above her head suggests a steady, unhurried mind, and the white robe and flowers speak of gentleness. The lion is the wild, instinctive side of us, and the way she rests her hands on it shows it being met with trust instead of fear.",
+      "vi": "Biểu tượng vô cực trên đầu cô gợi một tâm trí vững vàng, không vội vã, còn chiếc áo trắng và vòng hoa nói về sự dịu dàng. Con sư tử là phần hoang dã, bản năng trong mỗi người, và cách cô đặt tay lên nó cho thấy bản năng ấy được đón bằng tin tưởng thay vì sợ hãi."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What would it look like to meet this feeling with kindness?",
+        "Where is gentleness stronger than force for you right now?"
+      ],
+      "vi": [
+        "Đón cảm xúc này bằng sự tử tế sẽ như thế nào?",
+        "Ở đâu sự dịu dàng đang mạnh hơn sức ép với bạn lúc này?"
+      ]
+    }
+  },
+  {
+    "id": "the-hermit",
+    "arcana": "major",
+    "number": 9,
+    "name": {
+      "en": "The Hermit",
+      "vi": "Ẩn Sĩ"
+    },
+    "image": "/cards/09-the-hermit.webp",
+    "intro": {
+      "en": "An old figure on a snowy peak, holding up a lantern. The Hermit is the card of looking inward — of choosing quiet on purpose so you can hear what you actually think.",
+      "vi": "Một cụ già đứng trên đỉnh núi tuyết, giơ cao chiếc đèn lồng. Ẩn Sĩ là lá bài của việc nhìn vào bên trong — chủ động chọn sự yên tĩnh để nghe được điều mình thực sự nghĩ."
+    },
+    "keywords": {
+      "en": ["Solitude", "Inner guidance", "Patience", "Reflection"],
+      "vi": ["Ở một mình", "Dẫn lối nội tâm", "Kiên nhẫn", "Suy ngẫm"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "Time spent alone with purpose. The Hermit points to reflection, study and the kind of slow clarity that only comes when you step away from other people’s opinions.",
+          "vi": "Thời gian ở một mình có chủ đích. Ẩn Sĩ gợi đến sự suy ngẫm, việc học và thứ sáng suốt chậm rãi chỉ đến khi bạn bước ra khỏi ý kiến của người khác."
+        },
+        "keywords": {
+          "en": ["Reflection", "Wisdom", "Solitude", "Searching"],
+          "vi": ["Suy ngẫm", "Thông thái", "Ở một mình", "Tìm kiếm"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Isolation that has stopped helping, or avoiding the inward work altogether. It can be a nudge to reconnect — or to finally make the quiet time you keep postponing.",
+          "vi": "Sự cô lập đã thôi giúp ích, hoặc né tránh hẳn công việc nội tâm. Đó có thể là lời nhắc kết nối lại — hoặc cuối cùng dành ra khoảng yên tĩnh mà bạn cứ trì hoãn."
+        },
+        "keywords": {
+          "en": ["Isolation", "Withdrawal", "Avoidance"],
+          "vi": ["Cô lập", "Rút lui", "Né tránh"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The lantern holds a six-pointed star: wisdom shared a little at a time. The staff is patience; the snowy peak is the height reached by going alone.",
+      "vi": "Chiếc đèn lồng giữ ngôi sao sáu cánh: sự thông thái được chia sẻ từng chút một. Cây gậy là sự kiên nhẫn; đỉnh núi tuyết là độ cao đạt được khi đi một mình."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "When did time alone last give you an answer?",
+        "What would you want to hear if everything around you went quiet?"
+      ],
+      "vi": [
+        "Lần gần nhất thời gian ở một mình cho bạn câu trả lời là khi nào?",
+        "Bạn muốn nghe điều gì nếu mọi thứ xung quanh đều lặng đi?"
+      ]
+    }
+  },
+  {
+    "id": "wheel-of-fortune",
+    "arcana": "major",
+    "number": 10,
+    "name": {
+      "en": "Wheel of Fortune",
+      "vi": "Vòng Quay Vận Mệnh"
+    },
+    "image": "/cards/10-wheel-of-fortune.webp",
+    "intro": {
+      "en": "A great wheel turns in the clouds, with a sphinx on top and four winged figures reading in the corners. The Wheel of Fortune is the card of cycles — of change that comes and goes, whatever you do.",
+      "vi": "Một bánh xe lớn quay giữa mây, nhân sư ngồi trên đỉnh và bốn sinh vật có cánh đang đọc sách ở các góc. Vòng Quay Vận Mệnh là lá bài của những chu kỳ — sự đổi thay đến rồi đi, dù bạn làm gì."
+    },
+    "keywords": {
+      "en": ["Cycles", "Change", "Timing", "Turning point"],
+      "vi": ["Chu kỳ", "Thay đổi", "Thời điểm", "Bước ngoặt"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A turn in the story, often one you did not plan. The Wheel points to timing, to seeing the bigger pattern and to meeting change with some flexibility.",
+          "vi": "Một khúc rẽ của câu chuyện, thường là điều bạn không định trước. Vòng Quay gợi đến thời điểm, việc nhìn ra mô thức lớn hơn và đón sự đổi thay bằng chút linh hoạt."
+        },
+        "keywords": {
+          "en": ["Change", "Turning point", "Timing", "Flow"],
+          "vi": ["Thay đổi", "Bước ngoặt", "Thời điểm", "Dòng chảy"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Resisting a change that is already under way, or feeling stuck in a pattern that keeps repeating. It can invite you to ask what in the cycle is yours to shift.",
+          "vi": "Chống lại một thay đổi đã bắt đầu, hoặc thấy mình kẹt trong một mô thức cứ lặp lại. Lá bài có thể mời bạn hỏi phần nào của vòng lặp là thứ bạn có thể thay đổi."
+        },
+        "keywords": {
+          "en": ["Resistance", "Repeating patterns", "Feeling stuck"],
+          "vi": ["Kháng cự", "Mô thức lặp lại", "Cảm giác kẹt"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The wheel is marked with letters and symbols and turns beneath a sphinx that sits calmly at its top. A rising jackal-headed figure and a falling serpent show that every position on the wheel is passing, while the four winged figures in the corners read steadily from their books.",
+      "vi": "Bánh xe khắc chữ và biểu tượng, quay bên dưới con nhân sư ngồi bình thản trên đỉnh. Nhân vật đầu chó rừng đang lên và con rắn đang xuống cho thấy vị trí nào trên bánh xe cũng chỉ là tạm thời, trong khi bốn sinh vật có cánh ở các góc vẫn đều đặn đọc sách của mình."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What cycle in your life seems to be turning right now?",
+        "What would help you stay steady while it does?"
+      ],
+      "vi": [
+        "Chu kỳ nào trong cuộc sống của bạn dường như đang chuyển động lúc này?",
+        "Điều gì giúp bạn giữ vững trong lúc nó diễn ra?"
+      ]
+    }
+  },
+  {
+    "id": "justice",
+    "arcana": "major",
+    "number": 11,
+    "name": {
+      "en": "Justice",
+      "vi": "Công Lý"
+    },
+    "image": "/cards/11-justice.webp",
+    "intro": {
+      "en": "A figure sits between two pillars with a raised sword in one hand and a pair of scales in the other. Justice is the card of fairness — of weighing the facts honestly and standing by the result.",
+      "vi": "Một nhân vật ngồi giữa hai cột trụ, một tay giơ thanh kiếm, tay kia cầm cặp cân. Công Lý là lá bài của sự công bằng — cân nhắc sự thật một cách trung thực và đứng vững với kết quả."
+    },
+    "keywords": {
+      "en": ["Fairness", "Truth", "Accountability", "Clarity"],
+      "vi": ["Công bằng", "Sự thật", "Trách nhiệm", "Rõ ràng"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A moment to look at what is true and what is fair. Justice points to honest choices, to taking responsibility for your part and to outcomes that follow from what you have done.",
+          "vi": "Lúc để nhìn vào điều gì là thật và điều gì là công bằng. Công Lý gợi đến những lựa chọn trung thực, việc nhận phần trách nhiệm của mình và những kết quả đi theo điều bạn đã làm."
+        },
+        "keywords": {
+          "en": ["Honesty", "Fairness", "Cause and effect", "Accountability"],
+          "vi": ["Trung thực", "Công bằng", "Nhân quả", "Trách nhiệm"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Avoiding the facts, or judging yourself or someone else too harshly. It may invite you to ask whether you have all the information, and to apply the same fairness to yourself.",
+          "vi": "Né tránh sự thật, hoặc phán xét bản thân hay người khác quá khắt khe. Lá bài có thể mời bạn hỏi mình đã có đủ thông tin chưa, và dành cho bản thân cùng sự công bằng ấy."
+        },
+        "keywords": {
+          "en": ["Dishonesty", "Unfairness", "Avoiding consequences"],
+          "vi": ["Thiếu trung thực", "Bất công", "Né hệ quả"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The scales weigh what is known, while the upright sword stands for a clear mind that can cut through confusion. The pillars and the veil behind her frame a quiet place where decisions are made with care.",
+      "vi": "Cặp cân cân nhắc những gì đã biết, còn thanh kiếm dựng thẳng tượng trưng cho một tâm trí sáng rõ có thể cắt xuyên sự rối rắm. Hai cột trụ và tấm màn phía sau tạo nên một nơi yên tĩnh để quyết định được đưa ra cẩn trọng."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What would an honest look at this situation show you?",
+        "Where could you be fairer to yourself?"
+      ],
+      "vi": [
+        "Một cái nhìn trung thực vào tình huống này sẽ cho bạn thấy điều gì?",
+        "Ở đâu bạn có thể công bằng hơn với chính mình?"
+      ]
+    }
+  },
+  {
+    "id": "the-hanged-man",
+    "arcana": "major",
+    "number": 12,
+    "name": {
+      "en": "The Hanged Man",
+      "vi": "Người Treo Ngược"
+    },
+    "image": "/cards/12-the-hanged-man.webp",
+    "intro": {
+      "en": "A figure hangs upside down from a living tree, calm, with a glow around the head. The Hanged Man is the card of surrender — of pausing on purpose and seeing a situation from a new angle.",
+      "vi": "Một nhân vật bị treo ngược trên cái cây còn sống, vẻ mặt bình thản, quanh đầu có vầng sáng. Người Treo Ngược là lá bài của sự buông bỏ có chủ ý — dừng lại chủ động và nhìn tình huống từ một góc mới."
+    },
+    "keywords": {
+      "en": ["Surrender", "Pause", "New perspective", "Letting go"],
+      "vi": ["Buông bỏ", "Tạm dừng", "Góc nhìn mới", "Thả lỏng"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A pause that is chosen, not forced. The Hanged Man points to letting go of the need to act, so that a different view can show itself.",
+          "vi": "Một khoảng dừng do bạn chọn, không bị ép buộc. Người Treo Ngược gợi đến việc thôi cố gắng hành động để một góc nhìn khác có cơ hội hiện ra."
+        },
+        "keywords": {
+          "en": ["Pause", "Perspective", "Surrender", "Patience"],
+          "vi": ["Tạm dừng", "Góc nhìn", "Buông bỏ", "Kiên nhẫn"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Waiting that has turned into stalling, or a sacrifice that no longer feels worth it. It can be a nudge to ask what you are holding onto, and what it is costing you.",
+          "vi": "Chờ đợi đã biến thành chần chừ, hoặc một sự hy sinh không còn cảm thấy xứng đáng. Đó có thể là lời nhắc hỏi bạn đang níu giữ điều gì, và nó đang khiến bạn trả giá gì."
+        },
+        "keywords": {
+          "en": ["Stalling", "Resistance", "Needless sacrifice"],
+          "vi": ["Chần chừ", "Kháng cự", "Hy sinh không cần thiết"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The tree he hangs from is alive, so the pause is part of growth and not an ending. The halo around his head and his calm face suggest that the upside-down view brings insight rather than pain.",
+      "vi": "Cái cây anh treo mình còn sống, nên khoảng dừng là một phần của sự lớn lên chứ không phải kết thúc. Vầng hào quang quanh đầu và gương mặt bình thản gợi rằng góc nhìn ngược đời này đem lại thấu hiểu thay vì đau đớn."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What might you see if you looked at this from the other side?",
+        "What could you let rest for a while?"
+      ],
+      "vi": [
+        "Bạn có thể thấy gì nếu nhìn điều này từ phía bên kia?",
+        "Điều gì bạn có thể để yên một thời gian?"
+      ]
+    }
+  },
+  {
+    "id": "death",
+    "arcana": "major",
+    "number": 13,
+    "name": {
+      "en": "Death",
+      "vi": "Thần Chết"
+    },
+    "image": "/cards/13-death.webp",
+    "intro": {
+      "en": "A figure in dark armour rides a white horse beneath a black banner marked with a white rose, while a sun rises between two towers. Death is the card of endings that make room — of change that closes one chapter so another can begin.",
+      "vi": "Một nhân vật mặc giáp đen cưỡi ngựa trắng dưới lá cờ đen có bông hồng trắng, trong khi mặt trời mọc giữa hai tòa tháp. Thần Chết là lá bài của những kết thúc mở đường — sự thay đổi khép lại một chương để chương khác bắt đầu."
+    },
+    "keywords": {
+      "en": ["Endings", "Transformation", "Release", "New chapter"],
+      "vi": ["Kết thúc", "Chuyển hóa", "Giải phóng", "Chương mới"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "Something is ready to end, and its ending clears the ground. Death points to transformation, to releasing what has run its course and to trusting that a new chapter is on its way. It is rarely about a literal death.",
+          "vi": "Có điều gì đó đã sẵn sàng khép lại, và sự kết thúc ấy dọn chỗ cho điều mới. Thần Chết gợi đến chuyển hóa, việc buông những gì đã đi hết chặng và tin rằng một chương mới đang đến. Lá bài hiếm khi nói về cái chết theo nghĩa đen."
+        },
+        "keywords": {
+          "en": ["Transformation", "Endings", "Release", "Renewal"],
+          "vi": ["Chuyển hóa", "Kết thúc", "Giải phóng", "Làm mới"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Holding on to something that has already ended, or fearing a change that is on its way. It may invite you to ask what you are not ready to say goodbye to, and why.",
+          "vi": "Níu giữ điều đã kết thúc, hoặc sợ một thay đổi đang đến gần. Lá bài có thể mời bạn hỏi mình chưa sẵn sàng nói lời tạm biệt với điều gì, và vì sao."
+        },
+        "keywords": {
+          "en": ["Resisting change", "Clinging", "Stagnation"],
+          "vi": ["Kháng cự thay đổi", "Bám víu", "Đình trệ"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The white rose on the black banner stands for purity and for life that returns after loss. Beyond the figure, a sun rises between two towers, a quiet promise that each ending opens onto a new day.",
+      "vi": "Bông hồng trắng trên lá cờ đen tượng trưng cho sự thuần khiết và sự sống trở lại sau mất mát. Phía xa nhân vật, mặt trời mọc giữa hai tòa tháp, một lời hứa lặng lẽ rằng mỗi kết thúc mở ra một ngày mới."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What in your life has quietly run its course?",
+        "What might grow in the space it leaves?"
+      ],
+      "vi": [
+        "Điều gì trong cuộc sống của bạn đã lặng lẽ đi hết chặng đường?",
+        "Điều gì có thể lớn lên trong khoảng trống nó để lại?"
+      ]
+    }
+  },
+  {
+    "id": "temperance",
+    "arcana": "major",
+    "number": 14,
+    "name": {
+      "en": "Temperance",
+      "vi": "Điều Độ"
+    },
+    "image": "/cards/14-temperance.webp",
+    "intro": {
+      "en": "An angel stands with one foot in water and one on land, pouring a stream between two cups. Temperance is the card of balance — of blending opposites patiently until they work well together.",
+      "vi": "Một thiên thần đứng một chân trong nước, một chân trên cạn, rót dòng nước chảy giữa hai chiếc cốc. Điều Độ là lá bài của sự cân bằng — hòa trộn những điều đối lập một cách kiên nhẫn cho đến khi chúng cùng vận hành tốt."
+    },
+    "keywords": {
+      "en": ["Balance", "Moderation", "Patience", "Harmony"],
+      "vi": ["Cân bằng", "Điều độ", "Kiên nhẫn", "Hài hòa"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A steady, measured approach. Temperance points to finding the middle path, to taking your time and to mixing what you want with what you need.",
+          "vi": "Một cách tiếp cận vững vàng, có chừng mực. Điều Độ gợi đến việc tìm con đường ở giữa, dành thời gian và hòa điều bạn muốn với điều bạn cần."
+        },
+        "keywords": {
+          "en": ["Balance", "Moderation", "Patience", "Healing"],
+          "vi": ["Cân bằng", "Điều độ", "Kiên nhẫn", "Chữa lành"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Excess in one direction, or a rhythm that has lost its pace. It can be a prompt to notice where life has tipped, and what small adjustment would bring it back.",
+          "vi": "Thái quá về một phía, hoặc một nhịp sống đã mất đi tốc độ vốn có. Lá bài có thể nhắc bạn nhận ra cuộc sống đang nghiêng ở đâu, và điều chỉnh nhỏ nào sẽ đưa nó trở lại."
+        },
+        "keywords": {
+          "en": ["Imbalance", "Excess", "Haste"],
+          "vi": ["Mất cân bằng", "Thái quá", "Vội vã"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The water flowing between the two cups shows two things becoming one without being forced. With one foot in the stream and one on the shore, the angel belongs to both the inner and the outer world, and a path behind leads toward a distant glow.",
+      "vi": "Dòng nước chảy giữa hai chiếc cốc cho thấy hai điều trở thành một mà không bị ép buộc. Một chân dưới suối, một chân trên bờ, thiên thần thuộc về cả thế giới bên trong lẫn bên ngoài, và con đường phía sau dẫn về một vầng sáng xa."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "Where in your life could a little less or a little more help?",
+        "What does balance feel like in your body?"
+      ],
+      "vi": [
+        "Ở đâu trong cuộc sống một chút ít hơn hay một chút nhiều hơn sẽ giúp ích?",
+        "Cân bằng mang lại cảm giác như thế nào trong cơ thể bạn?"
+      ]
+    }
+  },
+  {
+    "id": "the-devil",
+    "arcana": "major",
+    "number": 15,
+    "name": {
+      "en": "The Devil",
+      "vi": "Ác Quỷ"
+    },
+    "image": "/cards/15-the-devil.webp",
+    "intro": {
+      "en": "A horned figure looms over two people bound to a pedestal by chains that hang loosely around their necks. The Devil is the card of attachment — of habits and bargains that feel like a trap, and the choice that is still yours.",
+      "vi": "Một nhân vật có sừng đứng sừng sững trên hai người bị xích vào bệ đá, sợi xích lỏng lẻo quanh cổ. Ác Quỷ là lá bài của sự ràng buộc — những thói quen và thỏa hiệp cảm giác như cái bẫy, và quyền chọn vẫn nằm trong tay bạn."
+    },
+    "keywords": {
+      "en": ["Attachment", "Habit", "Temptation", "Shadow"],
+      "vi": ["Ràng buộc", "Thói quen", "Cám dỗ", "Bóng tối bên trong"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "Something has a stronger hold than you would like. The Devil points to patterns of habit, desire or fear that you can look at plainly, which is the first step toward loosening them.",
+          "vi": "Có điều gì đó đang giữ bạn chặt hơn bạn mong muốn. Ác Quỷ gợi đến những mô thức thói quen, ham muốn hay nỗi sợ mà bạn có thể nhìn thẳng, và đó là bước đầu để nới lỏng chúng."
+        },
+        "keywords": {
+          "en": ["Attachment", "Temptation", "Unhealthy habits", "Shadow"],
+          "vi": ["Ràng buộc", "Cám dỗ", "Thói quen không lành mạnh", "Bóng tối"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "A hold beginning to loosen, or a truth about it that is hard to face. It can invite you to ask what freedom would look like, and what the first small step toward it might be.",
+          "vi": "Một sự ràng buộc bắt đầu nới lỏng, hoặc một sự thật về nó mà khó đối diện. Lá bài có thể mời bạn hỏi tự do trông như thế nào, và bước nhỏ đầu tiên tiến tới nó là gì."
+        },
+        "keywords": {
+          "en": ["Breaking free", "Awareness", "Releasing patterns"],
+          "vi": ["Thoát ra", "Nhận thức", "Buông mô thức"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The chains around the figures’ necks are loose enough to lift off, which suggests that the bond is held in place by belief more than by force. The torch and the grapes on their tails speak of appetite, and the dark pedestal is the one they have agreed to stand on.",
+      "vi": "Sợi xích quanh cổ hai người đủ lỏng để tháo ra, gợi rằng sự ràng buộc được giữ bởi niềm tin nhiều hơn bởi sức ép. Ngọn lửa và chùm nho nơi đuôi họ nói về ham muốn, còn bệ đá tối là nơi họ đã chấp nhận đứng lên."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What do you keep returning to, even when it does not help?",
+        "What would loosening that hold make possible?"
+      ],
+      "vi": [
+        "Bạn cứ quay lại điều gì, dù nó không giúp ích?",
+        "Nới lỏng sự ràng buộc đó sẽ mở ra điều gì?"
+      ]
+    }
+  },
+  {
+    "id": "the-tower",
+    "arcana": "major",
+    "number": 16,
+    "name": {
+      "en": "The Tower",
+      "vi": "Tòa Tháp"
+    },
+    "image": "/cards/16-the-tower.webp",
+    "intro": {
+      "en": "Lightning strikes a tall tower, its crown breaking loose as two figures fall. The Tower is the card of sudden upheaval — of structures built on shaky ground coming down, and the clear space they leave.",
+      "vi": "Sét đánh vào một tòa tháp cao, chiếc mão trên đỉnh bật tung khi hai nhân vật rơi xuống. Tòa Tháp là lá bài của biến động đột ngột — những cấu trúc dựng trên nền đất yếu sụp đổ, và khoảng trống rõ ràng chúng để lại."
+    },
+    "keywords": {
+      "en": ["Upheaval", "Revelation", "Release", "Clearing"],
+      "vi": ["Biến động", "Sự thật phơi bày", "Giải thoát", "Dọn sạch"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A shock that shakes what you thought was solid. The Tower points to truths that can no longer be put off, and to the strange relief of rebuilding on firmer ground.",
+          "vi": "Một cú sốc làm lung lay điều bạn tưởng là vững chắc. Tòa Tháp gợi đến những sự thật không thể trì hoãn thêm, và cảm giác nhẹ nhõm lạ lùng khi xây lại trên nền đất vững hơn."
+        },
+        "keywords": {
+          "en": ["Upheaval", "Revelation", "Breakthrough", "Sudden change"],
+          "vi": ["Biến động", "Phơi bày", "Đột phá", "Thay đổi đột ngột"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Change that is avoided or that unfolds slowly, or the aftermath of something that has already fallen. It may invite you to ask what you are bracing against, and what you can start rebuilding gently.",
+          "vi": "Thay đổi bị né tránh hoặc diễn ra chậm rãi, hoặc dư chấn của điều đã sụp đổ. Lá bài có thể mời bạn hỏi mình đang gồng lên chống lại điều gì, và có thể bắt đầu dựng lại điều gì một cách dịu dàng."
+        },
+        "keywords": {
+          "en": ["Avoiding change", "Aftermath", "Slow collapse"],
+          "vi": ["Né thay đổi", "Dư chấn", "Sụp đổ chậm"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The lightning is a flash of truth that breaks what was held together by illusion. The crown thrown from the tower’s top and the figures falling show how quickly false certainty can give way, and the sparks around them are fire that clears the way.",
+      "vi": "Tia sét là một chớp sáng của sự thật phá vỡ điều được giữ lại bằng ảo tưởng. Chiếc mão bị hất khỏi đỉnh tháp và hai nhân vật đang rơi cho thấy sự chắc chắn giả tạo có thể sụp nhanh đến mức nào, còn những đốm lửa quanh họ là ngọn lửa dọn đường."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What was built on shaky ground that you already suspected?",
+        "What would you want to rebuild with more care?"
+      ],
+      "vi": [
+        "Điều gì được dựng trên nền yếu mà bạn đã ngờ ngợ từ trước?",
+        "Bạn muốn xây lại điều gì cẩn trọng hơn?"
+      ]
+    }
+  },
+  {
+    "id": "the-star",
+    "arcana": "major",
+    "number": 17,
+    "name": {
+      "en": "The Star",
+      "vi": "Ngôi Sao"
+    },
+    "image": "/cards/17-the-star.webp",
+    "intro": {
+      "en": "A woman kneels by a pool beneath a bright night sky, pouring water from two jugs. The Star is the card of hope — of quiet renewal after a hard stretch, and of trusting that things can be gentle again.",
+      "vi": "Một người phụ nữ quỳ bên hồ nước dưới bầu trời đêm sáng, rót nước từ hai chiếc bình. Ngôi Sao là lá bài của hy vọng — sự hồi phục lặng lẽ sau một chặng khó, và niềm tin rằng mọi thứ có thể dịu lại."
+    },
+    "keywords": {
+      "en": ["Hope", "Renewal", "Calm", "Inspiration"],
+      "vi": ["Hy vọng", "Hồi phục", "Bình yên", "Cảm hứng"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "Rest and renewal after strain. The Star points to hope that is modest and real, to trusting your own direction and to being open to what inspires you.",
+          "vi": "Nghỉ ngơi và hồi phục sau căng thẳng. Ngôi Sao gợi đến niềm hy vọng khiêm tốn mà có thật, việc tin vào hướng đi của mình và cởi mở với điều truyền cảm hứng cho bạn."
+        },
+        "keywords": {
+          "en": ["Hope", "Healing", "Renewal", "Trust"],
+          "vi": ["Hy vọng", "Chữa lành", "Hồi phục", "Tin tưởng"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Hope running low, or a sense of being disconnected from what once guided you. It can be a nudge to seek small sources of light, and to be patient with a slow recovery.",
+          "vi": "Hy vọng cạn dần, hoặc cảm giác lạc khỏi điều từng dẫn đường cho bạn. Đó có thể là lời nhắc tìm những nguồn sáng nhỏ, và kiên nhẫn với quá trình hồi phục chậm."
+        },
+        "keywords": {
+          "en": ["Discouragement", "Disconnection", "Doubt"],
+          "vi": ["Nản lòng", "Mất kết nối", "Hoài nghi"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "One jug pours onto the land and the other into the pool, giving to both what can be touched and what runs deeper. The large star and the seven smaller ones above her suggest guidance that is steady and always overhead, even if it is easy to forget.",
+      "vi": "Một bình rót xuống đất, một bình rót vào hồ, ban cho cả điều chạm được lẫn điều sâu hơn. Ngôi sao lớn và bảy ngôi sao nhỏ phía trên gợi sự dẫn đường vững vàng, luôn ở trên cao, dù dễ bị quên."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What gives you a quiet sense of hope right now?",
+        "How could you offer yourself some of that light?"
+      ],
+      "vi": [
+        "Điều gì mang lại cho bạn một cảm giác hy vọng lặng lẽ lúc này?",
+        "Bạn có thể dành cho mình một chút ánh sáng ấy bằng cách nào?"
+      ]
+    }
+  },
+  {
+    "id": "the-moon",
+    "arcana": "major",
+    "number": 18,
+    "name": {
+      "en": "The Moon",
+      "vi": "Mặt Trăng"
+    },
+    "image": "/cards/18-the-moon.webp",
+    "intro": {
+      "en": "A path winds between two towers under a full moon, with a dog and a wolf howling and a crayfish crawling from the water. The Moon is the card of the half-seen — of dreams, uncertainty and feelings that do not yet have clear edges.",
+      "vi": "Một con đường uốn lượn giữa hai tòa tháp dưới vầng trăng tròn, chó nhà và sói tru lên, còn con tôm càng bò lên khỏi mặt nước. Mặt Trăng là lá bài của những điều chỉ thấy lờ mờ — giấc mơ, sự bất định và những cảm xúc chưa có đường nét rõ ràng."
+    },
+    "keywords": {
+      "en": ["Dreams", "Uncertainty", "Imagination", "Instinct"],
+      "vi": ["Giấc mơ", "Bất định", "Trí tưởng tượng", "Bản năng"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A time when things are not what they seem, and clarity has not yet arrived. The Moon points to dreams, imagination and moving slowly through uncertainty by trusting your senses.",
+          "vi": "Một thời điểm mọi thứ chưa như vẻ ngoài, và sự rõ ràng chưa đến. Mặt Trăng gợi đến giấc mơ, trí tưởng tượng và việc đi chậm qua sự bất định bằng cách tin vào giác quan của mình."
+        },
+        "keywords": {
+          "en": ["Dreams", "Intuition", "Uncertainty", "Imagination"],
+          "vi": ["Giấc mơ", "Trực giác", "Bất định", "Tưởng tượng"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Confusion beginning to lift, or fears that have grown larger in the dark. It may invite you to name what is worrying you, and to check it against what you can actually see.",
+          "vi": "Sự bối rối bắt đầu tan, hoặc những nỗi sợ đã phình to trong bóng tối. Lá bài có thể mời bạn gọi tên điều đang làm bạn lo, và đối chiếu nó với những gì bạn thực sự nhìn thấy."
+        },
+        "keywords": {
+          "en": ["Clearing confusion", "Anxiety", "Hidden fears"],
+          "vi": ["Sương mù tan dần", "Lo âu", "Nỗi sợ ẩn giấu"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The dog and the wolf stand for the tame and the wild parts of us, both answering the same moon. The crayfish climbing from the pool and the winding path between two towers suggest something old rising from deep within, asking to be followed with care.",
+      "vi": "Chó nhà và sói tượng trưng cho phần thuần hóa và phần hoang dã trong mỗi người, cả hai cùng đáp lại một vầng trăng. Con tôm càng bò lên từ hồ nước và con đường uốn lượn giữa hai tòa tháp gợi một điều cổ xưa đang trồi lên từ bên trong, mời bạn đi theo một cách cẩn trọng."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What feeling is asking for your attention, even without a clear shape?",
+        "What helps you feel safe while you do not yet know?"
+      ],
+      "vi": [
+        "Cảm xúc nào đang đòi bạn chú ý, dù chưa có hình hài rõ ràng?",
+        "Điều gì giúp bạn thấy an toàn khi chưa biết?"
+      ]
+    }
+  },
+  {
+    "id": "the-sun",
+    "arcana": "major",
+    "number": 19,
+    "name": {
+      "en": "The Sun",
+      "vi": "Mặt Trời"
+    },
+    "image": "/cards/19-the-sun.webp",
+    "intro": {
+      "en": "A child rides a white horse beneath a bright sun, with sunflowers rising behind a garden wall. The Sun is the card of warmth — of simple joy, openness and feeling at ease in the daylight.",
+      "vi": "Một đứa trẻ cưỡi ngựa trắng dưới ánh mặt trời rực rỡ, những bông hướng dương vươn lên sau bức tường vườn. Mặt Trời là lá bài của sự ấm áp — niềm vui giản dị, sự cởi mở và cảm giác thoải mái giữa ánh sáng ban ngày."
+    },
+    "keywords": {
+      "en": ["Joy", "Warmth", "Vitality", "Clarity"],
+      "vi": ["Niềm vui", "Ấm áp", "Sức sống", "Rõ ràng"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A clear, warm moment. The Sun points to joy that does not need a reason, to confidence and to enjoying what is going well without hurrying to the next thing.",
+          "vi": "Một khoảnh khắc sáng rõ và ấm áp. Mặt Trời gợi đến niềm vui không cần lý do, sự tự tin và việc tận hưởng điều đang suôn sẻ mà không vội chạy sang việc kế tiếp."
+        },
+        "keywords": {
+          "en": ["Joy", "Confidence", "Vitality", "Success"],
+          "vi": ["Niềm vui", "Tự tin", "Sức sống", "Thành công"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Joy that is dimmed or delayed, or optimism that has not looked at the whole picture. It can be a gentle prompt to ask what is blocking the light, and what small thing might let some in.",
+          "vi": "Niềm vui bị che mờ hoặc chậm đến, hoặc sự lạc quan chưa nhìn toàn cảnh. Đó có thể là lời nhắc nhẹ nhàng hỏi điều gì đang chắn ánh sáng, và việc nhỏ nào có thể để một chút ánh sáng lọt vào."
+        },
+        "keywords": {
+          "en": ["Dimmed joy", "Delay", "Overconfidence"],
+          "vi": ["Niềm vui mờ đi", "Chậm trễ", "Quá tự tin"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The child on the white horse, with arms open and a red banner flying, shows trust and a heart without defence. The sunflowers turn toward the light behind the garden wall, a reminder that warmth is something we can lean into.",
+      "vi": "Đứa trẻ trên lưng ngựa trắng, hai tay mở rộng và lá cờ đỏ tung bay, cho thấy sự tin tưởng và một trái tim không phòng bị. Những bông hướng dương quay về phía ánh sáng sau bức tường vườn, nhắc rằng sự ấm áp là điều ta có thể ngả về."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What brings you plain, uncomplicated joy?",
+        "How could you make a little more room for it this week?"
+      ],
+      "vi": [
+        "Điều gì mang lại cho bạn niềm vui giản dị, không phức tạp?",
+        "Tuần này bạn có thể dành thêm chút chỗ cho nó bằng cách nào?"
+      ]
+    }
+  },
+  {
+    "id": "judgement",
+    "arcana": "major",
+    "number": 20,
+    "name": {
+      "en": "Judgement",
+      "vi": "Phán Xét"
+    },
+    "image": "/cards/20-judgement.webp",
+    "intro": {
+      "en": "An angel sounds a trumpet over a crowd of figures rising from their coffins with open arms. Judgement is the card of the call — of looking back honestly, forgiving what you can and answering a deeper sense of purpose.",
+      "vi": "Một thiên thần thổi kèn trên đám đông đang bước ra khỏi quan tài với đôi tay giang rộng. Phán Xét là lá bài của tiếng gọi — nhìn lại một cách trung thực, tha thứ những gì có thể và đáp lại một cảm giác sâu hơn về ý nghĩa."
+    },
+    "keywords": {
+      "en": ["Awakening", "Reflection", "Forgiveness", "Calling"],
+      "vi": ["Thức tỉnh", "Nhìn lại", "Tha thứ", "Tiếng gọi"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A moment of reckoning that is also a release. Judgement points to seeing your past clearly, to forgiving yourself and to answering a call that feels like it matters.",
+          "vi": "Một thời khắc nhìn lại cũng là một sự giải thoát. Phán Xét gợi đến việc thấy rõ quá khứ, tha thứ cho bản thân và đáp lại một tiếng gọi mà bạn cảm thấy có ý nghĩa."
+        },
+        "keywords": {
+          "en": ["Awakening", "Renewal", "Forgiveness", "Purpose"],
+          "vi": ["Thức tỉnh", "Làm mới", "Tha thứ", "Mục đích sống"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "Harsh self-judgement, or ignoring a call that keeps returning. It can be a prompt to soften the inner critic and to ask what you might regret not trying.",
+          "vi": "Tự phán xét khắt khe, hoặc lờ đi một tiếng gọi cứ quay lại. Lá bài có thể nhắc bạn dịu bớt người phê bình bên trong và hỏi mình sẽ tiếc điều gì nếu không thử."
+        },
+        "keywords": {
+          "en": ["Self-criticism", "Doubt", "Avoiding the call"],
+          "vi": ["Tự phê phán", "Hoài nghi", "Né tiếng gọi"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The trumpet’s sound reaches everyone at once, and those who rise do so with open arms rather than fear. The mountains and the water beyond them suggest a wide, calm world waiting after the old story has been put down.",
+      "vi": "Tiếng kèn đến với mọi người cùng lúc, và những ai đứng dậy đều làm vậy với đôi tay mở rộng thay vì sợ hãi. Dãy núi và mặt nước phía xa gợi một thế giới rộng lớn, bình yên đang chờ sau khi câu chuyện cũ được đặt xuống."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What are you ready to forgive yourself for?",
+        "What call do you keep hearing, even faintly?"
+      ],
+      "vi": [
+        "Bạn sẵn sàng tha thứ cho bản thân về điều gì?",
+        "Tiếng gọi nào bạn cứ nghe thấy, dù rất khẽ?"
+      ]
+    }
+  },
+  {
+    "id": "the-world",
+    "arcana": "major",
+    "number": 21,
+    "name": {
+      "en": "The World",
+      "vi": "Thế Giới"
+    },
+    "image": "/cards/21-the-world.webp",
+    "intro": {
+      "en": "A dancer moves at the centre of a wreath, a wand in each hand and four winged figures in the corners. The World is the card of completion — of a cycle finishing well and the sense of being whole.",
+      "vi": "Một vũ công chuyển động ở giữa vòng nguyệt quế, mỗi tay cầm một cây gậy, bốn sinh vật có cánh ở các góc. Thế Giới là lá bài của sự trọn vẹn — một chu kỳ khép lại tốt đẹp và cảm giác được nguyên vẹn."
+    },
+    "keywords": {
+      "en": ["Completion", "Wholeness", "Fulfilment", "Celebration"],
+      "vi": ["Hoàn thành", "Nguyên vẹn", "Viên mãn", "Ăn mừng"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "A cycle arrives at its close, and there is room to take it in. The World points to completion, to gratitude for how far you have come and to readiness for what is next.",
+          "vi": "Một chu kỳ đi đến hồi kết, và có chỗ để bạn ngẫm lại. Thế Giới gợi đến sự hoàn thành, lòng biết ơn về chặng đường đã qua và sự sẵn sàng cho điều kế tiếp."
+        },
+        "keywords": {
+          "en": ["Completion", "Wholeness", "Achievement", "Gratitude"],
+          "vi": ["Hoàn thành", "Nguyên vẹn", "Thành tựu", "Biết ơn"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "A finish line that feels just out of reach, or a hesitation to close a chapter. It may invite you to ask what is left to complete, and whether you are ready to let it be enough.",
+          "vi": "Vạch đích dường như còn ngoài tầm với, hoặc sự ngần ngại khi khép lại một chương. Lá bài có thể mời bạn hỏi còn điều gì cần hoàn tất, và bạn đã sẵn sàng để chừng ấy là đủ chưa."
+        },
+        "keywords": {
+          "en": ["Unfinished business", "Delay", "Hesitating to close"],
+          "vi": ["Việc dang dở", "Chậm trễ", "Ngần ngại khép lại"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "The wreath is a closed circle of victory and of time that returns to itself, with the dancer moving freely at its centre. The four figures in the corners, shared with the Wheel of Fortune, stand for the whole world held together in one picture.",
+      "vi": "Vòng nguyệt quế là một vòng tròn khép kín của chiến thắng và của thời gian quay về chính nó, người vũ công chuyển động tự do ở trung tâm. Bốn sinh vật ở các góc, cũng xuất hiện trên Vòng Quay Vận Mệnh, tượng trưng cho cả thế giới được gom trong một bức tranh."
+    },
+    "reflectionQuestions": {
+      "en": [
+        "What are you ready to say is complete?",
+        "What would you like to thank yourself for?"
+      ],
+      "vi": ["Bạn sẵn sàng nói điều gì là đã hoàn thành?", "Bạn muốn cảm ơn bản thân về điều gì?"]
+    }
+  }
+]

@@ -1,0 +1,44 @@
+.tile {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+/* Understated hover: a surface fill and a line border. No lift, no glow, no zoom. */
+.tile:hover {
+  background: var(--surface);
+  border-color: var(--line);
+}
+.tile .card {
+  --w: 100%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.meta {
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--ink-muted);
+}
+.name {
+  font-family: var(--font-display);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}

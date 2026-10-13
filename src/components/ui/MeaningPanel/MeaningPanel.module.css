@@ -1,0 +1,40 @@
+.meaning {
+  display: grid;
+  gap: var(--space-6);
+  max-width: var(--measure);
+}
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+.section {
+  display: grid;
+  gap: var(--space-2);
+}
+.heading {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-display);
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 460;
+  margin: 0;
+}
+.heading svg {
+  color: var(--terracotta-ink);
+  transform: rotate(-90deg);
+}
+.reversed .heading svg {
+  transform: rotate(90deg);
+}
+.text {
+  margin: 0;
+  font-size: 17px;
+  line-height: 28px;
+}
+.pending {
+  color: var(--ink-muted);
+  font-style: italic;
+}

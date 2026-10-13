@@ -1,0 +1,688 @@
+[
+  {
+    "id": "swords-ace",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 1,
+    "name": {
+      "en": "Ace of Swords",
+      "vi": "Át Kiếm"
+    },
+    "image": "/cards/swords-ace.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-02",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 2,
+    "name": {
+      "en": "Two of Swords",
+      "vi": "Hai Kiếm"
+    },
+    "image": "/cards/swords-02.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-03",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 3,
+    "name": {
+      "en": "Three of Swords",
+      "vi": "Ba Kiếm"
+    },
+    "image": "/cards/swords-03.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-04",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 4,
+    "name": {
+      "en": "Four of Swords",
+      "vi": "Bốn Kiếm"
+    },
+    "image": "/cards/swords-04.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-05",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 5,
+    "name": {
+      "en": "Five of Swords",
+      "vi": "Năm Kiếm"
+    },
+    "image": "/cards/swords-05.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-06",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 6,
+    "name": {
+      "en": "Six of Swords",
+      "vi": "Sáu Kiếm"
+    },
+    "image": "/cards/swords-06.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-07",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 7,
+    "name": {
+      "en": "Seven of Swords",
+      "vi": "Bảy Kiếm"
+    },
+    "image": "/cards/swords-07.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-08",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 8,
+    "name": {
+      "en": "Eight of Swords",
+      "vi": "Tám Kiếm"
+    },
+    "image": "/cards/swords-08.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-09",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 9,
+    "name": {
+      "en": "Nine of Swords",
+      "vi": "Chín Kiếm"
+    },
+    "image": "/cards/swords-09.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-10",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": 10,
+    "name": {
+      "en": "Ten of Swords",
+      "vi": "Mười Kiếm"
+    },
+    "image": "/cards/swords-10.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-page",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "page",
+    "name": {
+      "en": "Page of Swords",
+      "vi": "Thị Đồng Kiếm"
+    },
+    "image": "/cards/swords-page.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-knight",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "knight",
+    "name": {
+      "en": "Knight of Swords",
+      "vi": "Kỵ Sĩ Kiếm"
+    },
+    "image": "/cards/swords-knight.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-queen",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "queen",
+    "name": {
+      "en": "Queen of Swords",
+      "vi": "Nữ Hoàng Kiếm"
+    },
+    "image": "/cards/swords-queen.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "swords-king",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "king",
+    "name": {
+      "en": "King of Swords",
+      "vi": "Vua Kiếm"
+    },
+    "image": "/cards/swords-king.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  }
+]

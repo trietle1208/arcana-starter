@@ -1,0 +1,688 @@
+[
+  {
+    "id": "cups-ace",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 1,
+    "name": {
+      "en": "Ace of Cups",
+      "vi": "Át Cốc"
+    },
+    "image": "/cards/cups-ace.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-02",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 2,
+    "name": {
+      "en": "Two of Cups",
+      "vi": "Hai Cốc"
+    },
+    "image": "/cards/cups-02.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-03",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 3,
+    "name": {
+      "en": "Three of Cups",
+      "vi": "Ba Cốc"
+    },
+    "image": "/cards/cups-03.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-04",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 4,
+    "name": {
+      "en": "Four of Cups",
+      "vi": "Bốn Cốc"
+    },
+    "image": "/cards/cups-04.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-05",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 5,
+    "name": {
+      "en": "Five of Cups",
+      "vi": "Năm Cốc"
+    },
+    "image": "/cards/cups-05.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-06",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 6,
+    "name": {
+      "en": "Six of Cups",
+      "vi": "Sáu Cốc"
+    },
+    "image": "/cards/cups-06.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-07",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 7,
+    "name": {
+      "en": "Seven of Cups",
+      "vi": "Bảy Cốc"
+    },
+    "image": "/cards/cups-07.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-08",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 8,
+    "name": {
+      "en": "Eight of Cups",
+      "vi": "Tám Cốc"
+    },
+    "image": "/cards/cups-08.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-09",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 9,
+    "name": {
+      "en": "Nine of Cups",
+      "vi": "Chín Cốc"
+    },
+    "image": "/cards/cups-09.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-10",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": 10,
+    "name": {
+      "en": "Ten of Cups",
+      "vi": "Mười Cốc"
+    },
+    "image": "/cards/cups-10.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-page",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "page",
+    "name": {
+      "en": "Page of Cups",
+      "vi": "Thị Đồng Cốc"
+    },
+    "image": "/cards/cups-page.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-knight",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "knight",
+    "name": {
+      "en": "Knight of Cups",
+      "vi": "Kỵ Sĩ Cốc"
+    },
+    "image": "/cards/cups-knight.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-queen",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "queen",
+    "name": {
+      "en": "Queen of Cups",
+      "vi": "Nữ Hoàng Cốc"
+    },
+    "image": "/cards/cups-queen.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  },
+  {
+    "id": "cups-king",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "king",
+    "name": {
+      "en": "King of Cups",
+      "vi": "Vua Cốc"
+    },
+    "image": "/cards/cups-king.webp",
+    "intro": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "keywords": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    },
+    "meanings": {
+      "upright": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      },
+      "reversed": {
+        "summary": {
+          "en": "TODO",
+          "vi": "TODO"
+        },
+        "keywords": {
+          "en": ["TODO"],
+          "vi": ["TODO"]
+        }
+      }
+    },
+    "symbolism": {
+      "en": "TODO",
+      "vi": "TODO"
+    },
+    "reflectionQuestions": {
+      "en": ["TODO"],
+      "vi": ["TODO"]
+    }
+  }
+]
