@@ -10,42 +10,48 @@
     },
     "image": "/cards/swords-ace.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A hand rises from a cloud, gripping an upright sword that passes through a golden crown. The Ace of Swords is the card of clarity — a clear thought, an honest truth, the moment something finally makes sense.",
+      "vi": "Một bàn tay vươn ra từ đám mây, nắm một thanh kiếm dựng thẳng xuyên qua chiếc vương miện vàng. Át Kiếm là lá bài của sự sáng tỏ — một ý nghĩ rõ ràng, một sự thật trung thực, khoảnh khắc điều gì đó cuối cùng cũng có nghĩa."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Clarity", "Truth", "Insight", "Fresh perspective"],
+      "vi": ["Sáng tỏ", "Sự thật", "Thấu suốt", "Góc nhìn mới"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A mind that cuts through confusion. The Ace of Swords points to a breakthrough idea, a straightforward truth and the courage to say plainly what you see, with kindness and precision.",
+          "vi": "Một tâm trí xuyên qua được sự rối rắm. Át Kiếm gợi đến một ý tưởng đột phá, một sự thật thẳng thắn và lòng can đảm nói ra điều bạn thấy một cách đơn giản, với sự tử tế và chính xác."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Breakthrough", "Honesty", "Mental clarity", "Decisiveness"],
+          "vi": ["Đột phá", "Trung thực", "Đầu óc minh mẫn", "Dứt khoát"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Thoughts that are clouded, words that come out sharper than meant, or a truth that is hard to say. It can be a prompt to ask what is muddying your view, and whether the clarity you want needs rest, facts or a gentler tone.",
+          "vi": "Những ý nghĩ bị che mờ, lời nói sắc hơn điều mình định nói, hoặc một sự thật khó thốt ra. Lá bài có thể nhắc bạn hỏi điều gì đang làm đục tầm nhìn, và sự sáng rõ bạn muốn có cần thêm nghỉ ngơi, dữ kiện hay một giọng nhẹ hơn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Confusion", "Harsh words", "Mental fog", "Misjudgement"],
+          "vi": ["Rối rắm", "Lời nói gay gắt", "Đầu óc mờ mịt", "Đánh giá sai"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A hand rises from a cloud, grasping the sword as something offered, not taken. The blade passes through a crown hung with an olive branch and a palm, the old signs of peace and victory. Golden drops fall around it, and bare mountains stand in the distance, a high, clear air.",
+      "vi": "Một bàn tay vươn ra từ đám mây, nắm thanh kiếm như thứ được trao chứ không phải giành lấy. Lưỡi kiếm xuyên qua chiếc vương miện có cành ô liu và cành cọ rủ xuống, những dấu hiệu xưa của hòa bình và chiến thắng. Những giọt vàng rơi quanh kiếm, và xa xa là dãy núi trơ trụi, một bầu không khí cao và trong."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What do you see clearly today that you were not ready to see before?",
+        "What honest thing could you say plainly and kindly?"
+      ],
+      "vi": [
+        "Hôm nay bạn thấy rõ điều gì mà trước đây bạn chưa sẵn sàng nhìn?",
+        "Điều chân thật nào bạn có thể nói thẳng mà vẫn tử tế?"
+      ]
     }
   },
   {
@@ -59,42 +65,48 @@
     },
     "image": "/cards/swords-02.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A blindfolded figure sits on a stone bench, two swords crossed over the chest, a calm sea behind them under a crescent moon. The Two of Swords is the card of the stalemate — a decision held in balance because the choice feels too hard to look at.",
+      "vi": "Một người bịt mắt ngồi trên ghế đá, hai thanh kiếm bắt chéo trước ngực, phía sau là mặt biển lặng dưới vầng trăng lưỡi liềm. Hai Kiếm là lá bài của thế giằng co — một quyết định bị giữ ở trạng thái cân bằng vì lựa chọn quá khó để nhìn thẳng vào."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Indecision", "Stalemate", "Balance", "Avoidance"],
+      "vi": ["Lưỡng lự", "Bế tắc", "Cân bằng", "Né tránh"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A choice held at a standstill. The Two of Swords points to weighing two options without enough information, shutting out feelings to stay calm, and a pause that can be useful or can become a way of not deciding.",
+          "vi": "Một lựa chọn bị giữ lại, chưa nhúc nhích. Hai Kiếm gợi đến việc cân nhắc hai phương án khi chưa đủ thông tin, che đi cảm xúc để giữ bình tĩnh, và một quãng dừng có thể hữu ích hoặc trở thành cách để khỏi phải quyết định."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Hard choice", "Truce", "Guarded heart", "Pause"],
+          "vi": ["Lựa chọn khó", "Đình chiến", "Giữ lòng kín", "Tạm dừng"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "The blindfold slips: information comes in, the tension breaks and a decision becomes possible. It can also point to being overwhelmed by the choice, or to a decision made on impulse just to escape the discomfort.",
+          "vi": "Tấm bịt mắt tuột xuống: thông tin đến, sự căng thẳng vỡ ra và một quyết định trở nên khả dĩ. Lá bài cũng có thể chỉ cảm giác choáng ngợp trước lựa chọn, hoặc một quyết định vội vàng chỉ để thoát khỏi sự khó chịu."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Clarity returns", "Release of tension", "Overwhelm", "Rash decision"],
+          "vi": ["Sáng rõ trở lại", "Nhẹ căng thẳng", "Choáng ngợp", "Quyết vội"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The blindfold shuts out what the eyes would see, and the crossed arms guard the heart, a figure choosing not to look yet. The two swords form a shield that both protects and blocks, balanced exactly. Behind them the sea is still and the crescent moon hangs above, as if to say there is time, and the water is calm enough to think in.",
+      "vi": "Tấm bịt mắt che đi những gì đôi mắt sẽ thấy, và đôi tay khoanh giữ lấy trái tim, một dáng người chọn chưa nhìn vào lúc này. Hai thanh kiếm tạo thành tấm chắn vừa bảo vệ vừa cản đường, cân bằng đến từng li. Phía sau, biển lặng và vầng trăng lưỡi liềm treo cao, như nhắc rằng vẫn còn thời gian, và mặt nước đủ yên để suy nghĩ."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What decision are you holding at arm’s length right now?",
+        "What information or feeling would help you take off the blindfold?"
+      ],
+      "vi": [
+        "Quyết định nào bạn đang giữ ở một khoảng cách an toàn lúc này?",
+        "Thông tin hay cảm xúc nào sẽ giúp bạn gỡ tấm bịt mắt xuống?"
+      ]
     }
   },
   {
@@ -108,42 +120,48 @@
     },
     "image": "/cards/swords-03.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A red heart is pierced by three swords against a grey sky full of rain. The Three of Swords is the card of heartache — a pain that is real, and that asks to be felt before it can ease.",
+      "vi": "Một trái tim đỏ bị ba thanh kiếm xuyên qua, trên nền trời xám đầy mưa. Ba Kiếm là lá bài của nỗi đau lòng — một nỗi đau có thật, và cần được cảm nhận trước khi nó dịu đi."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Heartache", "Grief", "Sorrow", "Healing"],
+      "vi": ["Đau lòng", "Mất mát", "Nỗi buồn", "Chữa lành"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Sorrow, betrayal or a hard truth that hurts. The Three of Swords points to heartbreak and the tears that follow it, and to the honesty of letting the pain be what it is instead of hurrying past it.",
+          "vi": "Nỗi buồn, sự phản bội hay một sự thật khó nghe làm đau. Ba Kiếm gợi đến sự tan vỡ trong lòng và những giọt nước mắt theo sau, cùng sự chân thật của việc để nỗi đau là nó, thay vì vội vã bước qua."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Heartbreak", "Betrayal", "Sadness", "Hard truth"],
+          "vi": ["Tan vỡ", "Phản bội", "Buồn bã", "Sự thật khó nghe"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Pain that is slowly easing, or pain that has been pushed down and still aches. It can be a prompt to ask what forgiveness, rest or a gentle conversation might offer, and who could keep you company while you heal.",
+          "vi": "Nỗi đau đang dịu dần, hoặc nỗi đau bị nén xuống mà vẫn còn nhức. Lá bài có thể nhắc bạn hỏi sự tha thứ, nghỉ ngơi hay một cuộc trò chuyện nhẹ nhàng có thể cho bạn điều gì, và ai có thể ở bên bạn trong lúc bạn lành lại."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Recovery", "Forgiveness", "Suppressed pain", "Letting go"],
+          "vi": ["Hồi phục", "Tha thứ", "Nỗi đau bị nén", "Buông bỏ"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The heart is drawn plainly, with no face and no figure, so the pain belongs to anyone who looks. Three swords pass right through it, a picture of how a few words or events can cut deep. Rain and heavy cloud fill the sky, a weather that has to pass over before it clears.",
+      "vi": "Trái tim được vẽ giản dị, không gương mặt, không dáng người, nên nỗi đau thuộc về bất cứ ai nhìn vào. Ba thanh kiếm xuyên thẳng qua nó, hình ảnh của việc vài lời nói hay vài sự việc có thể cắt sâu đến đâu. Mưa và mây dày phủ kín bầu trời, một thứ thời tiết phải đi qua trước khi trời quang."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What does this hurt need from you right now?",
+        "Who could you let in while you are feeling this?"
+      ],
+      "vi": [
+        "Nỗi đau này cần gì ở bạn lúc này?",
+        "Bạn có thể để ai bước vào lúc đang cảm thấy điều này?"
+      ]
     }
   },
   {
@@ -157,42 +175,48 @@
     },
     "image": "/cards/swords-04.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure lies still on a stone tomb, hands folded in prayer, three swords on the wall above and a fourth beneath. The Four of Swords is the card of rest — a deliberate pause to recover before anything more is asked of you.",
+      "vi": "Một dáng người nằm yên trên mộ đá, hai tay chắp cầu nguyện, ba thanh kiếm treo trên tường phía trên và thanh thứ tư nằm bên dưới. Bốn Kiếm là lá bài của sự nghỉ ngơi — một quãng dừng có chủ đích để hồi sức trước khi có thêm điều gì được đòi hỏi ở bạn."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Rest", "Recovery", "Stillness", "Retreat"],
+      "vi": ["Nghỉ ngơi", "Hồi sức", "Tĩnh lặng", "Lui về"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A time to step back and recover. The Four of Swords points to rest after strain, quiet reflection and the kind of retreat that lets the mind settle, with nothing to prove while it happens.",
+          "vi": "Một lúc để lùi lại và hồi sức. Bốn Kiếm gợi đến sự nghỉ ngơi sau căng thẳng, suy ngẫm yên tĩnh và kiểu lui về giúp tâm trí lắng xuống, trong lúc đó chẳng có gì phải chứng minh."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Recuperation", "Meditation", "Peace", "Stepping back"],
+          "vi": ["Phục hồi", "Thiền định", "Bình yên", "Lùi một bước"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Restlessness that will not let you pause, or rest that has stretched into avoiding life. It can be a prompt to ask whether you are pushing on when you need to stop, or hiding when you are ready to return.",
+          "vi": "Sự bồn chồn không cho bạn dừng lại, hoặc sự nghỉ ngơi đã kéo dài thành né tránh cuộc sống. Lá bài có thể nhắc bạn hỏi mình có đang cố tiến khi cần dừng, hay đang trốn khi đã sẵn sàng quay lại."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Restlessness", "Burnout", "Stagnation", "Coming back"],
+          "vi": ["Bồn chồn", "Kiệt sức", "Trì trệ", "Quay lại"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The figure on the tomb lies in a posture of rest and prayer, a pause that looks like stillness rather than an ending. Three swords hang on the wall and one lies below, the tools of the mind put down for now. A stained-glass window casts soft colour into the room, a sign that comfort and meaning are close even in the quiet.",
+      "vi": "Dáng người trên mộ đá nằm trong tư thế nghỉ ngơi và cầu nguyện, một quãng dừng giống sự tĩnh lặng hơn là một sự kết thúc. Ba thanh kiếm treo trên tường và một thanh nằm bên dưới, những công cụ của trí óc được đặt xuống lúc này. Ô cửa kính màu rọi vào căn phòng thứ ánh sáng dịu, như dấu hiệu rằng sự an ủi và ý nghĩa vẫn ở gần ngay cả trong yên lặng."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What would it take for you to rest without feeling guilty?",
+        "What are you ready to set down for a little while?"
+      ],
+      "vi": [
+        "Bạn cần điều gì để nghỉ ngơi mà không thấy áy náy?",
+        "Bạn sẵn sàng đặt điều gì xuống trong một thời gian ngắn?"
+      ]
     }
   },
   {
@@ -206,42 +230,48 @@
     },
     "image": "/cards/swords-05.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A smirking figure gathers swords from the ground while two others walk away, heads bowed, under a torn sky. The Five of Swords is the card of a hollow win — conflict where one side gains and everyone loses something.",
+      "vi": "Một người nhếch mép cười gom những thanh kiếm trên mặt đất, còn hai người khác cúi đầu bước đi dưới bầu trời rách. Năm Kiếm là lá bài của chiến thắng rỗng — xung đột mà một bên được, còn ai cũng mất đi điều gì đó."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Conflict", "Hollow victory", "Pride", "Tension"],
+      "vi": ["Xung đột", "Chiến thắng rỗng", "Lòng kiêu hãnh", "Căng thẳng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A disagreement that is won at a price. The Five of Swords points to arguments where being right matters more than the relationship, to self-interest, and to the question of what winning is really worth.",
+          "vi": "Một cuộc bất đồng thắng được với cái giá phải trả. Năm Kiếm gợi đến những cuộc tranh cãi mà việc đúng quan trọng hơn mối quan hệ, đến sự vụ lợi, và câu hỏi chiến thắng thật sự đáng giá bao nhiêu."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Self-interest", "Arguments", "Defeat", "Damaged trust"],
+          "vi": ["Vụ lợi", "Tranh cãi", "Thua cuộc", "Lòng tin bị tổn hại"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "The fight has gone out of the conflict, and what is left is the wish to make peace. It can also point to lingering resentment, or to an apology that is overdue and a lesson that is ready to be taken in.",
+          "vi": "Sức đấu đã rút khỏi cuộc xung đột, và điều còn lại là mong muốn hòa giải. Lá bài cũng có thể chỉ nỗi hậm hực còn đọng lại, hoặc một lời xin lỗi đã quá hạn và một bài học đã sẵn sàng được đón nhận."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Reconciliation", "Regret", "Lingering resentment", "Making amends"],
+          "vi": ["Hòa giải", "Hối tiếc", "Hậm hực còn đọng", "Bù đắp"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The figure in front holds three swords and glances back with a half-smile, the look of a win that feels good and a little uneasy. Two more swords lie on the ground, and the other two figures walk toward the water, shoulders low. Ragged clouds tear across the sky, as if the air itself has been disturbed by the quarrel.",
+      "vi": "Người đứng phía trước ôm ba thanh kiếm và liếc lại với nụ cười nửa miệng, vẻ của một chiến thắng thấy sướng mà cũng hơi bất an. Hai thanh kiếm khác nằm trên đất, còn hai người kia bước về phía mặt nước, vai trĩu xuống. Những đám mây xé rách lướt ngang bầu trời, như thể chính không khí cũng bị cuộc cãi vã làm xáo động."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "When did being right last cost you something you cared about?",
+        "What could you say to begin repairing a disagreement that still weighs on you?"
+      ],
+      "vi": [
+        "Lần gần nhất việc muốn mình đúng khiến bạn mất điều gì đó quan trọng là khi nào?",
+        "Bạn có thể nói gì để bắt đầu hàn gắn một bất đồng vẫn còn đè nặng trong lòng?"
+      ]
     }
   },
   {
@@ -255,42 +285,48 @@
     },
     "image": "/cards/swords-06.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A ferryman poles a boat across the water, carrying a hooded figure and a child, six swords standing upright in the bow. The Six of Swords is the card of the passage — a quiet move from troubled water toward calmer shores.",
+      "vi": "Một người chèo thuyền dùng sào đưa con thuyền qua mặt nước, trên thuyền là một người trùm áo co ro cùng một đứa trẻ, sáu thanh kiếm dựng thẳng ở mũi thuyền. Sáu Kiếm là lá bài của hành trình chuyển tiếp — một cuộc dời đi lặng lẽ từ vùng nước xáo động sang bờ yên ả hơn."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Transition", "Moving on", "Healing", "Distance"],
+      "vi": ["Chuyển tiếp", "Bước tiếp", "Chữa lành", "Giữ khoảng cách"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A gentle journey away from difficulty. The Six of Swords points to leaving something painful behind, to the relief of calmer waters, and to carrying only what you need while you travel.",
+          "vi": "Một hành trình nhẹ nhàng rời xa điều khó khăn. Sáu Kiếm gợi đến việc để lại sau lưng điều đau đớn, sự nhẹ nhõm của vùng nước yên hơn, và việc chỉ mang theo thứ cần thiết trên đường đi."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Passage", "Relief", "Calmer waters", "Recovery"],
+          "vi": ["Chặng chuyển", "Nhẹ nhõm", "Nước yên hơn", "Hồi phục"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A journey that is stuck, or troubles that come along in the boat. It can be a prompt to ask what you are bringing with you that you could set down, and whether a change of scene is serving you or only delaying the work.",
+          "vi": "Một hành trình bị mắc kẹt, hoặc những rắc rối đi cùng trên thuyền. Lá bài có thể nhắc bạn hỏi mình đang mang theo điều gì có thể đặt xuống, và việc đổi khung cảnh đang giúp bạn hay chỉ trì hoãn công việc cần làm."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Stuck in transit", "Baggage", "Resistance to change", "Unfinished business"],
+          "vi": ["Mắc kẹt giữa đường", "Hành lý cảm xúc", "Kháng cự thay đổi", "Việc dang dở"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The ferryman stands at the back with a long pole, pushing the boat on, while the passengers sit close and bundled, one hooded against the cold. Six swords stand upright in the boat, a weight of sorrow carried along. The water is rough close to the boat and smooth toward the far shore.",
+      "vi": "Người chèo thuyền đứng ở phía sau với chiếc sào dài, đẩy thuyền đi tiếp, còn các hành khách ngồi sát nhau, quấn kín, một người trùm đầu chống lạnh. Sáu thanh kiếm dựng thẳng trong thuyền, một sức nặng của nỗi buồn được mang theo. Mặt nước gợn sóng gần con thuyền và phẳng lặng dần về phía bờ xa."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What would a calmer shore look like for you?",
+        "What are you taking with you that you could leave behind?"
+      ],
+      "vi": [
+        "Một bờ bến yên ả hơn sẽ trông như thế nào với bạn?",
+        "Bạn đang mang theo điều gì mà có thể để lại?"
+      ]
     }
   },
   {
@@ -304,42 +340,48 @@
     },
     "image": "/cards/swords-07.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure tiptoes away from a camp with five swords in their arms, glancing back at the two left standing. The Seven of Swords is the card of strategy and stealth — and of asking whether you are being fully honest.",
+      "vi": "Một người rón rén rời khỏi doanh trại, ôm năm thanh kiếm trong tay, ngoái nhìn hai thanh còn cắm lại. Bảy Kiếm là lá bài của chiến thuật và sự lén lút — và của câu hỏi liệu bạn có đang hoàn toàn trung thực không."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Strategy", "Secrecy", "Resourcefulness", "Evasion"],
+      "vi": ["Chiến thuật", "Bí mật", "Lanh lợi", "Lẩn tránh"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Getting something done quietly, by wit rather than force. The Seven of Swords points to cleverness and independence, and also to half-truths, avoidance or a plan you are not sharing, and invites you to look at what lies behind the secrecy.",
+          "vi": "Làm xong việc một cách lặng lẽ, bằng mưu trí chứ không bằng sức. Bảy Kiếm gợi đến sự lanh lợi và độc lập, nhưng cũng đến những nửa sự thật, sự né tránh hay một kế hoạch bạn chưa chia sẻ, và mời bạn nhìn xem điều gì nằm sau sự kín đáo ấy."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Cleverness", "Independence", "Half-truths", "Going it alone"],
+          "vi": ["Khôn khéo", "Độc lập", "Nửa sự thật", "Tự mình làm"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A secret that comes to light, or the decision to come clean. It can be a prompt to ask what you have been keeping to yourself, and what honesty might cost and give back.",
+          "vi": "Một bí mật lộ ra, hoặc quyết định nói thật. Lá bài có thể nhắc bạn hỏi mình đã giữ riêng điều gì, và sự trung thực có thể đòi hỏi và đem lại những gì."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Coming clean", "Exposure", "Conscience", "Second thoughts"],
+          "vi": ["Thú nhận", "Bị phát lộ", "Lương tâm", "Nghĩ lại"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The figure carries five swords, awkwardly, and leaves two planted in the ground, a sign that no plan can take everything. The red cap and boots stand out against the yellow sky, and the glance over the shoulder shows a mind already watching for consequences. Behind them the camp goes on as usual, tents and small figures not yet aware of what is missing.",
+      "vi": "Người ấy ôm năm thanh kiếm một cách vụng về và bỏ lại hai thanh cắm trên đất, dấu hiệu rằng không kế hoạch nào mang đi được tất cả. Chiếc mũ và đôi giày đỏ nổi bật trên nền trời vàng, còn cái liếc qua vai cho thấy một tâm trí đã đang canh chừng hậu quả. Phía sau, doanh trại vẫn sinh hoạt như thường, những chiếc lều và bóng người nhỏ chưa hay biết điều gì đã mất."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What are you keeping to yourself that might be easier to say out loud?",
+        "Where would a plain, direct approach serve you better than a clever one?"
+      ],
+      "vi": [
+        "Bạn đang giữ riêng điều gì mà có thể sẽ nhẹ hơn khi nói thành lời?",
+        "Ở đâu một cách tiếp cận thẳng thắn sẽ có ích hơn một cách khôn khéo?"
+      ]
     }
   },
   {
@@ -353,42 +395,48 @@
     },
     "image": "/cards/swords-08.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A blindfolded figure, loosely bound in cloth, stands among eight swords planted in wet ground, a castle on a rock far behind. The Eight of Swords is the card of feeling trapped — and of noticing how much of the cage is made of thoughts.",
+      "vi": "Một người bịt mắt, bị quấn lỏng bằng vải, đứng giữa tám thanh kiếm cắm trên nền đất ướt, xa phía sau là một tòa lâu đài trên vách đá. Tám Kiếm là lá bài của cảm giác bị mắc kẹt — và của việc nhận ra bao nhiêu phần của chiếc lồng ấy được dựng từ những ý nghĩ trong đầu."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Feeling trapped", "Restriction", "Fear", "Perspective"],
+      "vi": ["Thấy mắc kẹt", "Bị gò bó", "Nỗi sợ", "Góc nhìn"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A sense of having no way out. The Eight of Swords points to fear, self-doubt and old stories about what is not possible, and to the chance that the binding is looser than it feels, so the way out may begin with a thought.",
+          "vi": "Cảm giác không còn lối thoát. Tám Kiếm gợi đến nỗi sợ, sự tự nghi ngờ và những câu chuyện cũ về điều không thể, cùng khả năng rằng sợi dây trói lỏng hơn cảm giác, nên lối ra có thể bắt đầu từ một ý nghĩ."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Self-doubt", "Limiting beliefs", "Powerlessness", "Confusion"],
+          "vi": ["Tự nghi ngờ", "Niềm tin hạn chế", "Bất lực", "Bối rối"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "The blindfold loosens and options come into view. It can be a prompt to take back a little control, one small step at a time, and to ask whom you could talk to about what feels stuck.",
+          "vi": "Tấm bịt mắt lỏng ra và các lựa chọn dần hiện ra. Lá bài có thể nhắc bạn lấy lại một chút quyền tự chủ, từng bước nhỏ, và hỏi mình có thể nói chuyện với ai về điều đang khiến mình thấy kẹt."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Self-acceptance", "New perspective", "Freedom", "Taking back control"],
+          "vi": ["Chấp nhận bản thân", "Góc nhìn mới", "Tự do", "Lấy lại quyền chủ động"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The blindfold and the loose bands of cloth show a trap that depends on what cannot be seen and on what is told to oneself. Swords stand around the figure like bars, yet there are gaps between them and open ground ahead. Shallow pools lie across the earth, and a castle on a distant rock suggests that safety is not so far away.",
+      "vi": "Tấm bịt mắt và những dải vải lỏng cho thấy một cái bẫy dựa vào điều không nhìn thấy được và những điều người ta tự nói với mình. Các thanh kiếm đứng quanh như song sắt, nhưng giữa chúng có khoảng hở, và phía trước là chỗ trống. Những vũng nước nông nằm rải trên đất, còn tòa lâu đài trên vách đá xa xa gợi rằng sự an toàn không quá xa."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What story are you telling yourself about what you cannot do?",
+        "What is one small step that feels possible, even if the rest does not?"
+      ],
+      "vi": [
+        "Bạn đang tự kể với mình câu chuyện nào về điều bạn không thể làm?",
+        "Một bước nhỏ nào cảm thấy khả thi, dù phần còn lại thì chưa?"
+      ]
     }
   },
   {
@@ -402,42 +450,48 @@
     },
     "image": "/cards/swords-09.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure sits up in bed in the dark, face in their hands, nine swords hanging on the wall behind. The Nine of Swords is the card of sleepless worry — the weight of fear that grows loudest at night.",
+      "vi": "Một người ngồi dậy trên giường trong bóng tối, hai tay ôm mặt, chín thanh kiếm treo trên tường phía sau. Chín Kiếm là lá bài của nỗi lo mất ngủ — sức nặng của nỗi sợ vang to nhất vào ban đêm."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Anxiety", "Worry", "Sleepless nights", "Guilt"],
+      "vi": ["Lo âu", "Trăn trở", "Những đêm mất ngủ", "Day dứt"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Fear and worry that fill the mind, especially in the small hours. The Nine of Swords points to anxiety, nightmares and self-blame, and to how much of the weight lives in thought; it can be a sign to reach out to someone you trust.",
+          "vi": "Nỗi sợ và sự lo lắng lấp đầy tâm trí, nhất là vào những giờ khuya. Chín Kiếm gợi đến lo âu, ác mộng và sự tự trách, cùng việc phần lớn sức nặng nằm trong suy nghĩ; đây có thể là tín hiệu để bạn tìm đến một người bạn tin tưởng."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Dread", "Nightmares", "Self-blame", "Overthinking"],
+          "vi": ["Nỗi sợ hãi", "Ác mộng", "Tự trách", "Nghĩ quá nhiều"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "The worst of the night is easing, or a worry is being named and shared. It can also point to anxiety that has been hidden and needs care, and to the relief of asking for support.",
+          "vi": "Phần tệ nhất của đêm đang dịu đi, hoặc một nỗi lo đang được gọi tên và sẻ chia. Lá bài cũng có thể chỉ một nỗi lo âu bị giấu kín và cần được chăm sóc, cùng sự nhẹ nhõm khi nhờ đến sự nâng đỡ."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Easing worry", "Seeking support", "Hidden anxiety", "Hope"],
+          "vi": ["Bớt lo", "Tìm sự nâng đỡ", "Lo âu giấu kín", "Hy vọng"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The dark wall and the nine swords hanging in the black make worry look larger than the bed and the person in it. The figure sits upright with the face covered, awake in the middle of the night. The quilt is patterned with roses and the signs of the sky, and the bed frame is carved with a scene of struggle, hints that this worry has a history and lives in an ordinary room.",
+      "vi": "Bức tường tối và chín thanh kiếm treo trong màu đen khiến nỗi lo trông lớn hơn cả chiếc giường và người ngồi trên đó. Người ấy ngồi thẳng, che mặt, thức giữa đêm. Tấm chăn có họa tiết hoa hồng và các dấu hiệu của bầu trời, còn thành giường được chạm một cảnh giằng co, như gợi rằng nỗi lo này có lịch sử riêng và diễn ra trong một căn phòng rất đỗi bình thường."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What does your worry look like when you say it out loud to someone you trust?",
+        "What would help your mind settle tonight?"
+      ],
+      "vi": [
+        "Nỗi lo của bạn trông ra sao khi bạn nói thành lời với một người mình tin?",
+        "Điều gì giúp tâm trí bạn lắng xuống tối nay?"
+      ]
     }
   },
   {
@@ -451,42 +505,48 @@
     },
     "image": "/cards/swords-10.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure lies face down with ten swords in their back, while dawn lights a golden line on the horizon. The Ten of Swords is the card of an ending that has run its whole course — painful, and also the bottom from which a slow dawn can begin.",
+      "vi": "Một người nằm sấp với mười thanh kiếm cắm trên lưng, trong khi bình minh kẻ một đường vàng ở chân trời. Mười Kiếm là lá bài của một kết thúc đã đi hết chặng đường — đau đớn, và cũng là đáy từ đó một bình minh chậm rãi có thể bắt đầu."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Endings", "Rock bottom", "Exhaustion", "Release"],
+      "vi": ["Kết thúc", "Chạm đáy", "Kiệt quệ", "Trút bỏ"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A painful ending, a betrayal or a point of complete exhaustion. The Ten of Swords points to what has finished, to the relief that sometimes comes when there is nowhere further to fall, and to the chance to stop fighting what is already over.",
+          "vi": "Một kết thúc đau đớn, một sự phản bội hay một điểm kiệt quệ hoàn toàn. Mười Kiếm gợi đến điều đã khép lại, sự nhẹ nhõm đôi khi đến khi không còn chỗ nào để rơi thêm, và cơ hội ngừng chống lại điều đã qua."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Painful ending", "Betrayal", "Collapse", "Letting go of the fight"],
+          "vi": ["Kết thúc đau đớn", "Phản bội", "Sụp đổ", "Buông tay"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Recovery begins slowly, or an ending is being drawn out because it is hard to let go. It can be a prompt to ask what you are holding on to that has already finished, and what rest and care you need to begin again.",
+          "vi": "Sự hồi phục bắt đầu chậm rãi, hoặc một kết thúc bị kéo dài vì khó buông. Lá bài có thể nhắc bạn hỏi mình đang bám vào điều gì đã khép lại, và cần sự nghỉ ngơi, chăm sóc nào để bắt đầu lại."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Recovery", "Slow healing", "Clinging", "Beginning again"],
+          "vi": ["Hồi phục", "Lành chậm", "Bám víu", "Bắt đầu lại"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Ten swords stand along the figure’s back, far more than any one blow needs, a picture of pain stretched past all sense. The sky above is black, yet a band of gold light runs along the horizon and the water lies calm. The ending is complete, and the sunrise is the quiet sign that it is not the end of everything.",
+      "vi": "Mười thanh kiếm cắm dọc lưng, nhiều hơn mọi nhát đâm cần có, hình ảnh của nỗi đau bị kéo quá mức hợp lý. Bầu trời phía trên đen kịt, nhưng một dải ánh vàng chạy dọc chân trời và mặt nước lặng yên. Kết thúc đã trọn vẹn, còn bình minh là dấu hiệu lặng lẽ rằng đó chưa phải là hết mọi thứ."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What has already ended that you are still trying to hold together?",
+        "What small comfort could help you through the quiet after an ending?"
+      ],
+      "vi": [
+        "Điều gì đã kết thúc mà bạn vẫn đang cố gắng giữ lại?",
+        "Niềm an ủi nhỏ nào có thể giúp bạn đi qua quãng lặng sau một kết thúc?"
+      ]
     }
   },
   {
@@ -500,42 +560,48 @@
     },
     "image": "/cards/swords-page.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A young figure stands on a windy hill, a sword raised in both hands, birds wheeling overhead. The Page of Swords is the card of a sharp, curious mind — questions, new ideas and the energy to find out.",
+      "vi": "Một người trẻ đứng trên đồi lộng gió, hai tay giơ cao thanh kiếm, những con chim bay lượn trên đầu. Thị Đồng Kiếm là lá bài của một trí óc sắc sảo và tò mò — những câu hỏi, ý tưởng mới và năng lượng để tìm hiểu."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Curiosity", "Learning", "Alertness", "Communication"],
+      "vi": ["Tò mò", "Học hỏi", "Tỉnh táo", "Giao tiếp"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A mind eager to learn and to speak up. The Page of Swords points to fresh ideas, honest questions and the energy of studying something new, with a readiness to say what you think.",
+          "vi": "Một trí óc háo hức học hỏi và lên tiếng. Thị Đồng Kiếm gợi đến những ý tưởng mới, câu hỏi thẳng thắn và năng lượng khi tìm hiểu điều chưa biết, cùng sự sẵn sàng nói ra điều mình nghĩ."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Fresh ideas", "Honest questions", "Vigilance", "Eagerness to learn"],
+          "vi": ["Ý tưởng mới", "Câu hỏi thẳng thắn", "Cảnh giác", "Háo hức học hỏi"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Words that are said too fast or too sharply, gossip, or plans that are all talk. It can be a prompt to ask whether you are speaking before you have listened, and whether your curiosity is turning into criticism.",
+          "vi": "Lời nói buột ra quá nhanh hoặc quá sắc, chuyện tán gẫu, hay kế hoạch chỉ toàn lời nói. Lá bài có thể nhắc bạn hỏi mình có đang nói trước khi nghe, và sự tò mò của mình có đang trượt thành chỉ trích không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Hasty words", "Gossip", "Scattered thoughts", "Sharp tongue"],
+          "vi": ["Lời nói vội", "Tán gẫu", "Ý nghĩ tản mạn", "Miệng lưỡi sắc"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The figure holds the sword high with both hands, ready but not yet in a fight, like a mind trying out a new idea. Wind blows the hair and clouds heap up below, the restless air of thought. Birds cross the sky above, and the figure stands on a green hill with firm ground underfoot.",
+      "vi": "Người ấy giơ cao thanh kiếm bằng hai tay, sẵn sàng nhưng chưa vào trận, như một trí óc đang thử sức với ý tưởng mới. Gió thổi tung mái tóc và mây vón cụm bên dưới, bầu không khí bồn chồn của suy nghĩ. Đàn chim bay ngang bầu trời phía trên, còn người ấy đứng trên ngọn đồi xanh với mặt đất vững dưới chân."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What are you curious enough to ask about, even if the question feels simple?",
+        "How could you say what you think more kindly without softening the truth?"
+      ],
+      "vi": [
+        "Bạn tò mò về điều gì đến mức muốn hỏi, dù câu hỏi nghe có vẻ đơn giản?",
+        "Làm sao bạn nói ra điều mình nghĩ một cách tử tế hơn mà không làm mờ sự thật?"
+      ]
     }
   },
   {
@@ -549,42 +615,48 @@
     },
     "image": "/cards/swords-knight.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A knight in armour gallops into the wind on a white horse, sword raised, cloak streaming behind. The Knight of Swords is the card of fast, focused action — sharp thinking pushed forward at full speed.",
+      "vi": "Một kỵ sĩ mặc giáp phi nước đại ngược gió trên con ngựa trắng, kiếm giương cao, áo choàng bay phía sau. Kỵ Sĩ Kiếm là lá bài của hành động nhanh và tập trung — tư duy sắc bén được đẩy tới với trọn tốc độ."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Drive", "Directness", "Ambition", "Sharp mind"],
+      "vi": ["Quyết liệt", "Thẳng thắn", "Tham vọng", "Trí óc sắc bén"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A mind set on a goal and moving toward it at speed. The Knight of Swords points to decisiveness, bold words and a readiness to act, along with the risk of leaving other people, or other facts, behind.",
+          "vi": "Một trí óc đã nhắm mục tiêu và lao về phía đó với tốc độ cao. Kỵ Sĩ Kiếm gợi đến sự dứt khoát, lời nói mạnh dạn và sẵn sàng hành động, cùng nguy cơ bỏ lại phía sau những người khác, hoặc những dữ kiện khác."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Decisiveness", "Bold speech", "Focus", "Urgency"],
+          "vi": ["Dứt khoát", "Lời nói mạnh dạn", "Tập trung", "Gấp gáp"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Rushing in without a plan, or an argument that runs over other people. It can be a prompt to slow down, to listen to what you have been charging past, and to ask where force is being used when patience would do.",
+          "vi": "Lao vào mà không có kế hoạch, hoặc một cuộc tranh luận cứ cán qua người khác. Lá bài có thể nhắc bạn chậm lại, lắng nghe điều mình đang lao qua, và hỏi ở đâu mình dùng sức mạnh trong khi sự kiên nhẫn là đủ."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Recklessness", "Aggression", "Impatience", "Tunnel vision"],
+          "vi": ["Liều lĩnh", "Hung hăng", "Thiếu kiên nhẫn", "Nhìn hẹp"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Wind bends the trees and tears the clouds as the horse charges, so thought and speed seem to share one current. The knight’s red plume and cloak stream behind, and the horse’s harness is decorated with birds and butterflies, the air itself made visible. The sword points straight ahead, with no glance to either side.",
+      "vi": "Gió uốn cong cây và xé rách mây khi con ngựa lao đi, như thể tư duy và tốc độ cùng chung một dòng chảy. Chùm lông và áo choàng đỏ của kỵ sĩ bay phía sau, còn bộ yên cương của ngựa được trang trí bằng chim và bướm, chính không khí hiện hình. Thanh kiếm chỉ thẳng về phía trước, không liếc sang hai bên."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Where could you act with focus without leaving anyone behind?",
+        "What might you notice if you slowed down for a moment?"
+      ],
+      "vi": [
+        "Ở đâu bạn có thể hành động tập trung mà không bỏ ai lại phía sau?",
+        "Bạn có thể nhận ra điều gì nếu chậm lại một chút?"
+      ]
     }
   },
   {
@@ -598,42 +670,48 @@
     },
     "image": "/cards/swords-queen.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A queen sits on a carved throne high among the clouds, an upright sword in one hand and the other held open. The Queen of Swords is the card of clear, honest perception — seeing things as they are and saying so with care.",
+      "vi": "Một nữ hoàng ngồi trên ngai chạm khắc giữa tầng mây cao, một tay cầm thanh kiếm dựng thẳng, tay kia mở ra. Nữ Hoàng Kiếm là lá bài của cái nhìn rõ ràng và trung thực — thấy mọi việc như chúng là và nói ra bằng sự cân nhắc."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Clarity", "Honesty", "Independence", "Discernment"],
+      "vi": ["Sáng suốt", "Trung thực", "Độc lập", "Biết phân định"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A mind that is clear, direct and fair. The Queen of Swords points to straight talking without cruelty, to boundaries kept calmly, and to the wisdom that comes from understanding your own sorrows well enough not to be ruled by them.",
+          "vi": "Một trí óc rõ ràng, thẳng thắn và công bằng. Nữ Hoàng Kiếm gợi đến lối nói thẳng mà không tàn nhẫn, những ranh giới được giữ một cách bình tĩnh, và sự khôn ngoan đến từ việc hiểu nỗi buồn của mình đủ để không bị nó sai khiến."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Straight talk", "Boundaries", "Objectivity", "Experience"],
+          "vi": ["Nói thẳng", "Ranh giới", "Khách quan", "Từng trải"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Sharpness turned into coldness, or defences so high that nobody gets close. It can be a prompt to ask whether your honesty has lost its warmth, and whether old hurt is shaping how you judge.",
+          "vi": "Sự sắc sảo biến thành lạnh lùng, hoặc những lớp phòng thủ cao đến mức không ai lại gần được. Lá bài có thể nhắc bạn hỏi sự thẳng thắn của mình có còn hơi ấm không, và vết thương cũ có đang định hình cách bạn phán xét không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Coldness", "Bitterness", "Harsh judgement", "Walls up"],
+          "vi": ["Lạnh lùng", "Cay đắng", "Phán xét khắt khe", "Dựng tường phòng thủ"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The sword stands upright, a mind that has chosen clarity, while the open hand shows the queen can still receive what others bring. The throne is carved with a winged face and butterflies, which also decorate the crown, signs of change and transformation. The queen sits high among the clouds, above the noise, with a single bird far above.",
+      "vi": "Thanh kiếm dựng thẳng, một trí óc đã chọn sự sáng rõ, còn bàn tay mở cho thấy vị nữ hoàng vẫn có thể đón nhận điều người khác mang đến. Chiếc ngai được chạm một gương mặt có cánh và những chú bướm, cũng trang trí trên vương miện, dấu hiệu của thay đổi và biến chuyển. Vị nữ hoàng ngồi cao giữa tầng mây, phía trên mọi ồn ào, chỉ có một con chim bay xa phía trên."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Where could a clear, kind answer help you right now?",
+        "What past hurt might be colouring how you see things today?"
+      ],
+      "vi": [
+        "Ở đâu một câu trả lời rõ ràng mà tử tế sẽ giúp bạn lúc này?",
+        "Vết thương nào trong quá khứ có thể đang nhuốm màu cách bạn nhìn mọi việc hôm nay?"
+      ]
     }
   },
   {
@@ -647,42 +725,48 @@
     },
     "image": "/cards/swords-king.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A king sits upright on a throne, a sword held straight in one hand, a calm blue sky behind. The King of Swords is the card of mastery of the mind — fair judgement, clear reasoning and words used with authority.",
+      "vi": "Một vị vua ngồi thẳng trên ngai, một tay cầm thẳng thanh kiếm, phía sau là bầu trời xanh yên ả. Vua Kiếm là lá bài của sự làm chủ trí óc — phán đoán công bằng, lập luận rõ ràng và lời nói được dùng bằng thẩm quyền."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Authority", "Reason", "Fairness", "Truth"],
+      "vi": ["Thẩm quyền", "Lý trí", "Công bằng", "Sự thật"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Judgement that is balanced and well reasoned. The King of Swords points to clear thinking under pressure, decisions made on principle and the ability to explain them with honesty.",
+          "vi": "Phán đoán cân bằng và có lý lẽ. Vua Kiếm gợi đến tư duy rõ ràng dưới áp lực, những quyết định dựa trên nguyên tắc và khả năng giải thích chúng một cách trung thực."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Sound judgement", "Logic", "Principles", "Expertise"],
+          "vi": ["Phán đoán vững", "Logic", "Nguyên tắc", "Chuyên môn"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Reason used as a weapon, or a rule applied without mercy. It can be a prompt to ask whether you are hiding behind logic to avoid feeling, and whether fairness has turned into control.",
+          "vi": "Lý trí bị dùng như vũ khí, hoặc một nguyên tắc được áp dụng không chút khoan nhượng. Lá bài có thể nhắc bạn hỏi mình có đang nấp sau logic để khỏi phải cảm nhận, và sự công bằng có đã hóa thành kiểm soát không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Cold logic", "Manipulation", "Rigidity", "Abuse of power"],
+          "vi": ["Logic lạnh lùng", "Thao túng", "Cứng nhắc", "Lạm quyền"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The upright sword and the straight back show a mind that stays level. The back of the throne is carved with butterflies, a sign of thought that can still change, and the blue robe and clouds speak of air and open sky. Trees on either side and birds in the distance recall that the wind of thought is always moving, and that steadiness is a choice.",
+      "vi": "Thanh kiếm dựng thẳng và tấm lưng thẳng cho thấy một trí óc giữ được thăng bằng. Lưng ngai được chạm những chú bướm, dấu hiệu của tư duy vẫn có thể đổi thay, còn chiếc áo xanh và những đám mây nói về không khí và bầu trời rộng mở. Hai bên là cây cối và xa xa là chim bay, nhắc rằng ngọn gió của suy nghĩ luôn chuyển động và sự vững vàng là một lựa chọn."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What principle do you want to guide your next big decision?",
+        "Where could a little more warmth make your fairness easier to receive?"
+      ],
+      "vi": [
+        "Nguyên tắc nào bạn muốn dẫn đường cho quyết định lớn tiếp theo của mình?",
+        "Ở đâu một chút ấm áp sẽ giúp sự công bằng của bạn dễ được đón nhận hơn?"
+      ]
     }
   }
 ]
