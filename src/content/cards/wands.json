@@ -10,42 +10,48 @@
     },
     "image": "/cards/wands-ace.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A hand emerges from a cloud, gripping a staff that is just coming into leaf. The Ace of Wands is the card of a spark — the first rush of energy, enthusiasm and creative desire.",
+      "vi": "Một bàn tay vươn ra từ đám mây, nắm một cây gậy đang đâm chồi. Át Gậy là lá bài của tia lửa đầu tiên — làn năng lượng, nhiệt huyết và khát khao sáng tạo vừa trỗi dậy."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Inspiration", "Energy", "Potential", "Enthusiasm"],
+      "vi": ["Cảm hứng", "Năng lượng", "Tiềm năng", "Nhiệt huyết"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A surge of energy and a wish to begin. The Ace of Wands points to a fresh idea, a creative impulse or a new drive that wants a place to go, and invites you to decide what to do with it.",
+          "vi": "Một đợt năng lượng dâng lên cùng mong muốn được bắt đầu. Át Gậy gợi đến một ý tưởng mới, một thôi thúc sáng tạo hay một động lực mới đang tìm chỗ để đi, và mời bạn quyết định sẽ làm gì với nó."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Spark", "Creative drive", "Fresh start", "Boldness"],
+          "vi": ["Tia lửa", "Động lực sáng tạo", "Khởi đầu mới", "Táo bạo"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Energy that fizzles before it takes shape: delays, doubts or an idea that stays only an idea. It can be a prompt to ask what is dampening your enthusiasm, and whether it needs rest, a smaller first step or a different goal.",
+          "vi": "Năng lượng tắt đi trước khi kịp thành hình: những trì hoãn, nghi ngờ hoặc một ý tưởng mãi chỉ là ý tưởng. Lá bài có thể nhắc bạn hỏi điều gì đang dập tắt hứng khởi, và nó cần được nghỉ ngơi, một bước đầu nhỏ hơn hay một mục tiêu khác."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Stalling", "Lack of motivation", "Creative block", "Hesitation"],
+          "vi": ["Chững lại", "Thiếu động lực", "Bế tắc sáng tạo", "Do dự"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A hand rises from a cloud, offering the staff as a gift of beginning. New leaves drift around it, a sign of life that is still sprouting. In the distance a castle stands on a hill above a green valley, a place the idea might one day reach.",
+      "vi": "Một bàn tay vươn ra từ đám mây, trao cây gậy như một món quà của sự khởi đầu. Những chiếc lá non bay quanh nó, dấu hiệu của sự sống vẫn đang nảy mầm. Phía xa, một tòa lâu đài đứng trên đồi nhìn xuống thung lũng xanh, nơi ý tưởng này một ngày có thể vươn tới."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What idea or desire has been quietly warming up in you lately?",
+        "What is one small step that would let it begin?"
+      ],
+      "vi": [
+        "Ý tưởng hay mong muốn nào gần đây đang âm ỉ trong bạn?",
+        "Một bước nhỏ nào sẽ cho nó cơ hội bắt đầu?"
+      ]
     }
   },
   {
@@ -59,42 +65,48 @@
     },
     "image": "/cards/wands-02.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure stands on a castle wall, a small globe in one hand and a staff in the other, looking out to sea. The Two of Wands is the card of planning — standing between what you have and what you could reach for.",
+      "vi": "Một người đứng trên tường thành, một tay cầm quả địa cầu nhỏ, tay kia cầm cây gậy, nhìn ra biển. Hai Gậy là lá bài của việc hoạch định — đứng giữa điều đang có và điều bạn có thể vươn tới."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Planning", "Vision", "Choices", "Ambition"],
+      "vi": ["Hoạch định", "Tầm nhìn", "Lựa chọn", "Hoài bão"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A pause at the edge of a bigger step. The Two of Wands points to weighing your options, making a plan and being willing to leave the comfort of what you know for something wider.",
+          "vi": "Một quãng dừng bên bờ của một bước lớn hơn. Hai Gậy gợi đến việc cân nhắc các lựa chọn, vạch ra kế hoạch và sẵn lòng rời vùng quen thuộc để bước ra điều rộng hơn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Decision", "Preparation", "Discovery", "Independence"],
+          "vi": ["Quyết định", "Chuẩn bị", "Khám phá", "Tự chủ"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Hesitation that keeps you at the wall, or a fear of stepping beyond the familiar. It can be a prompt to ask what you are afraid of losing, and whether a small trial would be easier than a leap.",
+          "vi": "Sự do dự giữ bạn lại trên bức tường thành, hoặc nỗi sợ bước ra khỏi vùng quen thuộc. Lá bài có thể nhắc bạn hỏi mình sợ mất điều gì, và liệu một lần thử nhỏ có dễ hơn một cú nhảy lớn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Fear of the unknown", "Indecision", "Playing it safe", "Lack of a plan"],
+          "vi": ["Sợ điều chưa biết", "Lưỡng lự", "Chơi an toàn", "Thiếu kế hoạch"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The figure holds a small globe, the world as something that can be held in the hand and weighed. One staff is held and another is fixed to the wall, the choice in hand and the foundation already in place. Beyond the battlements lie sea and hills, open space for a plan to reach into.",
+      "vi": "Người ấy cầm một quả địa cầu nhỏ, thế giới như thứ có thể nắm trong tay mà cân nhắc. Một cây gậy được cầm, cây còn lại gắn vào tường, lựa chọn trong tay và nền móng đã có sẵn. Ngoài bức tường thành là biển và đồi, khoảng rộng để một kế hoạch vươn ra."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What would you like your life to hold that it does not hold yet?",
+        "What is one thing you could try on a small scale before committing fully?"
+      ],
+      "vi": [
+        "Bạn muốn cuộc sống mình có thêm điều gì mà hiện chưa có?",
+        "Có điều gì bạn có thể thử ở quy mô nhỏ trước khi dấn thân hoàn toàn?"
+      ]
     }
   },
   {
@@ -108,42 +120,48 @@
     },
     "image": "/cards/wands-03.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure stands on a cliff, seen from behind, three staffs planted around them, watching ships on the water below. The Three of Wands is the card of looking ahead — of plans already set in motion and the patience of watching them travel.",
+      "vi": "Một dáng người đứng trên vách đá, nhìn từ phía sau, ba cây gậy cắm quanh mình, dõi theo những con thuyền trên mặt nước phía dưới. Ba Gậy là lá bài của việc nhìn về phía trước — những kế hoạch đã được đặt vào chuyển động và sự kiên nhẫn khi dõi theo chúng lên đường."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Foresight", "Expansion", "Patience", "Progress"],
+      "vi": ["Nhìn xa", "Mở rộng", "Kiên nhẫn", "Tiến triển"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "The first results of earlier effort, and the sense of a wider horizon. The Three of Wands points to planning beyond the near future, to work that reaches other places or people, and to waiting with trust while it travels.",
+          "vi": "Những kết quả đầu tiên của công sức trước đó và cảm giác chân trời đang rộng ra. Ba Gậy gợi đến việc lên kế hoạch xa hơn tương lai gần, công việc vươn tới những nơi hay những người khác, và việc chờ đợi một cách tin tưởng khi nó đang lên đường."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Long-range plans", "Growth", "Opportunity", "Confidence"],
+          "vi": ["Kế hoạch dài hạn", "Lớn mạnh", "Cơ hội", "Tự tin"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Plans that stall, results that arrive late or a view that has narrowed. It can be a prompt to ask whether the delay needs patience or a change of route, and whether the goal still feels like yours.",
+          "vi": "Kế hoạch chững lại, kết quả đến muộn hoặc tầm nhìn đã hẹp đi. Lá bài có thể nhắc bạn hỏi sự chậm trễ này cần thêm kiên nhẫn hay một lộ trình khác, và mục tiêu ấy còn là của bạn không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Setbacks", "Frustration", "Obstacles", "Narrow view"],
+          "vi": ["Vấp váp", "Bực bội", "Trở ngại", "Tầm nhìn hẹp"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The figure is seen from behind, so you look out over the same view: a calm sea, a golden sky and small ships far out. Three staffs stand rooted in the rock, steady support while the eyes look beyond. The warm red of the robe stands out against the gold sky, a figure settled and ready to wait.",
+      "vi": "Người ấy hiện ra từ phía sau, nên bạn cùng nhìn ra khung cảnh ấy: một vùng biển lặng, bầu trời vàng và những con thuyền nhỏ ở xa. Ba cây gậy cắm vững trong đá, chỗ tựa chắc chắn trong khi ánh mắt hướng ra xa. Màu đỏ ấm của chiếc áo nổi bật trên nền trời vàng, một dáng người đã vững vàng và sẵn sàng chờ đợi."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What have you already set in motion that deserves some patience?",
+        "How far would you like your plans to reach?"
+      ],
+      "vi": [
+        "Bạn đã đặt điều gì vào chuyển động mà đáng được kiên nhẫn thêm?",
+        "Bạn muốn kế hoạch của mình vươn xa đến đâu?"
+      ]
     }
   },
   {
@@ -157,42 +175,48 @@
     },
     "image": "/cards/wands-04.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Four tall staffs hold up a garland of flowers and fruit, while two figures raise bouquets before a castle. The Four of Wands is the card of celebration and home — the pleasure of a milestone shared.",
+      "vi": "Bốn cây gậy cao đỡ một vòng hoa quả, hai người giơ cao bó hoa trước một tòa lâu đài. Bốn Gậy là lá bài của lễ mừng và mái ấm — niềm vui của một cột mốc được chia sẻ cùng nhau."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Celebration", "Homecoming", "Stability", "Welcome"],
+      "vi": ["Ăn mừng", "Trở về", "Ổn định", "Chào đón"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A moment to mark what has been built. The Four of Wands points to a milestone, a gathering or a home that feels settled, and to the quiet confidence of having a stable place to stand.",
+          "vi": "Một dịp để ghi nhận điều đã được xây nên. Bốn Gậy gợi đến một cột mốc, một buổi sum họp hay một mái nhà thấy yên ổn, và sự tự tin lặng lẽ khi có một chỗ đứng vững."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Milestone", "Harmony", "Belonging", "Gathering"],
+          "vi": ["Cột mốc", "Hòa thuận", "Thuộc về", "Sum họp"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Unease at home, or a celebration that feels forced. It can be a prompt to notice where stability is shaky, or where you are keeping up a happy face and could use some honest support.",
+          "vi": "Sự bất an trong mái nhà, hoặc một cuộc vui thấy gượng gạo. Lá bài có thể nhắc bạn để ý nơi nào sự ổn định đang lung lay, hoặc nơi nào bạn đang giữ vẻ vui tươi và cần một sự nâng đỡ thật lòng."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Instability", "Tension at home", "Forced cheer", "Delayed celebration"],
+          "vi": ["Bất ổn", "Căng thẳng trong nhà", "Vui gượng", "Cuộc vui bị hoãn"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The four staffs form a gateway, strung with a garland of flowers and fruit and tied with ribbons. Two figures hold up bouquets beneath it, and behind them a walled castle and a crowd of onlookers suggest a welcome. The bright yellow sky keeps the scene open and warm.",
+      "vi": "Bốn cây gậy dựng thành một cổng chào, treo vòng hoa quả và buộc ruy băng. Hai người giơ cao bó hoa bên dưới, phía sau là tòa lâu đài có tường bao và đám đông đang nhìn, gợi một không khí chào đón. Bầu trời vàng tươi giữ cho khung cảnh sáng và ấm."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What have you built that deserves to be celebrated, however quietly?",
+        "Who would you want beside you at the next milestone?"
+      ],
+      "vi": [
+        "Bạn đã gây dựng điều gì xứng đáng được ăn mừng, dù chỉ lặng lẽ?",
+        "Ở cột mốc kế tiếp, bạn muốn ai ở bên cạnh?"
+      ]
     }
   },
   {
@@ -206,42 +230,48 @@
     },
     "image": "/cards/wands-05.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Five young people swing staffs in a tangle, each pushing in a different direction. The Five of Wands is the card of friction — competition, clashing ideas and the busy noise of everyone trying to be heard.",
+      "vi": "Năm người trẻ vung gậy rối vào nhau, mỗi người đẩy về một hướng. Năm Gậy là lá bài của sự va chạm — cạnh tranh, những ý kiến xung đột và tiếng ồn bận rộn của việc ai cũng muốn được lắng nghe."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Friction", "Competition", "Tension", "Differing views"],
+      "vi": ["Va chạm", "Cạnh tranh", "Căng thẳng", "Quan điểm khác nhau"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Many wills pulling at once. The Five of Wands points to disagreement, rivalry and the jostling that comes when people want different things, and it can also be a lively testing of ideas against one another.",
+          "vi": "Nhiều ý chí cùng kéo một lúc. Năm Gậy gợi đến bất đồng, sự ganh đua và cảnh chen lấn khi mỗi người muốn một điều khác, và cũng có thể là một cuộc thử sức sôi nổi giữa các ý tưởng với nhau."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Disagreement", "Rivalry", "Ambition", "Lively debate"],
+          "vi": ["Bất đồng", "Ganh đua", "Tham vọng", "Tranh luận sôi nổi"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "The clash eases, or it goes underground as avoided conflict and quiet resentment. It can be a prompt to ask whether a calm conversation or a compromise would serve better than winning.",
+          "vi": "Cuộc va chạm dịu xuống, hoặc ngấm ngầm thành xung đột bị né tránh và nỗi bực dồn nén. Lá bài có thể nhắc bạn hỏi một cuộc trò chuyện bình tĩnh hay một sự nhượng bộ có ích hơn việc giành phần thắng không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Resolution", "Compromise", "Avoided conflict", "Resentment"],
+          "vi": ["Hóa giải", "Nhượng bộ", "Né xung đột", "Bực dồn nén"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Five figures in mismatched clothes brandish their staffs, none of them winning and none of them hurt. The staffs cross and tangle, a picture of effort spent against one another instead of together. It looks more like a rough game than a war, which leaves room for the same energy to be pointed somewhere shared.",
+      "vi": "Năm người trong những bộ quần áo đủ màu vung gậy, chẳng ai thắng và chẳng ai bị thương. Những cây gậy chéo nhau và rối vào nhau, hình ảnh của sức lực dùng để chống lại nhau thay vì cùng nhau. Cảnh này giống một trò chơi thô hơn là một cuộc chiến, nên vẫn còn chỗ để cùng nguồn năng lượng ấy hướng về một điều chung."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Where are you competing when you could be collaborating?",
+        "What do you most want to be heard about right now?"
+      ],
+      "vi": [
+        "Ở đâu bạn đang cạnh tranh trong khi có thể hợp tác?",
+        "Lúc này, điều gì bạn muốn được lắng nghe nhất?"
+      ]
     }
   },
   {
@@ -255,42 +285,48 @@
     },
     "image": "/cards/wands-06.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A rider in a laurel wreath passes through a crowd on a white horse, holding a staff crowned with a victory wreath. The Six of Wands is the card of recognition — a success acknowledged and the confidence that follows it.",
+      "vi": "Một kỵ sĩ đội vòng nguyệt quế cưỡi ngựa trắng đi giữa đám đông, tay cầm cây gậy cài vòng nguyệt quế chiến thắng. Sáu Gậy là lá bài của sự ghi nhận — một thành công được công nhận và sự tự tin đi cùng nó."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Recognition", "Success", "Confidence", "Pride"],
+      "vi": ["Ghi nhận", "Thành công", "Tự tin", "Tự hào"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Public acknowledgment of effort that has paid off. The Six of Wands points to a win, praise or progress that others can see, and to the chance to let yourself enjoy it without shrinking it.",
+          "vi": "Sự công nhận công khai cho nỗ lực đã được đền đáp. Sáu Gậy gợi đến một chiến thắng, lời khen hay tiến bộ mà người khác nhìn thấy, và cơ hội để bạn cho phép mình tận hưởng nó mà không hạ thấp nó."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Victory", "Acclaim", "Self-belief", "Progress"],
+          "vi": ["Chiến thắng", "Được tán dương", "Tin vào mình", "Tiến bộ"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Success that goes unnoticed, or a fall from favour. It can also point to pride that has grown too large, or to a confidence that depends too much on other people’s applause.",
+          "vi": "Thành công không được ai để ý, hoặc cảm giác bị mất sự ưu ái. Lá bài cũng có thể chỉ lòng kiêu hãnh đã lớn quá mức, hoặc một sự tự tin phụ thuộc quá nhiều vào tràng pháo tay của người khác."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Unnoticed effort", "Self-doubt", "Ego", "Disappointment"],
+          "vi": ["Công sức bị bỏ qua", "Tự nghi ngờ", "Cái tôi", "Thất vọng"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The rider wears a laurel wreath, the ancient sign of victory, and carries the same wreath on a staff held high. The white horse is steady beneath a decorated cloth, a calm strength rather than a wild one. Around the rider, a crowd of walkers with their own staffs shows that this win belongs partly to the people who stood with them.",
+      "vi": "Người cưỡi ngựa đội vòng nguyệt quế, dấu hiệu chiến thắng từ xa xưa, và cũng mang vòng ấy trên cây gậy giơ cao. Con ngựa trắng bước vững dưới tấm vải trang trí, một sức mạnh điềm tĩnh chứ không hoang dại. Quanh người cưỡi là đám đông cầm gậy đi bộ, cho thấy chiến thắng này một phần thuộc về những người đã đứng cạnh người ấy."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What have you achieved lately that you have not stopped to acknowledge?",
+        "How could you thank the people who helped you get here?"
+      ],
+      "vi": [
+        "Gần đây bạn đã đạt được điều gì mà chưa dừng lại để ghi nhận?",
+        "Bạn có thể cảm ơn những người đã giúp mình đến được đây bằng cách nào?"
+      ]
     }
   },
   {
@@ -304,42 +340,48 @@
     },
     "image": "/cards/wands-07.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure stands on higher ground, holding a staff against six others rising from below. The Seven of Wands is the card of standing your ground — defending what matters to you, even when it is tiring.",
+      "vi": "Một người đứng trên chỗ cao, giơ gậy chống lại sáu cây gậy khác chĩa lên từ bên dưới. Bảy Gậy là lá bài của việc giữ vững lập trường — bảo vệ điều quan trọng với bạn, kể cả khi điều đó mệt mỏi."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Defence", "Perseverance", "Conviction", "Courage"],
+      "vi": ["Bảo vệ", "Bền bỉ", "Niềm tin", "Can đảm"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A position worth defending. The Seven of Wands points to holding firm in what you believe, meeting challenge from a place of strength, and finding out what you are willing to stand for.",
+          "vi": "Một lập trường đáng để bảo vệ. Bảy Gậy gợi đến việc đứng vững trong điều mình tin, đón nhận thử thách từ một vị thế vững chắc, và nhận ra mình sẵn lòng đứng về điều gì."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Standing firm", "Boundaries", "Resilience", "Determination"],
+          "vi": ["Đứng vững", "Ranh giới", "Kiên cường", "Quyết tâm"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Feeling worn down by constant defence, or giving ground too quickly. It can be a prompt to ask whether you are fighting battles that are not yours, or where a firmer line would help you.",
+          "vi": "Cảm giác kiệt sức vì phải phòng thủ liên tục, hoặc nhường bước quá nhanh. Lá bài có thể nhắc bạn hỏi mình có đang đánh những trận không phải của mình, hoặc nơi nào một ranh giới rõ hơn sẽ giúp bạn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Exhaustion", "Giving in", "Defensiveness"],
+          "vi": ["Kiệt sức", "Nhường bước", "Hay phòng thủ"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The figure holds the high ground, with one staff in hand and six more reaching up from below. Look at the feet: one boot and one shoe, as if the figure rose in a hurry to meet the challenge. The expression is set and alert, the look of someone who has decided where to stand.",
+      "vi": "Người ấy chiếm chỗ cao, một cây gậy trong tay còn sáu cây khác chĩa lên từ bên dưới. Để ý đôi chân: một chiếc bốt và một chiếc giày, như thể người ấy vội vã đứng dậy để đối mặt thử thách. Nét mặt kiên định và cảnh giác, vẻ của người đã quyết định mình sẽ đứng ở đâu."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What is worth standing up for in your life right now?",
+        "Where could you set down the defence for a moment and rest?"
+      ],
+      "vi": [
+        "Điều gì trong đời bạn lúc này đáng để đứng lên bảo vệ?",
+        "Ở đâu bạn có thể đặt sự phòng thủ xuống một lúc và nghỉ ngơi?"
+      ]
     }
   },
   {
@@ -353,42 +395,48 @@
     },
     "image": "/cards/wands-08.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Eight staffs fly through the air at a steady slant above a calm river valley. The Eight of Wands is the card of swift movement — news, momentum and the sense of everything moving at once.",
+      "vi": "Tám cây gậy bay xuyên không trung theo một đường chéo đều đặn phía trên một thung lũng sông yên ả. Tám Gậy là lá bài của sự chuyển động nhanh — tin tức, đà tiến và cảm giác mọi thứ cùng chuyển động một lúc."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Speed", "Momentum", "Messages", "Flow"],
+      "vi": ["Tốc độ", "Đà tiến", "Tin nhắn", "Dòng chảy"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Things moving quickly, with little time to hesitate. The Eight of Wands points to fast progress, travel or communication, and to a clear direction that makes it easier to act.",
+          "vi": "Mọi thứ chuyển động nhanh, chẳng còn nhiều thời gian để do dự. Tám Gậy gợi đến tiến triển, di chuyển hay liên lạc nhanh chóng, và một hướng đi rõ ràng giúp hành động dễ hơn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Quick progress", "Action", "Clear direction", "Travel"],
+          "vi": ["Tiến nhanh", "Hành động", "Hướng đi rõ", "Di chuyển"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A rush that scatters your energy, or a delay that holds everything still. It can be a prompt to ask whether you are moving fast without a direction, or waiting on something you could set in motion yourself.",
+          "vi": "Một cơn vội làm tản mát sức lực, hoặc một sự chậm trễ khiến mọi thứ đứng yên. Lá bài có thể nhắc bạn hỏi mình có đang chạy nhanh mà thiếu hướng, hay đang chờ một điều bạn có thể tự đặt vào chuyển động."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Stalling", "Scattered energy", "Haste", "Crossed wires"],
+          "vi": ["Chững lại", "Năng lượng tản mát", "Vội vàng", "Thông tin lệch"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Eight staffs cross the sky in parallel, all pointing the same way, and not a single person is in the frame. Below them lie a river, hills and a quiet landscape, which stays still while the staffs rush through. The new leaves on the staffs show that this energy is alive and has somewhere to land.",
+      "vi": "Tám cây gậy băng ngang bầu trời song song nhau, cùng chỉ về một hướng, và trong khung tranh không có bóng người nào. Bên dưới là dòng sông, đồi núi và một khung cảnh yên ắng, đứng yên trong khi những cây gậy lao qua. Những chiếc lá non trên gậy cho thấy nguồn năng lượng này còn sống và đang có nơi để đáp xuống."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What in your life is picking up speed right now?",
+        "What would help you stay clear on your direction when things move quickly?"
+      ],
+      "vi": [
+        "Điều gì trong đời bạn đang tăng tốc lúc này?",
+        "Điều gì giúp bạn giữ rõ hướng đi khi mọi thứ chuyển động nhanh?"
+      ]
     }
   },
   {
@@ -402,42 +450,48 @@
     },
     "image": "/cards/wands-09.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A bandaged figure leans on a staff before a row of eight more, watchful and tired but still on their feet. The Nine of Wands is the card of the last stretch — resilience after a long effort.",
+      "vi": "Một người quấn băng quanh đầu tựa vào cây gậy, phía sau là hàng tám cây gậy khác, cảnh giác và mệt mỏi nhưng vẫn đứng vững. Chín Gậy là lá bài của chặng cuối — sự bền bỉ sau một nỗ lực dài."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Resilience", "Persistence", "Caution", "Stamina"],
+      "vi": ["Bền bỉ", "Kiên trì", "Thận trọng", "Sức chịu đựng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Tired, a little wary, and still going. The Nine of Wands points to the strength it takes to keep your guard up and your commitment alive near the end of a long effort, and to noticing how close you are.",
+          "vi": "Mệt, hơi dè chừng, và vẫn bước tiếp. Chín Gậy gợi đến sức mạnh cần có để giữ cảnh giác và giữ cam kết khi gần cuối một nỗ lực dài, và việc nhận ra mình đã đến gần đến đâu."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Final stretch", "Grit", "Vigilance", "Courage"],
+          "vi": ["Chặng cuối", "Gan lì", "Cảnh giác", "Can đảm"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Exhaustion that has gone past what willpower can fix, or a wariness that treats everything as a threat. It can be a prompt to ask what you are carrying from old wounds, and whether it is time to rest or ask for help.",
+          "vi": "Sự kiệt sức đã vượt quá thứ mà ý chí có thể gỡ, hoặc sự dè chừng coi mọi thứ là mối đe dọa. Lá bài có thể nhắc bạn hỏi mình đang mang theo điều gì từ những vết thương cũ, và đã đến lúc nghỉ ngơi hay nhờ giúp đỡ chưa."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Burnout", "Mistrust", "Old wounds", "Stubbornness"],
+          "vi": ["Kiệt sức", "Ngờ vực", "Vết thương cũ", "Bướng bỉnh"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The head bandage and the tired set of the shoulders tell of earlier struggles, yet the grip on the staff is firm. Eight more staffs stand in a row behind like a fence, a wall built from past effort. The figure glances to one side, still alert, as if listening for what comes next.",
+      "vi": "Chiếc băng trên đầu và đôi vai mỏi cho thấy những cuộc vật lộn trước đó, nhưng bàn tay nắm gậy vẫn chắc. Tám cây gậy khác đứng thành hàng phía sau như một hàng rào, bức tường dựng từ những nỗ lực đã qua. Người ấy liếc sang một bên, vẫn tỉnh táo, như đang lắng nghe điều kế tiếp."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What has this effort taught you that you would not want to lose?",
+        "What would a short rest make possible for you right now?"
+      ],
+      "vi": [
+        "Nỗ lực này đã dạy bạn điều gì mà bạn không muốn đánh mất?",
+        "Một lần nghỉ ngắn sẽ giúp bạn làm được điều gì lúc này?"
+      ]
     }
   },
   {
@@ -451,42 +505,48 @@
     },
     "image": "/cards/wands-10.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure bends forward under a bundle of ten staffs, carrying them toward a village in the distance. The Ten of Wands is the card of burden — responsibility taken on until it becomes heavy.",
+      "vi": "Một người cúi gập dưới bó mười cây gậy, mang chúng về phía ngôi làng ở xa. Mười Gậy là lá bài của gánh nặng — trách nhiệm được nhận vào cho đến khi nó trở nên quá nặng."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Burden", "Responsibility", "Overload", "Duty"],
+      "vi": ["Gánh nặng", "Trách nhiệm", "Quá tải", "Bổn phận"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Carrying a lot, with the end in sight. The Ten of Wands points to the weight of commitments, the pride of seeing something through, and the question of what could be shared, postponed or set down.",
+          "vi": "Mang vác rất nhiều, và đích đã thấp thoáng. Mười Gậy gợi đến sức nặng của những cam kết, niềm tự hào khi theo một việc đến cùng, và câu hỏi điều gì có thể được chia sẻ, hoãn lại hoặc đặt xuống."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Heavy load", "Commitment", "Hard work", "Strain"],
+          "vi": ["Mang vác nặng", "Cam kết", "Chăm chỉ", "Áp lực"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Setting the load down, whether by choice or because it became too much. It can also point to taking on more out of habit, or to struggling alone when asking for help is possible.",
+          "vi": "Đặt gánh xuống, dù do tự chọn hay vì nó đã quá sức. Lá bài cũng có thể chỉ việc nhận thêm theo thói quen, hoặc tự chống chọi một mình khi hoàn toàn có thể nhờ giúp đỡ."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Delegating", "Release", "Breaking point", "Asking for help"],
+          "vi": ["Giao bớt", "Trút bỏ", "Chạm ngưỡng", "Nhờ giúp đỡ"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The ten staffs are gathered in a single bundle that hides the figure’s face, so the load seems bigger than the person. The village ahead is small but near, a reminder that the journey has an end. The bent back and steady steps show effort that is real and still moving forward.",
+      "vi": "Mười cây gậy được ôm trong một bó che khuất gương mặt, nên gánh nặng trông lớn hơn cả người mang. Ngôi làng phía trước nhỏ nhưng gần, nhắc rằng hành trình có điểm kết thúc. Tấm lưng cúi và bước chân đều cho thấy nỗ lực là thật và vẫn đang tiến về phía trước."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What are you carrying that someone else could share with you?",
+        "What would you put down first if you could?"
+      ],
+      "vi": [
+        "Bạn đang mang điều gì mà người khác có thể san sẻ cùng bạn?",
+        "Nếu được, bạn sẽ đặt điều gì xuống trước tiên?"
+      ]
     }
   },
   {
@@ -500,42 +560,48 @@
     },
     "image": "/cards/wands-page.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A young person in a patterned tunic stands in a desert, gazing up at a staff that has begun to sprout. The Page of Wands is the card of eager curiosity — the first thrill of a new interest.",
+      "vi": "Một người trẻ trong chiếc áo họa tiết đứng giữa sa mạc, ngước nhìn cây gậy vừa đâm chồi. Thị Đồng Gậy là lá bài của sự tò mò hăm hở — niềm phấn khích đầu tiên của một mối quan tâm mới."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Enthusiasm", "Exploration", "Curiosity", "Free spirit"],
+      "vi": ["Hăm hở", "Khám phá", "Tò mò", "Tự do"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A bright, restless wish to try something. The Page of Wands points to a spark of interest, an adventurous idea or a message that gets you moving, and to the freedom of being a beginner.",
+          "vi": "Một mong muốn rực rỡ, nôn nao được thử điều gì đó. Thị Đồng Gậy gợi đến một tia quan tâm, một ý tưởng phiêu lưu hay một tin nhắn khiến bạn muốn chuyển động, và sự tự do của người mới bắt đầu."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Discovery", "Spontaneity", "Fresh energy", "Adventure"],
+          "vi": ["Khám phá", "Ngẫu hứng", "Năng lượng mới", "Phiêu lưu"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Enthusiasm that burns bright and out again, or a plan that never gets past the first step. It can be a prompt to notice impatience, scattered interests or a reluctance to commit to one thing for long enough to learn it.",
+          "vi": "Nhiệt huyết bùng lên rồi tắt, hoặc một kế hoạch không bao giờ qua khỏi bước đầu. Lá bài có thể nhắc bạn để ý sự thiếu kiên nhẫn, những mối quan tâm rải rác hay việc ngại gắn bó đủ lâu với một điều để học được nó."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Impatience", "Scattered focus", "Unfinished starts", "Restlessness"],
+          "vi": ["Thiếu kiên nhẫn", "Phân tán", "Bỏ dở", "Bồn chồn"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The young figure looks up at the budding staff as though it were a discovery, not a tool. The tunic is patterned with salamanders, small fire creatures that bite their own tails, a sign of energy that renews itself. Behind them stretch dry ground and pyramids, wide open space in which to try things out.",
+      "vi": "Người trẻ ngước nhìn cây gậy đang đâm chồi như nhìn một khám phá chứ không phải một công cụ. Chiếc áo có họa tiết kỳ giông lửa, những sinh vật nhỏ ngậm đuôi mình, dấu hiệu của năng lượng tự làm mới. Phía sau là đất khô và những kim tự tháp, khoảng rộng mở để thử sức."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What new interest are you curious enough to follow for a while?",
+        "What could you try just for the fun of it?"
+      ],
+      "vi": [
+        "Mối quan tâm mới nào đủ khiến bạn tò mò để theo một thời gian?",
+        "Bạn có thể thử điều gì chỉ vì thấy vui?"
+      ]
     }
   },
   {
@@ -549,42 +615,48 @@
     },
     "image": "/cards/wands-knight.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A knight in a flame-plumed helmet charges forward on a rearing horse, a budding staff raised in one hand. The Knight of Wands is the card of passion in motion — bold, quick and eager to go.",
+      "vi": "Một kỵ sĩ đội mũ giáp cắm chùm lông lửa lao tới trên con ngựa đang chồm lên, một tay giơ cây gậy đâm chồi. Kỵ Sĩ Gậy là lá bài của đam mê đang chuyển động — táo bạo, nhanh nhẹn và háo hức lên đường."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Passion", "Adventure", "Boldness", "Energy"],
+      "vi": ["Đam mê", "Phiêu lưu", "Táo bạo", "Năng lượng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Drive that wants to act now. The Knight of Wands points to charisma, adventure and the kind of confident energy that gets things started, along with the risk of moving faster than the plan.",
+          "vi": "Động lực muốn hành động ngay. Kỵ Sĩ Gậy gợi đến sức hút, tinh thần phiêu lưu và thứ năng lượng tự tin giúp mọi việc bắt đầu, cùng nguy cơ đi nhanh hơn cả kế hoạch."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Charisma", "Initiative", "Daring", "Confidence"],
+          "vi": ["Sức hút", "Chủ động", "Dám nghĩ dám làm", "Tự tin"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Haste, restlessness or a temper that flares and fades. It can be a prompt to ask whether you are rushing, scattering your energy or leaving things half-finished in search of the next thrill.",
+          "vi": "Sự hấp tấp, bồn chồn hoặc cơn nóng nảy bùng lên rồi tắt. Lá bài có thể nhắc bạn hỏi mình có đang vội, tản mát sức lực hay bỏ dở mọi thứ để chạy theo cảm giác hào hứng tiếp theo."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Impulsiveness", "Hot temper", "Recklessness", "Half-finished plans"],
+          "vi": ["Bốc đồng", "Nóng tính", "Liều lĩnh", "Dang dở"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The horse rears and the knight leans into the motion, a picture of energy that can hardly wait. The red-orange plume on the helmet and the salamanders on the tunic both speak of fire, passion and change. Behind them lie the same desert and pyramids seen in the Page, now crossed at speed.",
+      "vi": "Con ngựa chồm lên và người kỵ sĩ nghiêng theo chuyển động, hình ảnh của nguồn năng lượng gần như không chờ nổi. Chùm lông đỏ cam trên mũ và những con kỳ giông trên áo đều nói về lửa, đam mê và biến đổi. Phía sau là cùng một sa mạc và kim tự tháp như ở Thị Đồng, giờ được băng qua với tốc độ cao."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Where do you feel a strong urge to act right now?",
+        "How could you keep your passion going once the first rush has passed?"
+      ],
+      "vi": [
+        "Ở đâu bạn đang cảm thấy thôi thúc hành động mạnh mẽ?",
+        "Làm sao bạn giữ được đam mê khi cơn hào hứng đầu tiên đã qua?"
+      ]
     }
   },
   {
@@ -598,42 +670,48 @@
     },
     "image": "/cards/wands-queen.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A queen sits on a lion-carved throne, a sunflower in one hand and a budding staff in the other, a black cat at the foot of the throne. The Queen of Wands is the card of warm, confident presence — creative, generous and comfortable being seen.",
+      "vi": "Một nữ hoàng ngồi trên chiếc ngai chạm sư tử, một tay cầm hoa hướng dương, tay kia cầm cây gậy đâm chồi, con mèo đen nằm dưới chân ngai. Nữ Hoàng Gậy là lá bài của sự hiện diện ấm áp và tự tin — sáng tạo, hào phóng và thoải mái khi được nhìn thấy."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Confidence", "Warmth", "Creativity", "Independence"],
+      "vi": ["Tự tin", "Ấm áp", "Sáng tạo", "Độc lập"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Confidence that makes room for other people. The Queen of Wands points to a generous, magnetic energy, to creativity shared freely, and to being at ease with who you are.",
+          "vi": "Sự tự tin biết dành chỗ cho người khác. Nữ Hoàng Gậy gợi đến nguồn năng lượng hào phóng và cuốn hút, sự sáng tạo được chia sẻ thoải mái, và việc thấy dễ chịu với chính con người mình."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Magnetism", "Generosity", "Vitality", "Self-assurance"],
+          "vi": ["Cuốn hút", "Hào phóng", "Sức sống", "Vững tin"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Confidence that wobbles, or that turns into jealousy, a demand for attention or a short temper. It can be a prompt to ask where you are doubting your own light, and where you are asking others to supply it.",
+          "vi": "Sự tự tin chao đảo, hoặc biến thành ghen tị, đòi được chú ý hay nóng nảy. Lá bài có thể nhắc bạn hỏi mình đang nghi ngờ ánh sáng của chính mình ở đâu, và đang nhờ người khác thắp nó lên ở đâu."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Insecurity", "Jealousy", "Attention-seeking", "Short temper"],
+          "vi": ["Bất an", "Ghen tị", "Cần được chú ý", "Nóng nảy"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The sunflower, which turns toward the light, stands for warmth and vitality. The lions on the throne and the red lions on the banner behind echo fire and courage, while the black cat at the foot of the throne is a quiet reminder of independence and instinct. The staff is in leaf, so the strength here is living rather than rigid.",
+      "vi": "Hoa hướng dương luôn xoay về phía ánh sáng, tượng trưng cho sự ấm áp và sức sống. Những con sư tử chạm trên ngai và trên tấm màn phía sau gợi đến lửa và lòng can đảm, còn con mèo đen dưới chân ngai nhắc lặng lẽ về sự độc lập và bản năng. Cây gậy còn lá, nên sức mạnh ở đây là sức mạnh đang sống chứ không cứng nhắc."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What makes you feel most fully yourself?",
+        "Where could you let your warmth and creativity be seen a little more?"
+      ],
+      "vi": [
+        "Điều gì khiến bạn cảm thấy là chính mình nhất?",
+        "Ở đâu bạn có thể để sự ấm áp và sáng tạo của mình được nhìn thấy nhiều hơn một chút?"
+      ]
     }
   },
   {
@@ -647,42 +725,48 @@
     },
     "image": "/cards/wands-king.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A king sits on a throne decorated with lions and salamanders, a budding staff beside him and a small salamander at the foot of the throne. The King of Wands is the card of vision turned into leadership — inspiring, decisive and willing to carry responsibility.",
+      "vi": "Một vị vua ngồi trên ngai trang trí sư tử và kỳ giông, bên cạnh là cây gậy đâm chồi, một con kỳ giông nhỏ dưới chân ngai. Vua Gậy là lá bài của tầm nhìn được biến thành khả năng dẫn dắt — truyền cảm hứng, quyết đoán và sẵn sàng gánh trách nhiệm."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Leadership", "Vision", "Decisiveness", "Integrity"],
+      "vi": ["Dẫn dắt", "Tầm nhìn", "Quyết đoán", "Chính trực"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A leader who turns ideas into action. The King of Wands points to confidence backed by experience, the ability to inspire others and the courage to make bold decisions and take responsibility for them.",
+          "vi": "Một người dẫn dắt biến ý tưởng thành hành động. Vua Gậy gợi đến sự tự tin có kinh nghiệm làm nền, khả năng truyền cảm hứng cho người khác, và lòng can đảm đưa ra quyết định táo bạo rồi nhận trách nhiệm về chúng."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Inspiration", "Authority", "Responsibility", "Experience"],
+          "vi": ["Truyền cảm hứng", "Uy tín", "Trách nhiệm", "Kinh nghiệm"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Power used too forcefully, or vision that outruns patience. It can be a prompt to notice where impatience, pride or a need to control is pushing people away, and where listening would serve the goal better.",
+          "vi": "Quyền lực dùng quá mạnh tay, hoặc tầm nhìn chạy trước sự kiên nhẫn. Lá bài có thể nhắc bạn để ý nơi nào sự nóng vội, lòng kiêu hãnh hay nhu cầu kiểm soát đang đẩy người khác ra xa, và nơi nào lắng nghe sẽ phục vụ mục tiêu tốt hơn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Domineering", "Impatience", "Pride", "Overreach"],
+          "vi": ["Áp đặt", "Nóng vội", "Kiêu hãnh", "Với quá tầm"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The crown and the lions and salamanders on the throne and cloak show authority built from fire: courage, and the ability to change. The staff is in leaf, held upright beside the king like a promise that is still growing rather than a weapon. A small salamander at the foot of the throne repeats the cloak’s pattern, a sign of power that is at home in itself.",
+      "vi": "Chiếc vương miện cùng những con sư tử và kỳ giông trên ngai và áo choàng cho thấy quyền uy dựng từ lửa: lòng can đảm và khả năng biến đổi. Cây gậy còn lá, dựng thẳng bên cạnh nhà vua như một lời hứa vẫn đang lớn chứ không phải một vũ khí. Con kỳ giông nhỏ dưới chân ngai lặp lại họa tiết trên áo choàng, dấu hiệu của quyền lực thấy thoải mái với chính mình."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What vision do you want to lead your work or your life toward?",
+        "Where might listening first make your leadership stronger?"
+      ],
+      "vi": [
+        "Bạn muốn dẫn dắt công việc hay cuộc sống của mình hướng tới tầm nhìn nào?",
+        "Ở đâu việc lắng nghe trước sẽ giúp sự dẫn dắt của bạn vững hơn?"
+      ]
     }
   }
 ]
