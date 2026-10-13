@@ -10,42 +10,48 @@
     },
     "image": "/cards/cups-ace.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A hand reaches out of a cloud, offering a cup that overflows. The Ace of Cups is the card of a new feeling arriving — openness, tenderness and the first spark of something that matters to you.",
+      "vi": "Một bàn tay vươn ra từ đám mây, nâng một chiếc cốc đang tràn đầy. Át Cốc là lá bài của một cảm xúc mới nảy nở — sự cởi mở, dịu dàng và tia lửa đầu tiên của điều có ý nghĩa với bạn."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Openness", "Love", "Intuition", "Renewal"],
+      "vi": ["Cởi mở", "Yêu thương", "Trực giác", "Làm mới"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A fresh wave of feeling asks for room. The Ace of Cups points to kindness, creative inspiration and a heart that is willing to be open again, in love, in friendship or toward yourself.",
+          "vi": "Một làn sóng cảm xúc mới đang xin chút chỗ để đến. Át Cốc gợi đến lòng tử tế, cảm hứng sáng tạo và một trái tim sẵn sàng mở ra lần nữa, trong tình yêu, tình bạn hay với chính mình."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Fresh feeling", "Kindness", "Inspiration", "Receptivity"],
+          "vi": ["Cảm xúc mới", "Tử tế", "Cảm hứng", "Sẵn lòng đón nhận"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Feelings that are held back, blocked or hard to name. It can be a prompt to notice where you have been keeping your heart closed to protect it, and what a little gentleness toward yourself might open.",
+          "vi": "Cảm xúc bị kìm lại, tắc nghẽn hoặc khó gọi thành tên. Lá bài có thể nhắc bạn để ý xem mình đang khép lòng lại ở đâu để tự bảo vệ, và một chút dịu dàng với chính mình có thể mở ra điều gì."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Blocked feelings", "Emptiness", "Guardedness"],
+          "vi": ["Cảm xúc bị chặn", "Trống rỗng", "Phòng thủ"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A hand rises from a cloud, offering the cup as a gift rather than something earned. Five streams spill from it into a pond of water lilies, and a dove carrying a small wafer settles above, images of feeling that overflows and of a quiet peace.",
+      "vi": "Một bàn tay vươn ra từ đám mây, trao chiếc cốc như một món quà chứ không phải thứ phải giành lấy. Năm dòng nước tuôn ra, đổ xuống một hồ hoa súng, và một chú bồ câu ngậm chiếc bánh thánh nhỏ đậu phía trên, là hình ảnh của cảm xúc tràn đầy và một nỗi bình yên lặng lẽ."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Where in your life is there a feeling asking to be welcomed rather than managed?",
+        "How could you let a little more kindness in today?"
+      ],
+      "vi": [
+        "Ở đâu trong đời bạn có một cảm xúc đang chờ được đón nhận thay vì bị kiềm chế?",
+        "Hôm nay, bạn có thể để thêm chút tử tế vào cuộc sống mình bằng cách nào?"
+      ]
     }
   },
   {
@@ -59,42 +65,48 @@
     },
     "image": "/cards/cups-02.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Two people face each other and exchange cups, a winged lion’s head rising between them. The Two of Cups is the card of mutual regard — a connection where each side gives and receives in equal measure.",
+      "vi": "Hai người đứng đối diện và trao cho nhau chiếc cốc, giữa họ là một đầu sư tử có cánh. Hai Cốc là lá bài của sự trân trọng lẫn nhau — một kết nối mà mỗi bên đều cho đi và nhận lại ngang nhau."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Partnership", "Mutual respect", "Attraction", "Harmony"],
+      "vi": ["Đồng hành", "Tôn trọng lẫn nhau", "Thu hút", "Hòa hợp"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A relationship built on listening and fairness. The Two of Cups points to a meeting of equals, in love, friendship or work, where each person is seen and nothing needs to be performed.",
+          "vi": "Một mối quan hệ được xây từ sự lắng nghe và công bằng. Hai Cốc gợi đến cuộc gặp gỡ giữa hai người ngang hàng, trong tình yêu, tình bạn hay công việc, nơi ai cũng được nhìn thấy và không cần phải diễn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Connection", "Reciprocity", "Trust", "Understanding"],
+          "vi": ["Kết nối", "Có đi có lại", "Tin cậy", "Thấu hiểu"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A balance that has tipped: one person gives more, listens less or pulls away. It can be a prompt to say what has gone unsaid, or to look at whether the connection still feels equal.",
+          "vi": "Một cán cân đã nghiêng: một bên cho nhiều hơn, lắng nghe ít hơn hoặc dần rút ra xa. Lá bài có thể nhắc bạn nói ra điều chưa nói, hoặc xem lại liệu mối quan hệ này có còn cảm thấy ngang bằng."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Imbalance", "Distance", "Miscommunication", "Mistrust"],
+          "vi": ["Mất cân bằng", "Xa cách", "Hiểu lầm", "Ngờ vực"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The pair mirror each other, each in a wreath and each holding a cup, a picture of attention given and returned. Between them stands the caduceus, two serpents wound round a winged staff beneath a lion’s head, which speaks of desire and care held together. A small house on a distant hill hints at the shared life that such trust can build.",
+      "vi": "Hai người soi chiếu nhau, mỗi người đội một vòng hoa lá và cầm một chiếc cốc, như hình ảnh của sự chú tâm được trao đi và nhận lại. Giữa họ là cây trượng caduceus, hai con rắn quấn quanh cây gậy có cánh, phía trên là đầu sư tử, nói về ham muốn và sự chăm sóc được giữ cùng nhau. Phía xa, một ngôi nhà nhỏ trên đồi gợi đến cuộc sống chung mà niềm tin như vậy có thể vun đắp."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Where in your life do you feel met as an equal?",
+        "What could you say to someone close to you that would make the connection feel more honest?"
+      ],
+      "vi": [
+        "Ở đâu trong cuộc sống, bạn cảm thấy mình được đối xử như một người ngang hàng?",
+        "Bạn có thể nói với một người thân thiết điều gì để mối quan hệ trở nên chân thật hơn?"
+      ]
     }
   },
   {
@@ -108,42 +120,48 @@
     },
     "image": "/cards/cups-03.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Three figures in flower garlands dance in a circle, their cups raised together. The Three of Cups is the card of friendship and celebration — the ease of being among people who are glad you are there.",
+      "vi": "Ba người đội vòng hoa nhảy múa thành vòng tròn, cùng nâng cao những chiếc cốc. Ba Cốc là lá bài của tình bạn và niềm vui chung — sự thoải mái khi ở giữa những người vui vì có bạn bên cạnh."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Friendship", "Celebration", "Community", "Joy"],
+      "vi": ["Tình bạn", "Ăn mừng", "Cộng đồng", "Niềm vui"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A chance to share happiness and let others share it back. The Three of Cups points to friendship, community and the pleasure of marking a good moment together, however small.",
+          "vi": "Một dịp để chia sẻ niềm vui và để người khác chia sẻ lại với bạn. Ba Cốc gợi đến tình bạn, cộng đồng và niềm thích thú khi cùng nhau đánh dấu một khoảnh khắc đẹp, dù nhỏ đến đâu."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Togetherness", "Support", "Gratitude", "Playfulness"],
+          "vi": ["Gắn kết", "Nâng đỡ", "Biết ơn", "Vui đùa"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Gatherings that feel hollow, crowded or draining, or a circle that has drifted into gossip and cliques. It can be a prompt to ask where you want closer company, and where you need more time to yourself.",
+          "vi": "Những buổi gặp mặt thấy trống rỗng hoặc mệt mỏi, hay một nhóm bạn đã trượt sang chuyện tán gẫu và phe cánh. Lá bài có thể nhắc bạn hỏi mình muốn có bạn đồng hành gần gũi hơn ở đâu, và cần thêm thời gian cho riêng mình ở đâu."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Feeling left out", "Overindulgence", "Gossip", "Drifting apart"],
+          "vi": ["Thấy lạc lõng", "Quá đà", "Tán gẫu", "Xa nhau dần"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The three figures turn toward one another, so close that their arms and cups form a ring. Ripe fruit and gourds lie at their feet, a harvest that belongs to everyone there. The garlands carry the same idea: abundance is more enjoyable when it is shared.",
+      "vi": "Ba người xoay về phía nhau, gần đến mức vòng tay và những chiếc cốc tạo thành một vòng tròn. Dưới chân họ là trái chín và vài quả bí, mùa màng thuộc về tất cả những ai có mặt. Những vòng hoa mang cùng một ý: sự dồi dào sẽ trọn vẹn hơn khi được chia sẻ."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Who in your life leaves you feeling lighter after you have spent time together?",
+        "What small thing could you celebrate with someone this week?"
+      ],
+      "vi": [
+        "Ai trong đời bạn khiến bạn thấy nhẹ lòng hơn sau khi hai người ở bên nhau?",
+        "Tuần này, bạn có thể cùng ai ăn mừng một điều nhỏ nào đó?"
+      ]
     }
   },
   {
@@ -157,42 +175,48 @@
     },
     "image": "/cards/cups-04.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure sits beneath a tree, arms folded, with three cups in front of them while a fourth is offered from a cloud. The Four of Cups is the card of the pause when nothing quite satisfies — a moment to ask what you actually want.",
+      "vi": "Một người ngồi dưới gốc cây, khoanh tay, trước mặt có ba chiếc cốc trong khi chiếc thứ tư được đưa ra từ đám mây. Bốn Cốc là lá bài của quãng lặng khi chẳng điều gì thật sự thỏa lòng — một lúc để hỏi mình thật sự muốn gì."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Contemplation", "Boredom", "Reassessment", "Awareness"],
+      "vi": ["Chiêm nghiệm", "Chán chường", "Đánh giá lại", "Nhận ra"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A stretch of feeling flat, bored or unmoved by what is on offer. The Four of Cups points to turning inward, taking stock and noticing whether something right in front of you is going unseen.",
+          "vi": "Một quãng thấy chùng xuống, chán hoặc chẳng rung động trước những gì đang có. Bốn Cốc gợi đến việc quay vào trong, nhìn lại mọi thứ và để ý xem có điều gì ngay trước mắt mà bạn chưa thấy."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Introspection", "Discontent", "Detachment", "Taking stock"],
+          "vi": ["Nhìn vào trong", "Bất mãn", "Tách rời", "Nhìn lại"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "The fog begins to lift, and interest returns. It can be a prompt to say yes to something you have been waving away, or to notice a withdrawal that has settled into avoiding everything.",
+          "vi": "Màn sương bắt đầu tan và sự quan tâm quay trở lại. Lá bài có thể nhắc bạn gật đầu với điều bạn vẫn phẩy tay từ chối, hoặc để ý một sự thu mình đã dần thành né tránh mọi thứ."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Renewed interest", "Acceptance", "Motivation", "Restlessness"],
+          "vi": ["Hứng thú trở lại", "Chấp nhận", "Động lực", "Bồn chồn"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The folded arms and crossed legs show a person closed in on themselves, eyes on the three cups already in front of them. A hand from a cloud offers a fourth cup, easy to overlook when attention is held elsewhere. The tree at the figure’s back is steady, a place to rest while the feeling settles.",
+      "vi": "Đôi tay khoanh và đôi chân khoanh cho thấy một người đang khép mình lại, mắt nhìn ba chiếc cốc đã đặt sẵn trước mặt. Từ đám mây, một bàn tay đưa ra chiếc cốc thứ tư, rất dễ bị bỏ qua khi sự chú ý đang đặt ở chỗ khác. Gốc cây phía sau lưng vững vàng, là chỗ tựa để cảm xúc lắng xuống."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What have you been given lately that you have not really looked at?",
+        "If you could want anything right now, what would it be?"
+      ],
+      "vi": [
+        "Gần đây có điều gì được trao cho bạn mà bạn chưa thật sự nhìn đến?",
+        "Nếu được muốn bất cứ điều gì lúc này, bạn sẽ muốn điều gì?"
+      ]
     }
   },
   {
@@ -206,42 +230,48 @@
     },
     "image": "/cards/cups-05.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure in a dark cloak looks down at three spilled cups, while two stand upright behind them. The Five of Cups is the card of grief and regret — and of the moment before you turn around.",
+      "vi": "Một dáng người khoác áo choàng sẫm màu cúi nhìn ba chiếc cốc đổ, còn hai chiếc khác vẫn đứng thẳng phía sau. Năm Cốc là lá bài của nỗi mất mát và tiếc nuối — và của khoảnh khắc ngay trước khi bạn quay lại."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Loss", "Grief", "Regret", "Disappointment"],
+      "vi": ["Mất mát", "Đau buồn", "Tiếc nuối", "Thất vọng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Sorrow over what has spilled or gone wrong. The Five of Cups points to grief that deserves to be felt, and invites you, when you are ready, to see what is still standing.",
+          "vi": "Nỗi buồn về điều đã đổ vỡ hay đi sai hướng. Năm Cốc gợi đến nỗi đau đáng được cảm nhận trọn vẹn, và mời bạn, khi đã sẵn sàng, nhìn xem điều gì vẫn còn đứng vững."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Sorrow", "Mourning", "Self-blame", "Looking back"],
+          "vi": ["Buồn thương", "Thương tiếc", "Tự trách", "Ngoảnh nhìn lại"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Slowly turning toward what remains, and letting go of what cannot be undone. It can also point to grief that has been set aside and is still waiting, or to a refusal to forgive, including yourself.",
+          "vi": "Từ từ quay về phía điều còn lại và buông điều không thể làm lại. Lá bài cũng có thể chỉ một nỗi đau bị gác sang bên và vẫn đang chờ, hoặc sự khó tha thứ, kể cả với chính mình."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Acceptance", "Moving on", "Forgiveness", "Unfinished grief"],
+          "vi": ["Chấp nhận", "Bước tiếp", "Tha thứ", "Nỗi đau chưa nguôi"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The dark cloak and bowed head draw all attention to the three spilled cups, while two full ones stand upright behind, out of sight. A river runs through the scene, and beyond it a bridge leads to a distant house. Grief takes up the foreground, and the way back to warmth is still in the picture.",
+      "vi": "Chiếc áo choàng sẫm và cái đầu cúi thấp kéo mọi sự chú ý về ba chiếc cốc đổ, trong khi hai chiếc còn đầy vẫn đứng thẳng phía sau, ngoài tầm mắt. Một dòng sông chảy qua khung cảnh, và xa hơn là cây cầu dẫn đến một ngôi nhà. Nỗi buồn chiếm phần tiền cảnh, còn đường trở về với hơi ấm vẫn nằm trong bức tranh."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What would you say to a friend who was grieving what you are grieving?",
+        "Which of the cups still standing could you turn toward, even for a moment?"
+      ],
+      "vi": [
+        "Bạn sẽ nói gì với một người bạn đang đau buồn vì đúng điều bạn đang đau?",
+        "Trong những chiếc cốc còn đứng vững, bạn có thể ngoảnh về phía chiếc nào, dù chỉ trong chốc lát?"
+      ]
     }
   },
   {
@@ -255,42 +285,48 @@
     },
     "image": "/cards/cups-06.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "In a quiet, sunlit courtyard, one child offers another a cup full of white flowers. The Six of Cups is the card of nostalgia and kindness — of memories that still warm you and the small gestures that connect people.",
+      "vi": "Trong một khoảnh sân yên tĩnh đầy nắng, một đứa trẻ đưa cho đứa trẻ khác chiếc cốc đầy hoa trắng. Sáu Cốc là lá bài của hoài niệm và lòng tử tế — những ký ức vẫn còn làm bạn ấm lòng và những cử chỉ nhỏ nối người với người."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Nostalgia", "Memory", "Innocence", "Kindness"],
+      "vi": ["Hoài niệm", "Ký ức", "Ngây thơ", "Tử tế"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A warm look back at where you came from. The Six of Cups points to childhood memories, old friends and simple generosity, and to what the past can still give you today.",
+          "vi": "Một cái nhìn ấm áp về nơi bạn đã đi qua. Sáu Cốc gợi đến ký ức tuổi thơ, những người bạn cũ và lòng hào phóng giản dị, cùng điều mà quá khứ vẫn có thể cho bạn hôm nay."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Childhood", "Reunion", "Comfort", "Generosity"],
+          "vi": ["Tuổi thơ", "Hội ngộ", "An ủi", "Hào phóng"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Living too much in the past, or holding a memory that is softer than the truth. It can be a prompt to ask what you are holding on to, and what would change if you brought some of that warmth into the present.",
+          "vi": "Sống quá nhiều trong quá khứ, hoặc giữ một ký ức dịu hơn sự thật. Lá bài có thể nhắc bạn hỏi mình đang bám vào điều gì, và điều gì sẽ thay đổi nếu bạn mang một phần hơi ấm ấy vào hiện tại."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Living in the past", "Idealising", "Naivety", "Moving forward"],
+          "vi": ["Sống trong quá khứ", "Lý tưởng hóa", "Ngây thơ", "Bước tiếp"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Two children share a moment in an old courtyard, one handing the other a cup brimming with white flowers. More cups of flowers stand around them, and a figure walks away in the background, the grown-up world held at a distance. The flowers speak of tenderness, the simplest kind of gift.",
+      "vi": "Hai đứa trẻ chia sẻ một khoảnh khắc trong khoảnh sân cũ, một em đưa cho em kia chiếc cốc đầy hoa trắng. Những chiếc cốc hoa khác đặt quanh hai em, còn phía sau là một bóng người đang bước đi, như thế giới người lớn được giữ ở xa. Những bông hoa nói về sự dịu dàng, loại quà đơn giản nhất."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Which memory from your younger years still feels like home?",
+        "Who from your past would be glad to hear from you?"
+      ],
+      "vi": [
+        "Ký ức nào từ những năm tháng nhỏ bé vẫn khiến bạn thấy như được về nhà?",
+        "Ai từ ngày xưa sẽ vui khi nhận được tin từ bạn?"
+      ]
     }
   },
   {
@@ -304,42 +340,48 @@
     },
     "image": "/cards/cups-07.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A dark figure stands before seven cups floating in clouds, each holding something different. The Seven of Cups is the card of imagination and many possibilities — and of telling a daydream from a decision.",
+      "vi": "Một bóng người tối màu đứng trước bảy chiếc cốc lơ lửng trong mây, mỗi chiếc chứa một thứ khác nhau. Bảy Cốc là lá bài của trí tưởng tượng và vô vàn khả năng — và của việc phân biệt giữa mơ mộng và quyết định."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Imagination", "Choices", "Daydreams", "Illusion"],
+      "vi": ["Trí tưởng tượng", "Nhiều lựa chọn", "Mơ mộng", "Ảo tưởng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A mind full of possibilities and a heart drawn to each of them. The Seven of Cups points to dreaming widely, and to the need to look closely at which of those dreams you are willing to work toward.",
+          "vi": "Một tâm trí đầy khả năng và một trái tim bị mỗi khả năng kéo về phía mình. Bảy Cốc gợi đến việc mơ rộng, và việc cần nhìn kỹ xem trong những giấc mơ ấy, bạn sẵn lòng bỏ công theo đuổi điều nào."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Fantasy", "Options", "Temptation", "Creativity"],
+          "vi": ["Mơ tưởng", "Lựa chọn", "Cám dỗ", "Sáng tạo"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "The fog begins to clear and one option comes into focus. It can also point to being overwhelmed by choices, or to a wish that has never been tested against real life.",
+          "vi": "Màn sương bắt đầu tan và một lựa chọn dần rõ nét. Lá bài cũng có thể chỉ cảm giác choáng ngợp vì quá nhiều lựa chọn, hoặc một ước muốn chưa từng được thử với đời thực."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Clarity", "Decisiveness", "Overwhelm", "Disillusionment"],
+          "vi": ["Sáng tỏ", "Dứt khoát", "Choáng ngợp", "Vỡ mộng"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Each cup holds a different image: a face, a veiled figure, a serpent, a tower, jewels, a laurel wreath, a dragon. They float on clouds, vivid and a little unreal, much as wishes are before they meet the ground. The figure is seen only from behind, one arm stretched toward the cups, so you look at them from where the figure stands.",
+      "vi": "Mỗi chiếc cốc chứa một hình ảnh khác nhau: một gương mặt, một dáng người phủ khăn, một con rắn, một tòa tháp, châu báu, một vòng nguyệt quế, một con rồng. Chúng lơ lửng trên mây, rực rỡ và hơi hư ảo, như những điều ước trước khi chạm đất. Người ấy chỉ hiện ra từ phía sau, một tay đưa về phía các chiếc cốc, nên bạn nhìn chúng từ chính chỗ người ấy đứng."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Which of your daydreams would you still choose if it asked for ordinary, everyday effort?",
+        "What do you hope your favourite option would give you?"
+      ],
+      "vi": [
+        "Giấc mơ nào của bạn vẫn đáng chọn nếu nó đòi hỏi những nỗ lực bình thường, hằng ngày?",
+        "Bạn hy vọng lựa chọn mình yêu thích nhất sẽ mang lại cho bạn điều gì?"
+      ]
     }
   },
   {
@@ -353,42 +395,48 @@
     },
     "image": "/cards/cups-08.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A figure in a red cloak walks away from eight neatly stacked cups, heading for the hills under a pale moon. The Eight of Cups is the card of leaving what no longer fulfils you — even when nothing is visibly wrong.",
+      "vi": "Một dáng người khoác áo choàng đỏ bước đi khỏi tám chiếc cốc xếp ngay ngắn, hướng về những ngọn đồi dưới vầng trăng nhạt. Tám Cốc là lá bài của việc rời bỏ điều không còn nuôi dưỡng bạn — kể cả khi bề ngoài chẳng có gì sai."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Leaving", "Searching", "Letting go", "Courage"],
+      "vi": ["Ra đi", "Tìm kiếm", "Buông bỏ", "Can đảm"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A quiet decision to walk away from something that looks complete but no longer feels true. The Eight of Cups points to leaving a situation, a role or a habit in search of something more meaningful, and to the sadness that can come with going.",
+          "vi": "Một quyết định lặng lẽ rời xa điều trông có vẻ đủ đầy nhưng không còn thấy thật. Tám Cốc gợi đến việc rời bỏ một hoàn cảnh, một vai trò hay một thói quen để tìm điều có ý nghĩa hơn, cùng nỗi buồn có thể đi kèm khi ra đi."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Moving on", "Disenchantment", "Seeking more", "Solitude"],
+          "vi": ["Bước tiếp", "Hụt hẫng", "Tìm điều hơn thế", "Đi một mình"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Staying when part of you wants to go, or drifting away without knowing what you are looking for. It can be a prompt to ask whether you are avoiding a hard conversation, or whether what you have deserves one more honest look.",
+          "vi": "Ở lại dù một phần trong bạn muốn đi, hoặc bỏ đi mà không biết mình tìm gì. Lá bài có thể nhắc bạn hỏi mình có đang né một cuộc trò chuyện khó, hay điều đang có xứng đáng được nhìn lại thêm một lần, thật lòng."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Standing still", "Fear of change", "Aimlessness", "Avoidance"],
+          "vi": ["Dậm chân tại chỗ", "Sợ thay đổi", "Vô định", "Né tránh"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The figure turns away from eight cups stacked neatly, with a gap left in the top row: a collection that looks complete and still feels as if something is missing. Staff in hand, they cross the shore toward a pass between dark hills, under a moon with a calm, watching face. The red cloak stands out against the night, a hint of feeling and courage in the leaving.",
+      "vi": "Người ấy quay lưng với tám chiếc cốc xếp gọn gàng nhưng còn chừa một khoảng trống ở hàng trên: một bộ sưu tập trông đã đủ mà vẫn thấy thiếu một điều gì đó. Tay chống gậy, người ấy băng qua bờ nước, hướng về lối đi giữa những ngọn đồi tối, dưới một vầng trăng có gương mặt điềm tĩnh như đang dõi theo. Chiếc áo choàng đỏ nổi bật giữa màn đêm, gợi đến cảm xúc và lòng can đảm trong việc ra đi."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What have you outgrown, even though it still looks good from the outside?",
+        "What are you hoping to find if you let something go?"
+      ],
+      "vi": [
+        "Điều gì giờ đã quá chật so với bạn, dù nhìn từ bên ngoài vẫn đẹp?",
+        "Nếu buông một điều gì đó, bạn hy vọng tìm thấy gì?"
+      ]
     }
   },
   {
@@ -402,42 +450,48 @@
     },
     "image": "/cards/cups-09.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A satisfied figure sits on a bench with folded arms, nine cups arranged in an arc on the shelf behind. The Nine of Cups is the card of contentment — of enjoying what you have worked for and what has simply been good.",
+      "vi": "Một người ngồi trên ghế dài với vẻ hài lòng, hai tay khoanh, phía sau là chín chiếc cốc xếp thành vòng cung trên kệ. Chín Cốc là lá bài của sự mãn nguyện — niềm vui với điều bạn đã dày công vun đắp và cả những điều đơn giản là tốt đẹp."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Contentment", "Gratitude", "Wellbeing", "Satisfaction"],
+      "vi": ["Mãn nguyện", "Biết ơn", "An lạc", "Hài lòng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A moment to enjoy what is going well. The Nine of Cups points to emotional comfort, gratitude and the satisfaction of a wish that has been met, with room to savour it without hurry.",
+          "vi": "Một lúc để tận hưởng điều đang suôn sẻ. Chín Cốc gợi đến sự dễ chịu trong lòng, lòng biết ơn và niềm thỏa mãn khi một mong ước đã được đáp lại, cùng khoảng trống để thong thả thưởng thức."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Wishes met", "Comfort", "Pleasure", "Abundance"],
+          "vi": ["Toại nguyện", "Dễ chịu", "Thích thú", "Đủ đầy"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Satisfaction that feels thin: pleasure chased to fill a gap, or contentment shown to others that is not felt inside. It can be a prompt to ask what would be enough, and what you are really hungry for.",
+          "vi": "Sự thỏa mãn thấy mỏng manh: niềm vui được tìm để lấp một khoảng trống, hoặc sự hài lòng bày ra cho người khác thấy mà bên trong không cảm thấy. Lá bài có thể nhắc bạn hỏi thế nào là đủ, và bạn thật sự đang khao khát điều gì."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Hollow satisfaction", "Overindulgence", "Vanity", "Dissatisfaction"],
+          "vi": ["Thỏa mãn rỗng", "Quá đà", "Phù phiếm", "Bất mãn"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Nine cups are lined up on a curved shelf draped in blue, like a cabinet of things the figure is proud of. Their arms are folded and they look calm, even a little pleased. The plain bench and the bare yellow backdrop keep the scene simple: this is comfort with nothing left to prove.",
+      "vi": "Chín chiếc cốc xếp trên chiếc kệ cong phủ vải xanh, như một tủ trưng bày những điều người ngồi đó tự hào. Hai tay khoanh, vẻ mặt bình thản, thậm chí hơi tự hài lòng. Chiếc ghế gỗ giản dị và nền vàng trơn giữ cho khung cảnh đơn sơ: đây là sự thoải mái không còn gì phải chứng minh."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What in your life is already enough, if you let yourself notice it?",
+        "How could you enjoy something good today without hurrying on to the next thing?"
+      ],
+      "vi": [
+        "Điều gì trong đời bạn đã đủ rồi, nếu bạn cho phép mình nhận ra?",
+        "Hôm nay, làm sao bạn có thể tận hưởng một điều tốt đẹp mà không vội sang điều tiếp theo?"
+      ]
     }
   },
   {
@@ -451,42 +505,48 @@
     },
     "image": "/cards/cups-10.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A couple stand with their arms around each other, children dancing beside them and a rainbow of cups above their home. The Ten of Cups is the card of emotional fulfilment — the quiet joy of belonging with people you love.",
+      "vi": "Một cặp đôi đứng choàng tay nhau, bên cạnh là những đứa trẻ đang nhảy múa, và trên ngôi nhà của họ là cầu vồng những chiếc cốc. Mười Cốc là lá bài của sự viên mãn trong lòng — niềm vui lặng lẽ khi thuộc về những người bạn thương yêu."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Fulfilment", "Family", "Harmony", "Belonging"],
+      "vi": ["Viên mãn", "Gia đình", "Hòa thuận", "Thuộc về"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Emotional contentment shared with the people closest to you. The Ten of Cups points to a home, a family or a chosen circle where you feel safe, and to the sense that the heart has what it needs.",
+          "vi": "Sự mãn nguyện trong lòng được sẻ chia với những người gần gũi nhất. Mười Cốc gợi đến một mái nhà, một gia đình hay một vòng bạn bè do bạn chọn, nơi bạn thấy an toàn, và cảm giác trái tim đã có đủ điều nó cần."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Happiness", "Shared joy", "Security", "Peace"],
+          "vi": ["Hạnh phúc", "Niềm vui chung", "An toàn", "Bình yên"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A gap between how a home or family looks and how it feels. It can be a prompt to notice strain, unspoken tension or an ideal that is hard to live up to, and to ask what would bring things closer to the warmth you want.",
+          "vi": "Một khoảng cách giữa vẻ ngoài và cảm giác thật của một mái nhà hay gia đình. Lá bài có thể nhắc bạn để ý sự căng thẳng, những điều chưa nói hoặc một hình mẫu khó theo kịp, và hỏi điều gì sẽ đưa mọi thứ lại gần hơn với hơi ấm bạn mong muốn."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Family tension", "Disconnection", "Unmet ideals", "Fragile harmony"],
+          "vi": ["Căng thẳng gia đình", "Xa cách", "Kỳ vọng chưa thành", "Hòa thuận mong manh"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "Ten cups curve across the sky in a rainbow, as if the whole picture were held under a blessing. Below, the couple raise their arms toward it while two children dance, and a small house waits among trees by a river. Everything in view is ordinary, which is part of the point: the joy here is made of daily life.",
+      "vi": "Mười chiếc cốc uốn cong trên bầu trời thành cầu vồng, như thể cả bức tranh đang được ban phước. Bên dưới, cặp đôi giơ tay lên về phía ấy trong khi hai đứa trẻ nhảy múa, và một ngôi nhà nhỏ nằm giữa hàng cây bên dòng sông. Mọi thứ trong tầm mắt đều bình thường, và đó cũng là điều đáng nói: niềm vui ở đây được dệt từ đời sống thường ngày."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What does a good day with the people you love look like for you?",
+        "Where could you make a little more room for the people who matter most?"
+      ],
+      "vi": [
+        "Một ngày tốt đẹp bên những người bạn thương yêu trông như thế nào với bạn?",
+        "Bạn có thể dành thêm một chút chỗ cho những người quan trọng nhất với mình bằng cách nào?"
+      ]
     }
   },
   {
@@ -500,42 +560,48 @@
     },
     "image": "/cards/cups-page.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A young person in a flowered tunic stands by the sea, looking in surprise at a fish that has risen from their cup. The Page of Cups is the card of a tender, curious message — an invitation to listen to your feelings and your imagination.",
+      "vi": "Một người trẻ trong chiếc áo thêu hoa đứng bên biển, ngạc nhiên nhìn con cá vừa nhô lên từ chiếc cốc của mình. Thị Đồng Cốc là lá bài của một thông điệp dịu dàng và tò mò — lời mời lắng nghe cảm xúc và trí tưởng tượng của chính bạn."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Curiosity", "Sensitivity", "Imagination", "Gentle messages"],
+      "vi": ["Tò mò", "Nhạy cảm", "Trí tưởng tượng", "Thông điệp dịu dàng"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A soft, open-hearted start. The Page of Cups points to a creative idea, a kind message or a feeling that surprises you, and to trying something new with curiosity instead of pressure.",
+          "vi": "Một khởi đầu mềm mại và cởi mở. Thị Đồng Cốc gợi đến một ý tưởng sáng tạo, một tin nhắn tử tế hay một cảm xúc làm bạn bất ngờ, và việc thử điều mới bằng sự tò mò thay vì áp lực."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Creative spark", "Good news", "Wonder", "Openness"],
+          "vi": ["Tia lửa sáng tạo", "Tin vui", "Thích thú", "Cởi mở"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Feelings that are easily hurt, or a creative idea that stays in the drawer. It can be a prompt to notice moodiness, escapism or an emotion you have not yet let yourself explore.",
+          "vi": "Cảm xúc dễ tổn thương, hoặc một ý tưởng sáng tạo cứ nằm yên trong ngăn kéo. Lá bài có thể nhắc bạn để ý sự thất thường, thói trốn vào mơ mộng hay một cảm xúc bạn chưa cho phép mình khám phá."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Moodiness", "Escapism", "Easily hurt", "Blocked creativity"],
+          "vi": ["Thất thường", "Trốn thực tại", "Dễ tổn thương", "Sáng tạo bế tắc"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A fish leaps from the cup and meets the Page’s gaze, a sign that feelings can surprise the one who carries them. The tunic is patterned with flowers and the blue hat trails a scarf, a youthful mix of delicacy and play. Behind them the sea moves calmly, the deep source the fish comes from.",
+      "vi": "Một con cá nhô lên từ chiếc cốc và nhìn thẳng vào người trẻ ấy, như dấu hiệu rằng cảm xúc có thể làm người mang nó ngạc nhiên. Chiếc áo thêu hoa và chiếc mũ xanh buông dải khăn dài, một sự pha trộn trẻ trung giữa tinh tế và tinh nghịch. Phía sau, biển lặng lẽ chuyển động, là nguồn sâu mà con cá đến từ đó."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What small, curious thing would you like to try without worrying how it turns out?",
+        "What is your heart quietly trying to tell you right now?"
+      ],
+      "vi": [
+        "Bạn muốn thử điều nhỏ bé, đầy tò mò nào mà không phải lo kết quả ra sao?",
+        "Lúc này, trái tim bạn đang khẽ nói với bạn điều gì?"
+      ]
     }
   },
   {
@@ -549,42 +615,48 @@
     },
     "image": "/cards/cups-knight.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A knight rides a white horse at a calm walk, holding out a cup as if it were an offering. The Knight of Cups is the card of the romantic, the idealist and the heart that follows a feeling — with grace, and sometimes with its head in the clouds.",
+      "vi": "Một kỵ sĩ cưỡi con ngựa trắng đi thong thả, đưa chiếc cốc ra phía trước như một lễ vật. Kỵ Sĩ Cốc là lá bài của người lãng mạn, người theo đuổi lý tưởng, trái tim đi theo cảm xúc — duyên dáng, và đôi khi hơi mơ màng."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Romance", "Idealism", "Charm", "Invitation"],
+      "vi": ["Lãng mạn", "Lý tưởng", "Duyên dáng", "Lời mời"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "A heart that follows its feelings with grace. The Knight of Cups points to an invitation or offer, to romance and creative devotion, and to approaching life with sensitivity rather than force.",
+          "vi": "Một trái tim theo đuổi cảm xúc của mình một cách duyên dáng. Kỵ Sĩ Cốc gợi đến một lời mời hay lời đề nghị, đến sự lãng mạn và tận tâm với sáng tạo, và cách bước vào cuộc sống bằng sự tinh tế thay vì sức ép."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Romantic gestures", "Offers", "Devotion", "Sensitivity"],
+          "vi": ["Cử chỉ lãng mạn", "Lời đề nghị", "Tận tâm", "Tinh tế"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Moods that swing, promises made in the glow of a feeling, or a charm that is not backed by follow-through. It can be a prompt to ask whether you are chasing an ideal, and whether your actions match your words.",
+          "vi": "Tâm trạng lên xuống, lời hứa nói ra trong hơi ấm của một cảm xúc, hay sức hút không đi kèm hành động. Lá bài có thể nhắc bạn hỏi mình có đang chạy theo một hình mẫu lý tưởng không, và hành động của mình có khớp với lời nói không."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Mood swings", "Unrealistic ideals", "Overpromising", "Avoidance"],
+          "vi": ["Tâm trạng lên xuống", "Kỳ vọng viển vông", "Hứa quá nhiều", "Né tránh"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The horse is white and steady, and the knight rides slowly, as if feeling matters more than speed. Wings on the helmet and boots suggest messages and imagination, and fish are stitched on the tunic. The cup is held out in front, with a river winding through the valley behind.",
+      "vi": "Con ngựa trắng bước đều và chậm, như thể cảm xúc quan trọng hơn tốc độ. Cánh trên mũ và trên giày gợi đến những thông điệp và trí tưởng tượng, còn trên áo choàng có thêu hình cá. Chiếc cốc được đưa ra phía trước, và phía sau là một dòng sông uốn quanh thung lũng."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "Which feeling are you following that is worth a closer look?",
+        "What would it look like to back a romantic gesture with steady, everyday care?"
+      ],
+      "vi": [
+        "Cảm xúc nào bạn đang theo đuổi mà xứng đáng được nhìn kỹ hơn?",
+        "Sẽ ra sao nếu một cử chỉ lãng mạn được nâng đỡ bằng sự quan tâm đều đặn mỗi ngày?"
+      ]
     }
   },
   {
@@ -598,42 +670,48 @@
     },
     "image": "/cards/cups-queen.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A queen sits on a carved throne at the water’s edge, gazing at an ornate, covered cup. The Queen of Cups is the card of emotional depth — listening to your feelings and to other people with the same steady care.",
+      "vi": "Một nữ hoàng ngồi trên ngai chạm khắc bên mép nước, chăm chú nhìn chiếc cốc có nắp được trang trí công phu. Nữ Hoàng Cốc là lá bài của chiều sâu cảm xúc — lắng nghe cảm xúc của mình và của người khác bằng cùng một sự quan tâm vững vàng."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Empathy", "Intuition", "Nurturing", "Emotional depth"],
+      "vi": ["Thấu cảm", "Trực giác", "Chăm sóc", "Chiều sâu cảm xúc"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Warmth that listens before it advises. The Queen of Cups points to compassion, intuition and an emotional steadiness that lets other people, and your own feelings, be exactly as they are.",
+          "vi": "Sự ấm áp biết lắng nghe trước khi khuyên. Nữ Hoàng Cốc gợi đến lòng trắc ẩn, trực giác và sự vững vàng trong cảm xúc, đủ để người khác, và cả cảm xúc của chính bạn, được là đúng như chúng vốn có."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Compassion", "Care", "Calm", "Inner knowing"],
+          "vi": ["Trắc ẩn", "Quan tâm", "Điềm tĩnh", "Thấu hiểu bên trong"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Emotions that overflow or are shut away, or care given so freely that nothing is left for yourself. It can be a prompt to notice where you are absorbing other people’s feelings, and where you need a boundary.",
+          "vi": "Cảm xúc tràn bờ hoặc bị khóa kín, hay sự chăm sóc trao đi quá nhiều đến mức không còn gì cho chính mình. Lá bài có thể nhắc bạn để ý nơi nào bạn đang gánh cảm xúc của người khác, và nơi nào cần một ranh giới."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Overwhelm", "Over-giving", "Blurred boundaries", "Self-neglect"],
+          "vi": ["Quá tải", "Cho đi quá mức", "Ranh giới mờ", "Bỏ quên bản thân"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The queen holds a closed, ornate cup shaped almost like a small chapel and topped with a cross, a feeling kept with care and attended to in quiet. Her throne at the shoreline is carved with shells and small sea figures, and the water laps close to her feet. She sits between sea and land, near the depths yet on steady ground.",
+      "vi": "Nữ hoàng cầm một chiếc cốc có nắp, chạm khắc cầu kỳ, dáng gần như một nhà nguyện nhỏ với cây thánh giá trên đỉnh: một cảm xúc được gìn giữ cẩn thận và lặng lẽ chăm chút. Ngai ở bờ biển được chạm vỏ sò và những hình tượng biển nhỏ, nước vỗ lăn tăn ngay dưới chân. Vị nữ hoàng ngồi giữa biển và đất, gần với chiều sâu mà vẫn ngồi trên nền vững."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "What are your feelings trying to tell you that you have not yet listened to?",
+        "Where could a boundary help you care for others without losing yourself?"
+      ],
+      "vi": [
+        "Cảm xúc của bạn đang muốn nói điều gì mà bạn chưa lắng nghe?",
+        "Ranh giới nào có thể giúp bạn chăm sóc người khác mà không đánh mất mình?"
+      ]
     }
   },
   {
@@ -647,42 +725,48 @@
     },
     "image": "/cards/cups-king.webp",
     "intro": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "A king sits on a throne set upon rolling waves, a cup in one hand and a sceptre in the other. The King of Cups is the card of emotional maturity — feeling deeply while staying steady.",
+      "vi": "Một vị vua ngồi trên ngai đặt giữa sóng nước, một tay cầm cốc, tay kia cầm quyền trượng. Vua Cốc là lá bài của sự trưởng thành về cảm xúc — cảm sâu mà vẫn vững vàng."
     },
     "keywords": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": ["Emotional balance", "Compassion", "Diplomacy", "Composure"],
+      "vi": ["Cân bằng cảm xúc", "Trắc ẩn", "Khéo léo", "Điềm tĩnh"]
     },
     "meanings": {
       "upright": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Calm that comes from knowing your feelings well. The King of Cups points to wise, generous support, to handling hard emotions without being swept away, and to leading with kindness.",
+          "vi": "Sự bình tĩnh đến từ việc hiểu rõ cảm xúc của mình. Vua Cốc gợi đến sự nâng đỡ khôn ngoan và rộng lượng, cách đối diện cảm xúc khó mà không bị cuốn đi, và việc dẫn dắt bằng lòng tử tế."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Maturity", "Generosity", "Steadiness", "Wise counsel"],
+          "vi": ["Trưởng thành", "Rộng lượng", "Vững vàng", "Lời khuyên khôn ngoan"]
         }
       },
       "reversed": {
         "summary": {
-          "en": "TODO",
-          "vi": "TODO"
+          "en": "Feelings pushed down until they leak out sideways, or kindness used to manage other people. It can be a prompt to notice where you stay composed by not feeling, and what might change if you let a little of it be seen.",
+          "vi": "Cảm xúc bị nén xuống cho đến lúc rò ra theo những cách khác, hoặc lòng tốt bị dùng để điều khiển người khác. Lá bài có thể nhắc bạn để ý nơi nào mình giữ được bình tĩnh chỉ nhờ không cho phép mình cảm nhận, và điều gì có thể khác đi nếu để người khác thấy một chút."
         },
         "keywords": {
-          "en": ["TODO"],
-          "vi": ["TODO"]
+          "en": ["Suppression", "Volatility", "Emotional distance", "Control"],
+          "vi": ["Kìm nén", "Bất ổn", "Xa cách cảm xúc", "Kiểm soát"]
         }
       }
     },
     "symbolism": {
-      "en": "TODO",
-      "vi": "TODO"
+      "en": "The king’s throne floats on open water, so feeling is all around and the king still sits steady. A fish leaps on one side and a ship sails on the other, the inner life and the outer, each given its place. A fish pendant hangs at the chest, the cup rests lightly in one hand and a sceptre in the other.",
+      "vi": "Ngai của nhà vua đặt trên mặt nước mở, nên cảm xúc ở khắp quanh mà vị vua vẫn ngồi vững. Một con cá nhảy lên ở một bên, một con tàu chạy ở bên kia, đời sống bên trong và đời sống bên ngoài, mỗi thứ có chỗ của mình. Trước ngực là mặt dây hình cá, chiếc cốc nằm nhẹ trong một tay và quyền trượng trong tay kia."
     },
     "reflectionQuestions": {
-      "en": ["TODO"],
-      "vi": ["TODO"]
+      "en": [
+        "How do you stay steady when your feelings run high?",
+        "Where could you let someone see more of what you are really feeling?"
+      ],
+      "vi": [
+        "Bạn giữ mình vững vàng thế nào khi cảm xúc dâng cao?",
+        "Ở đâu bạn có thể để ai đó thấy nhiều hơn những gì bạn thật sự đang cảm thấy?"
+      ]
     }
   }
 ]
