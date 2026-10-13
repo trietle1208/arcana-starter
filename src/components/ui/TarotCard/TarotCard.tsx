@@ -31,6 +31,8 @@ export interface TarotCardProps {
   faceDown?: boolean;
   reversed?: boolean;
   selected?: boolean;
+  /** A face-down card waiting to be turned pulses a soft gold halo (night surfaces only). */
+  waiting?: boolean;
   /** Print the name (and "Reversed") under the card. */
   showName?: boolean;
   onClick?: () => void;
@@ -59,6 +61,7 @@ export function TarotCard({
   faceDown = false,
   reversed = false,
   selected,
+  waiting,
   showName,
   onClick,
   label,
@@ -132,6 +135,7 @@ export function TarotCard({
     onClick && styles.interactive,
     faceDown && styles.down,
     revealing && styles.revealing,
+    waiting && faceDown && styles.waiting,
     reversed && styles.reversed,
     selected && styles.selected,
     className,

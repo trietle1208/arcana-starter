@@ -43,7 +43,8 @@
   -webkit-backface-visibility: hidden;
   border-radius: var(--radius-card);
   background: var(--surface);
-  border: 1px solid var(--line);
+  /* A night surface sets --tc-face-border to gold so the cream frame glints against it. */
+  border: 1px solid var(--tc-face-border, var(--line));
   box-shadow: var(--shadow-paper);
   padding: calc(var(--w) * 0.04);
   overflow: hidden;
@@ -179,6 +180,20 @@
   }
 }
 
+/* Waiting to be turned, on the reading table: a soft gold halo, 2.4s loop. */
+.waiting .back {
+  animation: beckon 2.4s ease-in-out infinite;
+}
+@keyframes beckon {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(212 175 106 / 0);
+  }
+  50% {
+    box-shadow: 0 0 16px 2px rgb(212 175 106 / 0.45);
+  }
+}
+
 /* Reduced motion: the card still turns (globals.css makes it instant); it just does not lift. */
 @media (prefers-reduced-motion: reduce) {
   :global(:root:not([data-motion='full'])) .interactive.down:hover {
@@ -187,4 +202,12 @@
 }
 :global(:root[data-motion='reduce']) .interactive.down:hover {
   transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  :global(:root:not([data-motion='full'])) .waiting .back {
+    animation: none;
+  }
+}
+:global(:root[data-motion='reduce']) .waiting .back {
+  animation: none;
 }

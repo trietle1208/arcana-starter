@@ -1,0 +1,77 @@
+.deck {
+  --dw: 96px;
+  position: relative;
+  width: var(--dw);
+  aspect-ratio: 284 / 511;
+}
+.card {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-card);
+  background: var(--midnight);
+  border: 1px solid var(--midnight-raised);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.35);
+  transform: translate(calc(var(--i) * -0.4px), calc(var(--i) * -1px));
+}
+/* Riffle: the stack splits left and right, then interleaves back; three times. */
+.shuffling .card {
+  animation: riffle 0.9s cubic-bezier(0.45, 0.05, 0.3, 1) var(--d) 3 both;
+}
+@keyframes riffle {
+  0% {
+    transform: translate(calc(var(--i) * -0.4px), calc(var(--i) * -1px)) rotate(0);
+  }
+  28% {
+    transform: translate(calc(var(--side) * 78px), -10px) rotate(calc(var(--side) * 12deg));
+  }
+  52% {
+    transform: translate(calc(var(--side) * 70px), -4px) rotate(calc(var(--side) * 6deg));
+  }
+  86%,
+  100% {
+    transform: translate(calc(var(--i) * -0.4px), calc(var(--i) * -1px)) rotate(0);
+  }
+}
+.dust {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  width: 0;
+  height: 0;
+}
+.dust i {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 6px var(--gold);
+  opacity: 0;
+  animation: rise 1.6s ease-out calc(var(--k) * 0.22s) infinite;
+  left: calc((var(--k) - 4.5) * 9px);
+}
+@keyframes rise {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0.6);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-110px) scale(1.1);
+  }
+}
+
+/* Reduced motion: the deck stays still and no dust rises. */
+@media (prefers-reduced-motion: reduce) {
+  :global(:root:not([data-motion='full'])) .shuffling .card,
+  :global(:root:not([data-motion='full'])) .dust i {
+    animation: none;
+  }
+}
+:global(:root[data-motion='reduce']) .shuffling .card,
+:global(:root[data-motion='reduce']) .dust i {
+  animation: none;
+}

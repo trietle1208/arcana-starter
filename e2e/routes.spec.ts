@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 const ROUTES = [
   { path: '/', title: 'Home', nav: 'Home' },
   { path: '/library', title: 'Card library', nav: 'Card library' },
-  { path: '/reading', title: 'Reading room', nav: 'Reading room' },
+  { path: '/reading', title: 'Sit with a question', nav: 'Reading room' },
   { path: '/study', title: 'Study', nav: 'Study' },
   { path: '/journal', title: 'Journal', nav: 'Journal' },
   { path: '/settings', title: 'Settings', nav: 'Settings' },

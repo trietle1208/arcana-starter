@@ -1,0 +1,38 @@
+.notice {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  max-width: 520px;
+}
+.notice svg {
+  margin-top: 2px;
+  flex: none;
+}
+.success {
+  background: var(--olive-soft);
+  border-color: transparent;
+}
+.success svg {
+  color: var(--olive-ink);
+}
+.info svg {
+  color: var(--terracotta-ink);
+}
+.body {
+  flex: 1;
+  display: grid;
+  gap: 2px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.title {
+  font-weight: 600;
+}
+.action {
+  margin-left: auto;
+  align-self: center;
+}

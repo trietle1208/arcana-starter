@@ -1,0 +1,60 @@
+.fan {
+  --fw: 64px;
+  position: relative;
+  height: calc(var(--fw) * 3.3);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  position: absolute;
+  bottom: calc(var(--fw) * 1.1);
+  left: calc(50% - var(--fw) / 2);
+  width: var(--fw);
+  aspect-ratio: 284 / 511;
+  padding: 0;
+  border: 1px solid var(--midnight-raised);
+  border-radius: 7px;
+  background: var(--midnight);
+  box-shadow: -2px 2px 6px rgb(0 0 0 / 0.35);
+  cursor: pointer;
+  transform-origin: 50% 340%;
+  transform: rotate(var(--a));
+  transition:
+    transform 0.28s cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 0.28s;
+  /* "backwards", not "both": once the sweep ends the card must be free to rise on hover. */
+  animation: sweep 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) calc(var(--i) * 18ms) backwards;
+}
+@keyframes sweep {
+  from {
+    transform: rotate(0);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(var(--a));
+    opacity: 1;
+  }
+}
+.card:hover:not(:disabled),
+.card:focus-visible {
+  transform: rotate(var(--a)) translateY(-20px);
+  box-shadow: var(--shadow-glow);
+  z-index: 30;
+}
+.taken {
+  visibility: hidden;
+}
+.card:disabled {
+  cursor: default;
+}
+
+/* Reduced motion: the fan opens at once; hover and focus still lift the card. */
+@media (prefers-reduced-motion: reduce) {
+  :global(:root:not([data-motion='full'])) .card {
+    animation: none;
+  }
+}
+:global(:root[data-motion='reduce']) .card {
+  animation: none;
+}

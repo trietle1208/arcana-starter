@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.title {
+  font-size: 28px;
+  line-height: 34px;
+}
+.below {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+/* Room for the Notice, so the hint below it stays where it is. */
+.notice {
+  min-height: 56px;
+}
+.hint {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--ink-muted);
+}

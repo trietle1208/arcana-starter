@@ -73,6 +73,45 @@ export const en = {
   'reflect.notes.placeholder': 'Write a few lines…',
   'reflect.save': 'Save to journal',
   'reflect.save.unavailable': 'Saving to the journal is not available yet.',
+
+  // Reading room
+  'reading.eyebrow': 'Reading room',
+  'reading.title': 'Sit with a question',
+  'reading.spread.label': 'Spread',
+  'reading.hint':
+    'Readings are private to you. To skip the animations, turn on reduced motion in your device settings.',
+  'reading.save.unavailable': 'Saving to the journal is not available yet.',
+  'reading.drawn.title': '{count} cards drawn',
+  'reading.drawn.titleOne': '1 card drawn',
+  'reading.drawn.body': 'Turn them over one at a time.',
+  'reading.drawn.bodyOne': 'Turn it over when you are ready.',
+  'reading.meanings.title': 'What the cards say',
+  'reading.meanings.intro': 'Each card is a way to look at its position, not a verdict.',
+  'reading.meanings.position': '{n} · {name}',
+
+  // The ritual at the reading table
+  'ritual.region': 'Reading table',
+  'ritual.idle': 'Hold your question in mind, then shuffle the deck.',
+  'ritual.shuffling': 'Shuffling the deck…',
+  'ritual.cut': 'Cut the deck: choose one of the three piles.',
+  'ritual.fan': 'Choose {need} cards from the fan · {chosen} of {need} chosen',
+  'ritual.fanOne': 'Choose 1 card from the fan · {chosen} of 1 chosen',
+  'ritual.reveal': 'Turn each card over when you are ready.',
+  'ritual.done': 'All {need} cards are revealed.',
+  'ritual.doneOne': 'Your card is revealed.',
+  'ritual.shuffle': 'Shuffle the deck',
+  'ritual.shuffleAgain': 'Shuffle again',
+  'ritual.save': 'Save reading',
+  'ritual.pileGroup': 'Choose a pile',
+  'ritual.pile': 'Pile {n}',
+  'ritual.fan.group': 'Choose from the fanned deck',
+  'ritual.fan.card': 'Choose card {n} of {total}',
+  'ritual.deck.resting': 'A shuffled deck, face down',
+  'ritual.deck.shuffling': 'The deck is being shuffled',
+  'spread.legend': 'Positions',
+  'spread.turnOver': 'Position {n}, {name} — select to turn over',
+  'spread.faceDown': 'Position {n}, {name}: face down',
+  'spread.reversed': 'reversed',
 } satisfies Record<string, string>;
 
 export type TranslationKey = keyof typeof en;

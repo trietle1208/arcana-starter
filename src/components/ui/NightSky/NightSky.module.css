@@ -1,0 +1,59 @@
+/* Night surface: the only place gold and midnight live next to the paper page. */
+.night {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: var(--radius-lg);
+  color: var(--starlight);
+  background:
+    radial-gradient(120% 90% at 50% 105%, rgb(212 175 106 / 0.16), transparent 55%),
+    radial-gradient(90% 70% at 50% 0%, var(--midnight-raised), transparent 70%), var(--midnight);
+}
+.sky {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.star {
+  position: absolute;
+  width: calc(2px * var(--z));
+  height: calc(2px * var(--z));
+  border-radius: 50%;
+  background: var(--starlight);
+  opacity: 0.5;
+  animation: twinkle 4s ease-in-out infinite;
+}
+.spark {
+  width: calc(9px * var(--z));
+  height: calc(9px * var(--z));
+  background: none;
+  border-radius: 0;
+  color: var(--gold);
+}
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.7);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1);
+  }
+}
+.body {
+  position: relative;
+}
+
+/* Reduced motion: the stars hold still (globals.css already makes every animation instant). */
+@media (prefers-reduced-motion: reduce) {
+  :global(:root:not([data-motion='full'])) .star {
+    animation: none;
+    opacity: 0.6;
+  }
+}
+:global(:root[data-motion='reduce']) .star {
+  animation: none;
+  opacity: 0.6;
+}

@@ -1,0 +1,255 @@
+.spread {
+  --row-gap: var(--space-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+  align-items: center;
+  justify-content: center;
+}
+.layout {
+  display: grid;
+  align-items: start;
+  justify-items: center;
+}
+.fine {
+  /* Rows are half a card tall, so the gap lives inside the row height instead. */
+  row-gap: 0;
+}
+
+/* Roomy: one to three large cards, the position printed beneath each. */
+.roomy {
+  --cw: clamp(72px, 18vw, 148px);
+  --ch: calc(var(--cw) * 511 / 284);
+}
+.roomy .layout {
+  column-gap: clamp(12px, 3vw, var(--space-8));
+  row-gap: var(--space-6);
+}
+.single {
+  --cw: clamp(120px, 40vw, 180px);
+}
+
+/* Compact: the Celtic Cross, small cards beside a legend. */
+.compact {
+  --cw: clamp(56px, 8.5vw, 92px);
+  --ch: calc(var(--cw) * 511 / 284);
+}
+.compact .layout {
+  column-gap: calc(var(--cw) * 0.5);
+  align-items: start;
+}
+
+.slot {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+}
+.rotated {
+  z-index: 2;
+  transform: rotate(90deg);
+}
+.rotated .num {
+  transform: rotate(-90deg);
+}
+.num {
+  position: absolute;
+  z-index: 3;
+  top: -9px;
+  left: -9px;
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-full);
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  color: var(--terracotta-ink);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+}
+
+/* The box is what a card flies to: it is always there, empty or not. */
+.box {
+  position: relative;
+  /* A flex container, so the card is not an inline box with room for descenders below it. */
+  display: flex;
+  align-items: flex-start;
+  width: var(--cw);
+  aspect-ratio: 284 / 511;
+  border-radius: var(--radius-card);
+}
+.face {
+  display: contents;
+}
+.empty {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-card);
+  border: 1px dashed var(--line-strong);
+}
+.current {
+  outline: 2px solid var(--terracotta-ink);
+  outline-offset: 3px;
+}
+
+/* A face-down card that can be turned: a button laid over the card. */
+.turn {
+  position: absolute;
+  inset: 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-card);
+  background: none;
+  cursor: pointer;
+}
+.turnable {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.turnable:hover,
+.turnable:focus-within {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-glow);
+  z-index: 2;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  max-width: calc(var(--cw) + var(--space-8));
+  text-align: center;
+}
+.overline {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.position {
+  font-family: var(--font-display);
+  font-size: 17px;
+  line-height: 22px;
+  color: var(--ink);
+}
+.cardName {
+  /* Two lines held: a long name wraps on a phone, and the table must not grow when it appears. */
+  min-height: 36px;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--ink-muted);
+  opacity: 0;
+  transform: translateY(4px);
+  transition:
+    opacity 0.5s 0.6s,
+    transform 0.5s 0.6s;
+}
+.shown {
+  opacity: 1;
+  transform: none;
+}
+
+.legend {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 2px;
+  min-width: 220px;
+  max-width: 280px;
+  flex: 1;
+}
+.legend li {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: var(--space-2);
+  padding: 6px var(--space-2);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  line-height: 20px;
+}
+.legend li b {
+  color: var(--terracotta-ink);
+  font-weight: 600;
+}
+.legend li small {
+  display: block;
+  color: var(--ink-muted);
+  font-size: 13px;
+  line-height: 18px;
+}
+.currentRow {
+  background: var(--terracotta-soft);
+}
+
+/* Night: the reading table. Gold edges, starlight type. */
+.night {
+  --tc-face-border: var(--gold);
+}
+.night .num {
+  background: var(--midnight);
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.night .empty {
+  border-color: rgb(212 175 106 / 0.5);
+  background: rgb(255 255 255 / 0.02);
+}
+.night .overline {
+  color: var(--starlight-muted);
+}
+.night .position {
+  color: var(--starlight);
+  font-variation-settings:
+    'SOFT' 100,
+    'WONK' 1;
+  font-size: 18px;
+  line-height: 24px;
+}
+.night .cardName {
+  color: var(--gold);
+}
+.night .current {
+  outline-color: var(--gold);
+}
+.night .legend li {
+  color: var(--starlight);
+}
+.night .legend li b {
+  color: var(--gold);
+}
+.night .legend li small {
+  color: var(--starlight-muted);
+}
+.night .legend li.shownRow small {
+  color: var(--gold);
+}
+.night .currentRow {
+  background: rgb(255 255 255 / 0.08);
+}
+
+/* On a phone the legend sits under the cross. */
+@media (max-width: 559px) {
+  .legend {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+/* Reduced motion: a turnable card does not lift (the glow still shows the target). */
+@media (prefers-reduced-motion: reduce) {
+  :global(:root:not([data-motion='full'])) .turnable:hover,
+  :global(:root:not([data-motion='full'])) .turnable:focus-within {
+    transform: none;
+  }
+}
+:global(:root[data-motion='reduce']) .turnable:hover,
+:global(:root[data-motion='reduce']) .turnable:focus-within {
+  transform: none;
+}
