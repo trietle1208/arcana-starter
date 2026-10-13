@@ -57,3 +57,5 @@ export function getCard(id: CardId): TarotCard {
   if (!card) throw new Error(`Unknown card id "${id}"`);
   return card;
 }
+
+export { SPREADS, SPREAD_IDS, getSpread, hasSpread } from './spreads';
