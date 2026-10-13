@@ -1,11 +1,13 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useTransition, type FormEvent } from 'react';
 import { Button } from '@/components/ui/Button/Button';
 import { Divider } from '@/components/ui/Divider/Divider';
+import { ButtonLink } from '@/components/ui/Button/ButtonLink';
 import { Icon } from '@/components/ui/Icon/Icon';
 import { MeaningPanel } from '@/components/ui/MeaningPanel/MeaningPanel';
+import { Notice } from '@/components/ui/Notice/Notice';
 import { SegmentedControl } from '@/components/ui/SegmentedControl/SegmentedControl';
 import { TarotCard } from '@/components/ui/TarotCard/TarotCard';
 import { TextField } from '@/components/ui/TextField/TextField';
@@ -13,6 +15,8 @@ import { romanNumeral } from '@/domain/tarot/deck';
 import { isPlaceholder, withoutPlaceholders } from '@/domain/tarot/placeholder';
 import type { Orientation, TarotCard as Card } from '@/domain/tarot/types';
 import { useLocale, useT } from '@/i18n/LocaleProvider';
+import { UI_ERROR_KEY, type UiError } from '../actionResult';
+import { createReflectionAction } from '../journal/actions';
 import { cardOverline } from './cardLabels';
 import styles from './CardDetail.module.css';
 
@@ -21,12 +25,40 @@ export function CardDetail({ card }: { card: Card }) {
   const t = useT();
   const { locale } = useLocale();
   const [orientation, setOrientation] = useState<Orientation>('upright');
+  const [notes, setNotes] = useState('');
+  const [saving, startSaving] = useTransition();
+  const [saveError, setSaveError] = useState<UiError | 'empty' | null>(null);
+  const [savedEntryId, setSavedEntryId] = useState<string | null>(null);
 
   const name = card.name[locale];
   const intro = card.intro[locale];
   const numeral = card.arcana === 'major' ? romanNumeral(card.number) : null;
   const questions = withoutPlaceholders(card.reflectionQuestions[locale]);
   const [prompt, ...moreQuestions] = questions;
+
+  function saveReflection(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (notes.trim() === '') {
+      setSaveError('empty');
+      return;
+    }
+    setSaveError(null);
+    setSavedEntryId(null);
+    startSaving(async () => {
+      const result = await createReflectionAction({
+        title: name,
+        body: notes,
+        prompt: prompt ?? null,
+        cardId: card.id,
+      });
+      if (result.ok) {
+        setSavedEntryId(result.entryId);
+        setNotes('');
+      } else {
+        setSaveError(result.error);
+      }
+    });
+  }
 
   return (
     <>
@@ -102,18 +134,46 @@ export function CardDetail({ card }: { card: Card }) {
                 </ul>
               </div>
             ) : null}
-            <TextField
-              multiline
-              rows={3}
-              label={t('reflect.notes.label')}
-              placeholder={t('reflect.notes.placeholder')}
-            />
-            <div className={styles.actions}>
-              <Button variant="primary" icon="bookmark" disabled>
-                {t('reflect.save')}
-              </Button>
-              <span className="ar-hint">{t('reflect.save.unavailable')}</span>
-            </div>
+            <form className={styles.form} onSubmit={saveReflection} noValidate aria-busy={saving}>
+              <TextField
+                multiline
+                rows={3}
+                name="notes"
+                label={t('reflect.notes.label')}
+                placeholder={t('reflect.notes.placeholder')}
+                value={notes}
+                maxLength={20000}
+                onChange={(event) => {
+                  setNotes(event.target.value);
+                  setSaveError(null);
+                }}
+                error={
+                  saveError === 'empty'
+                    ? t('reflect.notes.empty')
+                    : saveError
+                      ? t(UI_ERROR_KEY[saveError])
+                      : undefined
+                }
+              />
+              <div className={styles.actions}>
+                <Button type="submit" variant="primary" icon="bookmark" disabled={saving}>
+                  {saving ? t('reflect.saving') : t('reflect.save')}
+                </Button>
+              </div>
+              {savedEntryId ? (
+                <Notice
+                  tone="success"
+                  title={t('reflect.saved.title')}
+                  action={
+                    <ButtonLink href={`/journal/${savedEntryId}`} variant="secondary" size="sm">
+                      {t('reflect.saved.open')}
+                    </ButtonLink>
+                  }
+                >
+                  {t('reflect.saved.body')}
+                </Notice>
+              ) : null}
+            </form>
           </section>
         </article>
       </div>

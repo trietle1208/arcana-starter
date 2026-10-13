@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
 import { DM_Sans, Fraunces } from 'next/font/google';
+import { connection } from 'next/server';
 import type { ReactNode } from 'react';
+import type { ReduceMotion } from '@/domain/records';
 import { AppShell } from '@/features/shell/AppShell';
 import { LocaleProvider } from '@/i18n/LocaleProvider';
+import { loadSettings } from '@/server/settings';
 import '@/styles/tokens.css';
 import '@/styles/globals.css';
 
@@ -27,16 +30,28 @@ export const metadata: Metadata = {
   description: 'A quiet place to read the cards, study them and keep a journal.',
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+// The Reduce motion setting drives <html data-motion> (see globals.css): "On" always reduces,
+// "Off" always plays, "System" follows the device.
+const MOTION: Record<ReduceMotion, 'system' | 'reduce' | 'full'> = {
+  system: 'system',
+  on: 'reduce',
+  off: 'full',
+};
+
+export default async function RootLayout({ children }: { children: ReactNode }) {
+  // The language and motion settings live in SQLite and must be right on first paint, so every
+  // page renders per request; nothing here may be prerendered at build time.
+  await connection();
+  const settings = loadSettings();
   return (
     <html
-      lang="en"
+      lang={settings.locale}
       data-theme="paper"
-      data-motion="system"
+      data-motion={MOTION[settings.reduceMotion]}
       className={`${fraunces.variable} ${dmSans.variable}`}
     >
       <body>
-        <LocaleProvider>
+        <LocaleProvider locale={settings.locale}>
           <AppShell>{children}</AppShell>
         </LocaleProvider>
       </body>

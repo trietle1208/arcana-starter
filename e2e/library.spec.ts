@@ -72,10 +72,7 @@ test('searching without accents finds the Vietnamese name, and an empty result c
   await expect(page.getByLabel('Search cards')).toHaveValue('');
 });
 
-test('all 78 cards are listed and each has a statically generated page', async ({
-  page,
-  request,
-}) => {
+test('all 78 cards are listed and each has a page', async ({ page, request }) => {
   await page.goto('/library');
   await expect(page.getByText('Showing 78 of 78')).toBeVisible();
   const hrefs = await page
@@ -91,49 +88,19 @@ test('all 78 cards are listed and each has a statically generated page', async (
   expect((await request.get('/library/cups-3')).status()).toBe(404);
 });
 
-test('a card that is still being written shows a quiet note instead of "TODO"', async ({
-  page,
-}) => {
-  await page.goto('/library/cups-03');
-  await expect(page.getByRole('heading', { level: 1, name: 'Three of Cups' })).toBeVisible();
-  await expect(
-    page.getByText('This part of the card is still being written.').first(),
-  ).toBeVisible();
-  await expect(page.getByText('TODO')).toHaveCount(0);
-});
-
-test('the reflection panel cannot save yet and says why', async ({ page }) => {
+test('the reflection panel keeps a note, and asks for one before it saves', async ({ page }) => {
   await page.goto('/library/the-hermit');
+  await page.waitForLoadState('networkidle');
   await expect(page.getByRole('heading', { level: 2, name: 'Reflect' })).toBeVisible();
   await expect(page.getByText('When did time alone last give you an answer?')).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Save to journal' })).toBeDisabled();
-  await expect(page.getByText('Saving to the journal is not available yet.')).toBeVisible();
-  await page.getByLabel('Your notes').fill('Quiet mornings help.');
-  await expect(page.getByLabel('Your notes')).toHaveValue('Quiet mornings help.');
-});
-
-test('the temporary language toggle shows Vietnamese names and labels', async ({ page }) => {
-  await page.goto('/library');
-  await page
-    .getByRole('radiogroup', { name: 'Language' })
-    .getByRole('radio', { name: 'VI' })
-    .click();
-  await expect(page.getByRole('heading', { level: 1, name: 'Thư viện bài' })).toBeVisible();
-  await expect(
-    page.getByRole('navigation', { name: 'Chính' }).getByRole('link', { name: 'Thư viện bài' }),
-  ).toHaveAttribute('aria-current', 'page');
-  await expect(page.getByLabel('Tìm lá bài')).toBeVisible();
-  await expect(page.locator('html')).toHaveAttribute('lang', 'vi');
-
-  await page.getByLabel('Tìm lá bài').fill('an si');
-  await expect(page.getByText('Hiển thị 1 trên 78')).toBeVisible();
-  await page.getByRole('link', { name: /Ẩn Sĩ/ }).click();
-  await expect(page.getByRole('heading', { level: 1, name: 'Ẩn Sĩ' })).toBeVisible();
-  await expect(page.getByText('Bộ Ẩn Chính · IX')).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'Xuôi' })).toBeVisible();
-
-  await page.reload();
-  await expect(page.getByRole('heading', { level: 1, name: 'Ẩn Sĩ' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Save to journal' })).toBeEnabled();
+  await page.getByRole('button', { name: 'Save to journal' }).click();
+  await expect(page.getByText('Write a line or two first, then save.')).toBeVisible();
+  await page.getByRole('textbox', { name: 'Your notes' }).fill('Quiet mornings help.');
+  await expect(page.getByRole('textbox', { name: 'Your notes' })).toHaveValue(
+    'Quiet mornings help.',
+  );
+  await expect(page.getByText('Write a line or two first, then save.')).toHaveCount(0);
 });
 
 test('the library and a card page load without console errors', async ({ page }) => {

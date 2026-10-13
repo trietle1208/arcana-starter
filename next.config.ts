@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
   output: process.env.ARCANA_STANDALONE ? 'standalone' : undefined,
   // The card art is already a small lossy WebP; 75 (the default) would compress it a second time.
   images: { qualities: [90] },
+  // A journal export read back in through Settings travels as a Server Action body (default 1 MB).
+  experimental: { serverActions: { bodySizeLimit: '10mb' } },
 };
 
 export default nextConfig;

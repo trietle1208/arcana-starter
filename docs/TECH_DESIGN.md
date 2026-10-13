@@ -255,7 +255,8 @@ export interface UserSettings {
   revealOneByOne: boolean;              // default true
   defaultSpreadId: string;              // default 'three-card'
   displayName: string | null;           // optional; the Home greeting omits the name when null
-  reduceMotion: 'system' | 'on' | 'off';
+  reduceMotion: 'system' | 'on' | 'off'; // default 'system'; drives <html data-motion>
+  interpretationDetail: 'brief' | 'full'; // default 'brief'; 'full' adds symbolism + a question per card
 }
 ```
 

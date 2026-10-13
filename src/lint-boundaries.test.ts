@@ -9,7 +9,9 @@ async function messagesFor(filePath: string, code: string) {
   return result.messages.filter((m) => m.ruleId === 'no-restricted-imports');
 }
 
-describe('layer boundaries', () => {
+// ESLint takes several seconds to start the first time it runs, longer while the rest of the suite
+// is loading too.
+describe('layer boundaries', { timeout: 30_000 }, () => {
   it.each([
     ['react', "import { useState } from 'react';"],
     ['next/*', "import Link from 'next/link';"],

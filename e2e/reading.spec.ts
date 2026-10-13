@@ -104,12 +104,11 @@ test('walks the three-card ritual from the shuffle to the meanings', async ({ pa
     heights.push(await heightOf(page));
   }
 
-  // Done: every card is named, Save is off for now (with a reason), Shuffle again is ready.
+  // Done: every card is named, Save is on offer, Shuffle again is ready.
   await expect(table.getByText('All 3 cards are revealed.')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Shuffle again' })).toBeFocused();
-  const save = page.getByRole('button', { name: 'Save reading' });
-  await expect(save).toBeDisabled();
-  await expect(save).toHaveAccessibleDescription('Saving to the journal is not available yet.');
+  await expect(page.getByRole('button', { name: 'Save reading' })).toBeEnabled();
+  await expect(page.getByText('Save the reading to keep it in your journal.')).toBeVisible();
   heights.push(await heightOf(page));
 
   // What the table says and what the meanings say is the same card on the same side.
@@ -193,7 +192,7 @@ test.describe('with reduced motion', () => {
     const legend = table.getByRole('list', { name: 'Positions' }).getByRole('listitem');
     await expect(legend).toHaveCount(10);
     await expect(table.getByText('The heart of the matter')).toHaveCount(0);
-    await expect(page.getByRole('button', { name: 'Save reading' })).toBeDisabled();
+    await expect(page.getByRole('button', { name: 'Save reading' })).toBeEnabled();
     expect(Math.abs((await heightOf(page)) - before)).toBeLessThanOrEqual(1);
 
     expect(problems).toEqual([]);
@@ -253,20 +252,4 @@ test('each spread lays out its own positions, and changing it starts the ritual 
   await page.waitForTimeout(3200);
   await expect(page.getByRole('group', { name: 'Choose a pile' })).toHaveCount(0);
   await expect(table.getByText('Hold your question in mind, then shuffle the deck.')).toBeVisible();
-});
-
-test('the room speaks Vietnamese when asked', async ({ page }) => {
-  await page.goto('/reading');
-  await expect(page.getByRole('heading', { level: 1, name: 'Sit with a question' })).toBeVisible();
-  await expect(async () => {
-    await page.getByRole('radio', { name: 'VI' }).click({ timeout: 1000 });
-    await expect(
-      page.getByRole('heading', { level: 1, name: 'Ngồi lại với một câu hỏi' }),
-    ).toBeVisible({ timeout: 1500 });
-  }).toPass();
-  const table = page.getByRole('region', { name: 'Bàn trải bài' });
-  await expect(table.getByText('Hãy giữ câu hỏi trong tâm trí, rồi xáo bộ bài.')).toBeVisible();
-  await expect(page.getByRole('radio', { name: 'Ba lá' })).toHaveAttribute('aria-checked', 'true');
-  await expect(table.getByText('Quá khứ', { exact: true })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Xáo bài' })).toBeVisible();
 });

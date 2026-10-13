@@ -293,6 +293,17 @@ describe('ReadingRitual', () => {
     );
   });
 
+  it('turns the cards by itself with revealMode="all": nothing to press, and it says so', () => {
+    const three = viewOf(SPREADS.find((spread) => spread.id === 'three-card')!);
+    const markup = html(
+      <ReadingRitual {...three} cards={cardsFor(3)} initialStep="reveal" revealMode="all" />,
+    );
+    expect(count(markup, /data-state="down"/g)).toBe(3);
+    expect(count(markup, /select to turn over/g)).toBe(0);
+    expect(markup).toContain('The cards are turning over.');
+    expect(markup).not.toContain('Turn each card over when you are ready.');
+  });
+
   it('offers three labelled piles to cut', () => {
     const three = viewOf(SPREADS.find((spread) => spread.id === 'three-card')!);
     const markup = html(<ReadingRitual {...three} cards={[]} initialStep="cut" />);

@@ -52,8 +52,25 @@ describe('ReadingRoom', () => {
     expect(markup).toContain('Readings are private to you.');
   });
 
-  it('does not offer to save: the journal arrives in a later phase', () => {
+  it('offers to save only once the reading is done', () => {
     expect(markup).not.toContain('Save reading');
+    expect(markup).not.toContain('Save this reading');
+  });
+
+  it('opens on the default spread of the settings', () => {
+    const celtic = html(
+      <ReadingRoom
+        cards={cards}
+        settings={{
+          includeReversed: true,
+          revealOneByOne: true,
+          defaultSpreadId: 'celtic-cross',
+          interpretationDetail: 'brief',
+        }}
+      />,
+    );
+    expect(celtic).toMatch(/aria-checked="true"[^>]*>Celtic Cross</);
+    expect((celtic.match(/data-state="empty"/g) ?? []).length).toBe(10);
   });
 });
 
@@ -110,6 +127,41 @@ describe('ReadingMeanings', () => {
     expect(markup).toContain(byId.get('the-hermit')!.name.vi);
     expect(markup).toContain('Ngược');
     expect(markup).toContain(byId.get('the-hermit')!.meanings.reversed.summary.vi);
+  });
+
+  it('adds the symbolism and a question for each card with the full detail, not the brief one', () => {
+    const full = getReadingCards('full');
+    const fullById = new Map(full.map((card) => [card.id, card]));
+    const spread = getSpread('three-card');
+    const hermit = fullById.get('the-hermit')!;
+    const drawn = {
+      positionIndex: 0,
+      positionKey: 'past',
+      cardId: 'the-hermit',
+      orientation: 'upright',
+    } as const;
+    const items: MeaningItem[] = [{ n: 1, interpreted: interpret(drawn, hermit, spread) }];
+    const render = (detail: 'brief' | 'full') =>
+      html(
+        <ReadingMeanings
+          items={items}
+          locale="en"
+          detail={detail}
+          t={(key, params) => t('en', key, params)}
+        />,
+      );
+
+    const markup = render('full');
+    expect(markup).toContain('Symbolism');
+    expect(markup).toContain(hermit.symbolism!.en);
+    expect(markup).toContain('To ask yourself');
+    expect(markup).toContain(hermit.reflectionQuestions!.en[0]);
+
+    const brief = render('brief');
+    expect(brief).not.toContain('Symbolism');
+    expect(brief).not.toContain('To ask yourself');
+    // The brief cards do not carry the long texts at all, which keeps what the browser gets small.
+    expect(getReadingCards('brief')[0].symbolism).toBeUndefined();
   });
 
   it('lists the keywords of the side that was drawn', () => {

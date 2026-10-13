@@ -2,8 +2,10 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
 import { CardTile } from './CardTile/CardTile';
 import { Divider } from './Divider/Divider';
+import { JournalEntry } from './JournalEntry/JournalEntry';
 import { MeaningPanel } from './MeaningPanel/MeaningPanel';
 import { SegmentedControl } from './SegmentedControl/SegmentedControl';
+import { Switch } from './Switch/Switch';
 import { Tag } from './Tag/Tag';
 import { TarotCard } from './TarotCard/TarotCard';
 import { TextField } from './TextField/TextField';
@@ -189,5 +191,68 @@ describe('Divider', () => {
     for (const variant of ['rule', 'sprig', 'star'] as const) {
       expect(html(<Divider variant={variant} />)).toContain('role="separator"');
     }
+  });
+});
+
+describe('Switch', () => {
+  it('is a switch named by its label and described by its hint', () => {
+    const markup = html(
+      <Switch
+        label="Include reversed cards"
+        description="Cards can be drawn upside down."
+        checked
+      />,
+    );
+    expect(markup).toContain('role="switch"');
+    expect(markup).toContain('aria-checked="true"');
+    expect(markup).toContain('aria-labelledby=');
+    expect(markup).toContain('aria-describedby=');
+    expect(markup).toContain('Include reversed cards');
+  });
+
+  it('starts off unless told otherwise, and can start on', () => {
+    expect(html(<Switch label="A" />)).toContain('aria-checked="false"');
+    expect(html(<Switch label="A" defaultChecked />)).toContain('aria-checked="true"');
+  });
+});
+
+describe('JournalEntry', () => {
+  const entry = (
+    <JournalEntry
+      href="/journal/abc"
+      day="12"
+      month="Oct"
+      spread="Three cards"
+      title="Saying no to the extra project"
+      excerpt="The Hermit reversed in the middle."
+      tags={['Work', 'Hopeful']}
+      cards={['/cards/09-the-hermit.webp', '/cards/00-the-fool.webp']}
+    />
+  );
+
+  it('is one link with the date, spread, title, excerpt and mood tags', () => {
+    const markup = html(entry);
+    expect(markup.startsWith('<a')).toBe(true);
+    expect(markup).toContain('href="/journal/abc"');
+    expect(markup).toContain('<b>12</b>');
+    expect(markup).toContain('Three cards');
+    expect(markup).toContain('Saying no to the extra project');
+    expect(markup).toContain('The Hermit reversed in the middle.');
+    expect(markup).toContain('Work');
+    expect(markup).toContain('Hopeful');
+  });
+
+  it('hides the card thumbnails from assistive technology', () => {
+    const markup = html(entry);
+    expect(markup).toMatch(/aria-hidden="true"/);
+    expect((markup.match(/alt=""/g) ?? []).length).toBe(2);
+  });
+
+  it('leaves out what is not given', () => {
+    const markup = html(
+      <JournalEntry href="/j/1" day="1" month="Oct" spread="One card" title="T" />,
+    );
+    expect(markup).not.toContain('<img');
+    expect(markup).not.toContain('aria-hidden');
   });
 });

@@ -1,6 +1,8 @@
 import type { ReadingCard } from '@/application/readings/readingCards';
 import { Tag } from '@/components/ui/Tag/Tag';
+import type { InterpretationDetail } from '@/domain/records';
 import type { InterpretedCard } from '@/domain/tarot/interpret';
+import { withoutPlaceholders } from '@/domain/tarot/placeholder';
 import type { Locale } from '@/domain/tarot/types';
 import type { TranslationKey, TranslationParams } from '@/i18n';
 import styles from './ReadingMeanings.module.css';
@@ -15,11 +17,13 @@ interface ReadingMeaningsProps {
   /** The cards turned over so far, in position order. */
   items: readonly MeaningItem[];
   locale: Locale;
+  /** "full" adds each card's symbolism and a question to ask yourself (when the card carries them). */
+  detail?: InterpretationDetail;
   t: (key: TranslationKey, params?: TranslationParams) => string;
 }
 
 /** Below the table: for every card turned over, its position, then what it can mean there. */
-export function ReadingMeanings({ items, locale, t }: ReadingMeaningsProps) {
+export function ReadingMeanings({ items, locale, detail = 'brief', t }: ReadingMeaningsProps) {
   if (items.length === 0) return null;
   return (
     <section className={styles.meanings} aria-labelledby="reading-meanings-title">
@@ -48,9 +52,42 @@ export function ReadingMeanings({ items, locale, t }: ReadingMeaningsProps) {
               ))}
             </div>
             <p className={styles.summary}>{meaning.summary[locale]}</p>
+            {detail === 'full' ? <FullDetail card={card} locale={locale} t={t} /> : null}
           </li>
         ))}
       </ol>
     </section>
+  );
+}
+
+/** The longer reading of a card: what its picture says, and one question to take with you. */
+function FullDetail({
+  card,
+  locale,
+  t,
+}: {
+  card: ReadingCard;
+  locale: Locale;
+  t: ReadingMeaningsProps['t'];
+}) {
+  const symbolism = card.symbolism?.[locale];
+  const [question] = withoutPlaceholders(card.reflectionQuestions?.[locale] ?? []);
+  const hasSymbolism = symbolism !== undefined && withoutPlaceholders([symbolism]).length > 0;
+  if (!hasSymbolism && !question) return null;
+  return (
+    <div className={styles.more}>
+      {hasSymbolism ? (
+        <div className={styles.block}>
+          <span className="ar-overline">{t('meaning.symbolism')}</span>
+          <p className={styles.summary}>{symbolism}</p>
+        </div>
+      ) : null}
+      {question ? (
+        <div className={styles.block}>
+          <span className="ar-overline">{t('reading.meanings.ask')}</span>
+          <p className={styles.question}>{question}</p>
+        </div>
+      ) : null}
+    </div>
   );
 }

@@ -1,9 +1,10 @@
 import 'server-only';
 import { z } from 'zod';
+import { DEFAULT_DB_PATH } from './db/sqlite';
 
 // Nothing is required for the core app; every variable has a default.
 const EnvSchema = z.object({
-  ARCANA_DB_PATH: z.string().min(1).default('./data/arcana.db'),
+  ARCANA_DB_PATH: z.string().min(1).default(DEFAULT_DB_PATH),
 });
 
 export type Env = z.infer<typeof EnvSchema>;

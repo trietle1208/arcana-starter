@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  max-width: 640px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.head p {
+  margin: 0;
+}
+.title {
+  font-size: 28px;
+  line-height: 34px;
+}
+.prompt {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 17px;
+  line-height: 26px;
+  color: var(--ink-soft);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+}

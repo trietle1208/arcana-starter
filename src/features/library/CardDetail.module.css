@@ -88,6 +88,11 @@
   font-size: 17px;
   line-height: 26px;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
 .actions {
   display: flex;
   flex-wrap: wrap;

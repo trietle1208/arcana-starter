@@ -71,8 +71,12 @@ export const en = {
   'reflect.more': 'More to ask yourself',
   'reflect.notes.label': 'Your notes',
   'reflect.notes.placeholder': 'Write a few lines…',
+  'reflect.notes.empty': 'Write a line or two first, then save.',
   'reflect.save': 'Save to journal',
-  'reflect.save.unavailable': 'Saving to the journal is not available yet.',
+  'reflect.saving': 'Saving…',
+  'reflect.saved.title': 'Reflection saved to your journal.',
+  'reflect.saved.body': 'You can keep writing in it any time.',
+  'reflect.saved.open': 'Open',
 
   // Reading room
   'reading.eyebrow': 'Reading room',
@@ -80,7 +84,6 @@ export const en = {
   'reading.spread.label': 'Spread',
   'reading.hint':
     'Readings are private to you. To skip the animations, turn on reduced motion in your device settings.',
-  'reading.save.unavailable': 'Saving to the journal is not available yet.',
   'reading.drawn.title': '{count} cards drawn',
   'reading.drawn.titleOne': '1 card drawn',
   'reading.drawn.body': 'Turn them over one at a time.',
@@ -97,6 +100,7 @@ export const en = {
   'ritual.fan': 'Choose {need} cards from the fan · {chosen} of {need} chosen',
   'ritual.fanOne': 'Choose 1 card from the fan · {chosen} of 1 chosen',
   'ritual.reveal': 'Turn each card over when you are ready.',
+  'ritual.revealAll': 'The cards are turning over.',
   'ritual.done': 'All {need} cards are revealed.',
   'ritual.doneOne': 'Your card is revealed.',
   'ritual.shuffle': 'Shuffle the deck',
@@ -112,6 +116,117 @@ export const en = {
   'spread.turnOver': 'Position {n}, {name} — select to turn over',
   'spread.faceDown': 'Position {n}, {name}: face down',
   'spread.reversed': 'reversed',
+
+  // Saving a reading
+  'save.title': 'Save this reading',
+  'save.intro': 'It goes to your journal, and you can add to it any time.',
+  'save.submit': 'Save to journal',
+  'save.saving': 'Saving…',
+  'save.cancel': 'Not now',
+  'save.done.title': 'Reading saved to your journal.',
+  'save.done.body': 'Add notes to it any time.',
+  'save.done.open': 'Open',
+  'reading.save.hint': 'Save the reading to keep it in your journal.',
+  'reading.saved.hint': 'This reading is in your journal. Shuffle again for a new one.',
+  'reading.meanings.ask': 'To ask yourself',
+
+  // Fields shared by every journal form
+  'field.title': 'Title',
+  'field.body': 'Your notes',
+  'field.body.placeholder': 'What stood out? Write a few lines…',
+  'field.tags': 'Tags',
+  'field.tags.hint': 'Separate with commas, up to 8. For example: Work, Calm',
+
+  // What went wrong, and what to do
+  'error.title': 'Add a title before saving.',
+  'error.tags': 'Use up to 8 tags of up to 24 characters each.',
+  'error.invalid': 'Something in this form needs another look. Check it and try again.',
+  'error.notFound': 'This entry could not be found. It may have been deleted.',
+  'error.storage': 'Your changes were not saved. Try again in a moment.',
+
+  // Journal
+  'journal.title': 'Journal',
+  'journal.subtitle': '{count} readings and reflections',
+  'journal.subtitleOne': '1 reading or reflection',
+  'journal.subtitleEmpty': 'Nothing here yet',
+  'journal.new': 'New entry',
+  'journal.filter.label': 'Filter the journal',
+  'journal.filter.all': 'All',
+  'journal.filter.readings': 'Readings',
+  'journal.filter.reflections': 'Reflections',
+  'journal.filter.tags': 'Filter by tag',
+  'journal.empty.title': 'Your journal is empty.',
+  'journal.empty.body': 'Save a reading from the Reading room, or write a reflection of your own.',
+  'journal.empty.reading': 'Go to the Reading room',
+  'journal.noMatch.title': 'No entries match these filters.',
+  'journal.noMatch.hint': 'Try another tag, or show everything.',
+  'journal.noMatch.clear': 'Show all entries',
+  'journal.kind.reflection': 'Reflection',
+  'journal.kind.reflectionAbout': 'Reflection · {card}',
+
+  // A journal entry
+  'entry.back': 'Journal',
+  'entry.written': 'Written {date}',
+  'entry.spread': '{spread} · {date}',
+  'entry.notes.title': 'Edit entry',
+  'entry.save': 'Save changes',
+  'entry.saving': 'Saving…',
+  'entry.saved': 'Changes saved.',
+  'entry.delete': 'Delete entry',
+  'entry.deleted.title': 'Entry deleted.',
+  'entry.deleted.undo': 'You can undo this for a few seconds.',
+  'entry.deleted.gone': 'It is gone from your journal.',
+  'entry.deleted.button': 'Undo',
+  'entry.deleted.back': 'Back to journal',
+  'entry.aboutCard': 'About {card}',
+  'entry.prompt': 'The question you reflected on',
+
+  // A new free reflection
+  'newEntry.title': 'New entry',
+  'newEntry.intro': 'A reflection of your own, with no cards drawn.',
+  'newEntry.about': 'About {card}',
+  'newEntry.submit': 'Save entry',
+  'newEntry.cancel': 'Cancel',
+
+  // Settings
+  'settings.title': 'Settings',
+  'settings.language.title': 'Language',
+  'settings.language.description': 'The language of the app and of the card texts.',
+  'settings.readings.title': 'Readings',
+  'settings.reversed.label': 'Include reversed cards',
+  'settings.reversed.description': 'Cards can be drawn upside down, with their reversed meaning.',
+  'settings.reveal.label': 'Reveal cards one at a time',
+  'settings.reveal.description': 'Turn each card over yourself instead of all at once.',
+  'settings.spread.label': 'Default spread',
+  'settings.spread.description': 'The spread the Reading room opens with.',
+  'settings.detail.label': 'Interpretation detail',
+  'settings.detail.description':
+    'Brief shows keywords and a summary. Full adds the symbolism and a question to reflect on.',
+  'settings.detail.brief': 'Brief',
+  'settings.detail.full': 'Full',
+  'settings.motion.title': 'Motion',
+  'settings.motion.label': 'Reduce motion',
+  'settings.motion.description':
+    'Cards switch instantly instead of turning over. System follows your device.',
+  'settings.motion.system': 'System',
+  'settings.motion.on': 'On',
+  'settings.motion.off': 'Off',
+  'settings.saveError': 'That change could not be saved. Try again.',
+  'settings.data.title': 'Your data',
+  'settings.data.intro':
+    'Your journal lives in a file on this computer. Export it to keep a copy, or import a copy to add its entries here.',
+  'settings.export': 'Export journal',
+  'settings.import.label': 'Backup file',
+  'settings.import.hint':
+    'A file exported from Arcana. Entries that are already here are left as they are.',
+  'settings.import.submit': 'Import',
+  'settings.import.importing': 'Importing…',
+  'settings.import.done.title': 'Backup imported.',
+  'settings.import.done.body': 'Entries added: {added}. Already here: {skipped}.',
+  'settings.import.error.file': 'Choose a backup file first.',
+  'settings.import.error.invalid':
+    'This does not look like an Arcana backup, so nothing was imported.',
+  'settings.import.error.size': 'This file is too large to import.',
 } satisfies Record<string, string>;
 
 export type TranslationKey = keyof typeof en;

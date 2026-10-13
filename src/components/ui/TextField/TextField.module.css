@@ -45,3 +45,7 @@ textarea.input {
   line-height: 18px;
   color: var(--ink-muted);
 }
+.error {
+  color: var(--terracotta-ink);
+  font-weight: 500;
+}

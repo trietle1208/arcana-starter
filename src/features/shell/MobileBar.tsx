@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation';
 import { Icon } from '@/components/ui/Icon/Icon';
 import { Wordmark } from '@/components/ui/AppNav/Wordmark';
 import { useT } from '@/i18n/LocaleProvider';
-import { LocaleToggle } from './LocaleToggle';
 import { activeNavId } from './navItems';
 import styles from './AppShell.module.css';
 
@@ -17,7 +16,6 @@ export function MobileBar() {
     <header className={styles.mobileBar}>
       <Wordmark className={styles.mobileBrand} />
       <div className={styles.mobileActions}>
-        <LocaleToggle />
         <Link
           href="/settings"
           className={styles.gear}

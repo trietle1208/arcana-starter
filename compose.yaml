@@ -11,6 +11,8 @@ x-dev: &dev
   environment:
     HOME: /tmp
     WATCHPACK_POLLING: '${WATCHPACK_POLLING:-false}'
+    # Journal dates are shown in this time zone (the container would otherwise be on UTC).
+    TZ: '${ARCANA_TZ:-UTC}'
   volumes:
     - .:/app
 
@@ -28,10 +30,21 @@ services:
     environment:
       HOME: /tmp
       ARCANA_DIST_DIR: .next-e2e
+      # The tests keep their own throw-away databases (see playwright.config.ts); this is only a
+      # safety net so nothing run in this container can write to the real journal in data/.
+      ARCANA_DB_PATH: /tmp/arcana-e2e-default/arcana.db
 
   app-prod:
     profiles: [prod]
     build: { context: ., target: runner }
     restart: unless-stopped
+    # The database lives in ./data on the host, so it survives restarts and image rebuilds.
+    # `pnpm docker:prod` creates the folder first so Docker does not create it owned by root.
+    user: '${ARCANA_UID:-1000}:${ARCANA_GID:-1000}'
+    environment:
+      TZ: '${ARCANA_TZ:-UTC}'
+      ARCANA_DB_PATH: /app/data/arcana.db
+    volumes:
+      - ./data:/app/data
     ports:
       - '${ARCANA_PORT:-3100}:3000'

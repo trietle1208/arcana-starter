@@ -41,6 +41,10 @@ WORKDIR /app
 COPY --from=build --chown=node:node /app/.next/standalone ./
 COPY --from=build --chown=node:node /app/.next/static ./.next/static
 COPY --from=build --chown=node:node /app/public ./public
+# The SQL migrations. The server applies them itself as it boots (src/instrumentation.ts): this
+# image has no pnpm to run `db:migrate`, and the standalone output carries only what the server
+# imports, which is also why the migrate script is not copied.
+COPY --from=build --chown=node:node /app/drizzle ./drizzle
 USER node
 EXPOSE 3000
 CMD ["node", "server.js"]

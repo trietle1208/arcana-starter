@@ -1,0 +1,10 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  max-width: 760px;
+}
+.title {
+  font-size: 28px;
+  line-height: 34px;
+}

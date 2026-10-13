@@ -16,6 +16,7 @@
     border-color 0.15s ease,
     box-shadow 0.15s ease;
   white-space: nowrap;
+  text-decoration: none;
 }
 .sm {
   height: 32px;

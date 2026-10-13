@@ -7,8 +7,10 @@ export interface TextFieldProps extends Omit<
 > {
   /** Always visible, above the field; never use the placeholder as the label. */
   label: string;
-  /** Guidance below the field. Phrase errors as what to do, not what went wrong. */
+  /** Guidance below the field. */
   hint?: string;
+  /** Replaces the hint while something needs fixing. Say what to do, not what went wrong. */
+  error?: string;
   /** A ruled notebook textarea instead of a single-line input. */
   multiline?: boolean;
   rows?: number;
@@ -19,6 +21,7 @@ export interface TextFieldProps extends Omit<
 export function TextField({
   label,
   hint,
+  error,
   multiline,
   rows,
   id,
@@ -28,10 +31,12 @@ export function TextField({
   const generated = useId();
   const fieldId = id ?? generated;
   const hintId = `${fieldId}-hint`;
+  const note = error ?? hint;
   const shared = {
     id: fieldId,
     className: styles.input,
-    'aria-describedby': hint ? hintId : undefined,
+    'aria-describedby': note ? hintId : undefined,
+    'aria-invalid': error ? true : undefined,
     ...rest,
   };
   return (
@@ -40,9 +45,13 @@ export function TextField({
         {label}
       </label>
       {multiline ? <textarea rows={rows ?? 5} {...shared} /> : <input {...shared} />}
-      {hint ? (
-        <span id={hintId} className={styles.hint}>
-          {hint}
+      {note ? (
+        <span
+          id={hintId}
+          className={error ? `${styles.hint} ${styles.error}` : styles.hint}
+          role={error ? 'alert' : undefined}
+        >
+          {note}
         </span>
       ) : null}
     </div>

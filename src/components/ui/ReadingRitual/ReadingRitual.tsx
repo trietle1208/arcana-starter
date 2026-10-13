@@ -37,6 +37,8 @@ export interface RitualLabels {
   /** The same for a spread of one card. */
   fanOne: string;
   reveal: string;
+  /** The same when the cards turn over by themselves (`revealMode="all"`). */
+  revealAll: string;
   /** {need} is replaced. */
   done: string;
   doneOne: string;
@@ -56,6 +58,7 @@ const DEFAULT_LABELS: RitualLabels = {
   fan: 'Choose {need} cards from the fan · {chosen} of {need} chosen',
   fanOne: 'Choose 1 card from the fan · {chosen} of 1 chosen',
   reveal: 'Turn each card over when you are ready.',
+  revealAll: 'The cards are turning over.',
   done: 'All {need} cards are revealed.',
   doneOne: 'Your card is revealed.',
   shuffle: 'Shuffle the deck',
@@ -77,6 +80,11 @@ export interface ReadingRitualProps {
   question?: string;
   /** How many cards the fan offers (21). */
   fanCount?: number;
+  /**
+   * How the cards are turned: one at a time by the reader (default), or all together as soon as
+   * they are in place.
+   */
+  revealMode?: 'one-by-one' | 'all';
   onSave?: () => void;
   saveDisabled?: boolean;
   /** Id of the element that says why saving is not possible. */
@@ -126,6 +134,8 @@ const range = (count: number) => Array.from({ length: count }, (_, i) => i);
 const SHUFFLE_MS = 2700;
 const CUT_MS = 750;
 const REVEAL_SETTLE_MS = 900;
+/** A beat between the last card landing and all of them turning (`revealMode="all"`). */
+const REVEAL_BEAT_MS = 450;
 const FLIGHT_MS = 750;
 
 /**
@@ -142,6 +152,7 @@ export function ReadingRitual({
   grid,
   question,
   fanCount = 21,
+  revealMode = 'one-by-one',
   onSave,
   saveDisabled = false,
   saveDescribedBy,
@@ -199,13 +210,20 @@ export function ReadingRitual({
     };
   }, []);
 
+  const revealModeRef = useRef(revealMode);
+  useEffect(() => {
+    revealModeRef.current = revealMode;
+  });
+
   const goTo = useCallback((next: RitualStep) => {
     setStep(next);
     callbacks.current.onStepChange?.(next);
     if (next === 'cut') focusRequest.current = { kind: 'pile' };
     else if (next === 'fan') focusRequest.current = { kind: 'fan', near: -1 };
-    else if (next === 'reveal') focusRequest.current = { kind: 'turn' };
-    else if (next === 'done') focusRequest.current = { kind: 'again' };
+    else if (next === 'reveal') {
+      // When the cards turn themselves there is nothing for the keyboard to land on.
+      focusRequest.current = revealModeRef.current === 'all' ? null : { kind: 'turn' };
+    } else if (next === 'done') focusRequest.current = { kind: 'again' };
     else focusRequest.current = null;
   }, []);
 
@@ -301,6 +319,27 @@ export function ReadingRitual({
     }
   }
 
+  // `revealMode="all"`: once every card is placed, they turn over together after a short beat.
+  useEffect(() => {
+    if (step !== 'reveal' || revealMode !== 'all') return;
+    const reduced = prefersReducedMotion();
+    const id = setTimeout(
+      () => {
+        setRevealed(range(need));
+        for (let index = 0; index < need; index++) callbacks.current.onReveal?.(index);
+        later(
+          () => {
+            goTo('done');
+            callbacks.current.onComplete?.();
+          },
+          reduced ? 0 : REVEAL_SETTLE_MS,
+        );
+      },
+      reduced ? 0 : REVEAL_BEAT_MS,
+    );
+    return () => clearTimeout(id);
+  }, [step, revealMode, need, later, goTo]);
+
   // Keyboard focus: when the control the reader just used goes away, move to the next one. Runs
   // after every render until the target exists (the fan opens after the cut finishes).
   useEffect(() => {
@@ -350,7 +389,9 @@ export function ReadingRitual({
         ? fill(need === 1 ? labels.doneOne : labels.done, { need })
         : step === 'shuffling'
           ? labels.shuffling
-          : labels[step];
+          : step === 'reveal' && revealMode === 'all'
+            ? labels.revealAll
+            : labels[step];
 
   const deckOnTable = step === 'idle' || step === 'shuffling';
 
@@ -430,8 +471,8 @@ export function ReadingRitual({
             positions={positions}
             grid={grid}
             cards={slotCards}
-            waiting={step === 'reveal'}
-            onCardClick={step === 'reveal' ? reveal : undefined}
+            waiting={step === 'reveal' && revealMode === 'one-by-one'}
+            onCardClick={step === 'reveal' && revealMode === 'one-by-one' ? reveal : undefined}
             cardWidth={compact ? 'clamp(56px, 7vw, 76px)' : undefined}
             cardRef={(i, element) => {
               boxes.current[i] = element;
