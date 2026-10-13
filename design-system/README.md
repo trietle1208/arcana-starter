@@ -43,11 +43,11 @@ Never use neon purple, saturated gradients, glassmorphism, heavy drop shadows or
 ## Typography
 
 - **Fraunces** (`--font-display`) for personality: screen titles, card names, section headings, reflection prompts. Use its soft optical sizes at weights 360–500; never all caps, never bold-heavy.
-- **DM Sans** (`--font-sans`) for reading and every control. Body copy is `body` (15/24); meanings and journal text are `body-lg` (17/28) capped at `measure`.
+- **Inter** (`--font-sans`) for reading and every control. Body copy is `body` (15/24); meanings and journal text are `body-lg` (17/28) capped at `measure`.
 - Scale: `display-xl` 48 (Home greeting) · `display` 36 (card name, Reading Room question) · `title` 28 (page titles) · `heading` 22 · `subheading` 18 · `quote` 20 italic · `body-lg` 17 · `body` 15 · `label` 14 · `caption` 13 · `overline` 12 uppercase, tracked 0.08em.
 - One `display-*` per screen. Serif is for expression; never set controls, tables or long body copy in it.
 - Display headings (`.ar-h1`–`.ar-h3`, the ritual question, position names) turn on Fraunces' `SOFT 100` and `WONK 1` axes (`font-variation-settings`) for a softer, slightly leaning storybook letter. Body copy never does.
-- Both families load from Google Fonts: `Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..500,0..100,0..1` and `DM+Sans:opsz,wght@9..40,400..700`. In Next.js use `next/font/google` with `axes: ['SOFT', 'WONK', 'opsz']`.
+- Both families load from Google Fonts: `Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..500,0..100,0..1` and `Inter:opsz,wght@14..32,400..700`. In Next.js use `next/font/google` with `axes: ['SOFT', 'WONK', 'opsz']`.
 
 ## Space, shape and depth
 

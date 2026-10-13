@@ -140,7 +140,7 @@ Drizzle: schema in TypeScript, queries that read like SQL, migrations generated 
 
 - **better-sqlite3 is a native addon.** pnpm 10+ blocks install scripts by default → add `"pnpm": { "onlyBuiltDependencies": ["better-sqlite3"] }`. On Windows, prebuilt binaries cover Node LTS on x64; if a prebuild is missing, install "Desktop development with C++" (Visual Studio Build Tools). Keep Node on the LTS line.
 - SQLite access only from server code (`src/server/**`, Server Actions, Route Handlers). Importing it from a Client Component fails the build — enforced by `import 'server-only'`.
-- Fonts: `next/font/google` downloads Fraunces and DM Sans at **build/dev time** and self-hosts them, so the running app needs no Google request.
+- Fonts: `next/font/google` downloads Fraunces and Inter at **build/dev time** and self-hosts them, so the running app needs no Google request.
 
 ### 4.6 Things deliberately left out
 

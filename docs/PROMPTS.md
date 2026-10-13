@@ -31,7 +31,7 @@ Do:
 - Scaffold Next.js 16 (App Router, TypeScript strict, ESLint, src/ dir, alias @/*) with pnpm, no Tailwind. If create-next-app refuses because the folder is not empty, scaffold into a temporary sibling folder and move the files in. Never overwrite CLAUDE.md, docs/, design-system/ or assets/.
 - Add Prettier, Vitest, Playwright, and scripts: dev, build, start, test, test:e2e, lint, typecheck, format.
 - Create the folder structure from TECH_DESIGN §8 (empty index files are fine) and the ESLint no-restricted-imports boundary rules from §8.
-- Copy design-system/tokens.css to src/styles/tokens.css; create globals.css with the base styles from the top of design-system/components/bundle.css (body, focus ring, .ar-overline and friends). Load Fraunces (opsz, SOFT, WONK; normal + italic) and DM Sans (opsz) with next/font/google as --font-display / --font-sans.
+- Copy design-system/tokens.css to src/styles/tokens.css; create globals.css with the base styles from the top of design-system/components/bundle.css (body, focus ring, .ar-overline and friends). Load Fraunces (opsz, SOFT, WONK; normal + italic) and Inter (opsz) with next/font/google as --font-display / --font-sans.
 - Copy assets/cards/*.webp to public/cards/.
 - Port Icon, Button (all variants incl. gold and night) and AppNav as typed components with CSS Modules.
 - Root layout with AppNav (side on desktop, bottom bar under 768px); placeholder pages for /, /library, /reading, /study, /journal, /settings, each with its title.

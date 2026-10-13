@@ -61,7 +61,7 @@ test('the design tokens and fonts are applied', async ({ page }) => {
     return { background: body.backgroundColor, font: body.fontFamily };
   });
   expect(styles.background).toBe('rgb(246, 241, 232)');
-  expect(styles.font).toMatch(/DM Sans/i);
+  expect(styles.font).toMatch(/Inter/i);
 });
 
 test('captures screenshots for the visual check', async ({ page }) => {

@@ -1,6 +1,6 @@
 /* Arcana — copied from design-system/tokens.css.
    Only change: --font-display / --font-sans start with the next/font variables
-   (--font-fraunces, --font-dm-sans) set in src/app/layout.tsx. */
+   (--font-fraunces, --font-inter) set in src/app/layout.tsx. */
 :root,
 [data-theme='paper'] {
   --paper: #f6f1e8;
@@ -50,5 +50,5 @@
   --content-max: 1120px;
   --nav-width: 232px;
   --font-display: var(--font-fraunces), 'Fraunces', 'Iowan Old Style', Georgia, serif;
-  --font-sans: var(--font-dm-sans), 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), 'Inter', ui-sans-serif, system-ui, sans-serif;
 }

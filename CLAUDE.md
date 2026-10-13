@@ -23,7 +23,7 @@ Not used: Tailwind, shadcn/ui, Prisma, Redux/Zustand or any state library, react
 ## Design system rules
 - `design-system/` is a **reference**, not a dependency. Port each component from `design-system/components/bundle.js` + `bundle.css` into `src/components/ui/<Name>/<Name>.tsx` + `<Name>.module.css`, typed per `design-system/components/index.d.ts`. Keep behaviour, states, timings and token references identical.
 - Never hard-code colours, spacing or radii: use `var(--token)` from `tokens.css` (copied from `design-system/tokens.css`). Gold and midnight belong only on night surfaces (`NightSky`, the reading table, the arched window); paper screens stay plain.
-- Fonts via `next/font/google`: Fraunces (axes `opsz`, `SOFT`, `WONK`, normal + italic) and DM Sans (`opsz`). next/font exposes `--font-fraunces` and `--font-dm-sans`; `tokens.css` maps them to `--font-display` and `--font-sans`, which are the names components use.
+- Fonts via `next/font/google`: Fraunces (axes `opsz`, `SOFT`, `WONK`, normal + italic) and Inter (`opsz`; DM Sans has no Vietnamese glyphs). next/font exposes `--font-fraunces` and `--font-inter`; `tokens.css` maps them to `--font-display` and `--font-sans`, which are the names components use.
 - Every animation must respect `prefers-reduced-motion` and the user's Reduce motion setting: steps still happen, instantly. `<html data-motion="system|reduce|full">` is the switch (see `globals.css`); the setting drives it from Phase 3.
 - UI components in `src/components/ui` are not given a dictionary: they take already-translated strings as props (a `labels` object with English defaults).
 - Card images live in `public/cards/<slug>.webp` (copy from `assets/cards/`). Render with `next/image`; never filter, tint or overlay the art.

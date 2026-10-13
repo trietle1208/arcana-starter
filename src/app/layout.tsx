@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { DM_Sans, Fraunces } from 'next/font/google';
+import { Fraunces, Inter } from 'next/font/google';
 import { connection } from 'next/server';
 import type { ReactNode } from 'react';
 import type { ReduceMotion } from '@/domain/records';
@@ -18,10 +18,12 @@ const fraunces = Fraunces({
   display: 'swap',
 });
 
-const dmSans = DM_Sans({
-  subsets: ['latin', 'latin-ext'],
+// DM Sans has no Vietnamese subset (accented letters fell back to the system font), so the sans
+// face is Inter, which does.
+const inter = Inter({
+  subsets: ['latin', 'latin-ext', 'vietnamese'],
   axes: ['opsz'],
-  variable: '--font-dm-sans',
+  variable: '--font-inter',
   display: 'swap',
 });
 
@@ -48,7 +50,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
       lang={settings.locale}
       data-theme="paper"
       data-motion={MOTION[settings.reduceMotion]}
-      className={`${fraunces.variable} ${dmSans.variable}`}
+      className={`${fraunces.variable} ${inter.variable}`}
     >
       <body>
         <LocaleProvider locale={settings.locale}>
